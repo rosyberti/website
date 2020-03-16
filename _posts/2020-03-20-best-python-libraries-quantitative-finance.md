@@ -24,11 +24,11 @@ Numeric - the earliest predecessor to NumPy - was created by Jim Hugunin with co
 
 To install NumPy at the command line using the pip package manager, use the following command:
 
-pip install numpy
+`pip install numpy`
 
 To import NumPy into a Python program, the default convention is to use the following command:
 
-import numpy as np
+`import numpy as np`
 
 NumPy functions can later be called using the dot operator on the np variable.
 
