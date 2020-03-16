@@ -55,7 +55,7 @@ Pandas functions can later be called using the dot operator on the "pd" variable
 
 SciPy (pronounced "Sigh Pie") is a Python library that was originally designed for scientific and technical computing. The library contains many advanced functions that are not naturally included in either NumPy or pandas, including:
 
--Optimization functions
+- Optimization functions
 -Linear algebra functions
 -Integration
 -Interpolation (linear and otherwise)
