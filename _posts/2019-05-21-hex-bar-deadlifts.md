@@ -10,8 +10,8 @@ categories:
   - strength training
 ---
 
-**This article will take a look at hex bar deadlifts** and how they might be able to improve your traditional deadlifts. 
-<!--more-->
+**This article will take a look at hex bar deadlifts** and how they might be able to improve your traditional deadlifts.<!--more-->
+
 There are very few athletes and gym-goers who would deny the effectiveness of the traditional deadlift. The exercise is as basic as it gets: how much weight can you lift off the floor? 
 
 To be fair, there are some deadlift-haters out there who will claim the exercise will wreak havoc on your back. This is usually the result of not properly warming up before trying to lift a lot of weight. The deadlift is traditionally done as a power exercise, so **doing 3-4 warm-up sets beforehand is time well-spent.**
