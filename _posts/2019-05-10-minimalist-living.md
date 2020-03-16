@@ -21,6 +21,8 @@ This is not by accident. I realized a few years ago that most people get no enjo
 
 In this article, I will share why I&#8217;ve designed a lifestyle focused on minimalist living and why you should too. 
 
+<!--more-->
+
 ## My Story
 
 I grew up with five older sisters in a house that was lower-middle class. 
