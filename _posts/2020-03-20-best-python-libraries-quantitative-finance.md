@@ -38,41 +38,46 @@ Pandas goes hand-in-hand with NumPy as one of the most widely-used libraries in 
 
 The pandas library derives its name from 'panel data'. As its name suggests, the two main purposes of the pandas library are:
 
-The creation and manipulation of numerical tables
-The creation and manipulation of time series data
+1. The creation and manipulation of numerical tables
+2. The creation and manipulation of time series data
+
 To install pandas at the command line using the pip package manager, use the following command:
 
-pip install pandas
+`pip install pandas`
+
 To import pandas into a Python program, the default convention is to use the following command:
 
-import pandas as pd
+`import pandas as pd`
+
 Pandas functions can later be called using the dot operator on the "pd" variable.
 
 ## Python Library #3: SciPy
 
 SciPy (pronounced "Sigh Pie") is a Python library that was originally designed for scientific and technical computing. The library contains many advanced functions that are not naturally included in either NumPy or pandas, including:
 
-Optimization functions
-Linear algebra functions
-Integration
-Interpolation (linear and otherwise)
-Image processing
-Signal processing
-Ordinary differential equation solvers
-Partial differential equation solvers
-and other special functions.
+-Optimization functions
+-Linear algebra functions
+-Integration
+-Interpolation (linear and otherwise)
+-Image processing
+-Signal processing
+-Ordinary differential equation solvers
+-Partial differential equation solvers
+-and other special functions.
 
 Like pandas, SciPy is part of the NumPy stack and relies heavily on the NumPy array data type. In fact, the two libraries are so closely related that the NumPy stack is sometimes referred to as the SciPy stack.
 
 To install SciPy at the command line using the pip package manager, use the following command:
 
-pip install scipy
+`pip install scipy`
+
 To import SciPy into a Python program, use the following line of code:
 
-import scipy
+`import scipy`
+
 You may also want to just import the stats module from SciPy. I find this quite useful for a number of my projects. If this is the case, use the following command:
 
-from scipy import stats
+`from scipy import stats`
 
 ## Python Library #4: XlsxWriter
 
@@ -82,20 +87,24 @@ The first is XlsxWriter, which contains a number of functions and object types t
 
 To install XlsxWriter at the command line using the pip package manager, use the following command:
 
-pip install xlsxwriter
+`pip install xlsxwriter`
+
 To import XlsxWriter into a Python script, use the following line of code:
 
-import xlsxwriter
+`import xlsxwriter`
+
 Python Library #5: MatplotLib
 
 Matplotlib is the most popular library for the presentation of two-dimensional data in Python. Matplotlib has the capability of publishing a variety of charts in both hardcopy formats and interactive environments across platforms.
 
 You can install matplotlib at the command line using the pip package manager using the following command:
 
-pip install matplotlib
+`pip install matplotlib`
+
 In your Python application, you can import matplotlib using the following command:
 
-import matplotlib.pyplot as plt
+`import matplotlib.pyplot as plt`
+
 While this is a bit different than some of the other import commands that we have seen in this article, this is because we are only importing one module of matplotlib (pyplot).
 
 To be more specific, we specify the exact module we'd like to import using the ".pyplot" suffix, and then label that module as "plt" for when we reference it later in the Python program.
@@ -105,9 +114,10 @@ It is hard to overstate how useful the Python programming language can be for qu
 
 With that said, investors do not need to write all of their code themselves. There are a number of Python libraries available today that make it easy to get started building applications for quantitative finance. Five of the most important were discussed in this article:
 
-NumPy
-Pandas
-SciPy
-XlsxWriter
-Matplotlib
+-NumPy
+-Pandas
+-SciPy
+-XlsxWriter
+-Matplotlib
+
 Use these libraries as you proceed through your quantiative finance career for a more productive and less stressful development experience.
