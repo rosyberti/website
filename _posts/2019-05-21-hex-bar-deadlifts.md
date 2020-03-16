@@ -9,9 +9,6 @@ permalink: /hex-bar-deadlifts/
 categories:
   - strength training
 ---
-<div class="wp-block-image">
-  <figure class="aligncenter"><img src="https://lh4.googleusercontent.com/_5Lu9a_68SKtXKGcE5eAoHgh3jWDN5t71U6wqMqN0xZRdeOUDYo1_uBBFkEvDdn2KHh87anEZj2Prxhoo4icWcKT18CtsbRMnjMhf5X2WpepF2ZBQY36p1-csgTt923ZkZmbiisv" alt="" /></figure>
-</div>
 
 **This article will take a look at hex bar deadlifts** and how they might be able to improve your traditional deadlifts. 
 <!--more-->
@@ -28,7 +25,9 @@ Despite these precautions, it&#8217;s possible that some athletes still aren&#82
 It would be a major shame to ditch the deadlift altogether. So what&#8217;s the answer?
 
 Fortunately, there&#8217;s another option: hex bar deadlifts (also called trap bar deadlifts).
-
+<div class="wp-block-image">
+  <figure class="aligncenter"><img src="https://lh4.googleusercontent.com/_5Lu9a_68SKtXKGcE5eAoHgh3jWDN5t71U6wqMqN0xZRdeOUDYo1_uBBFkEvDdn2KHh87anEZj2Prxhoo4icWcKT18CtsbRMnjMhf5X2WpepF2ZBQY36p1-csgTt923ZkZmbiisv" alt="" /></figure>
+</div>
 ## Benefits of Hex Bar Deadlifts<figure class="wp-block-embed-youtube aligncenter wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
 
 <div class="wp-block-embed__wrapper">
