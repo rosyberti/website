@@ -12,7 +12,7 @@ With that said, programmers themselves do not need to write all of the code to p
 
 This article explores the 5 most important Python libraries for quantitative finance today.
 
-Python Library #1: NumPy
+##Python Library #1: NumPy
 
 NumPy (pronounced "Numb Pie") is arguably the most important library for quantitative finance.
 
@@ -32,7 +32,7 @@ import numpy as np
 
 NumPy functions can later be called using the dot operator on the np variable.
 
-Python Library #2: Pandas
+##Python Library #2: Pandas
 
 Pandas goes hand-in-hand with NumPy as one of the most widely-used libraries in quantitative finance. In fact, pandas (whose first letter is not normally capitalized) is so intertwined with NumPy that installing pandas will automatically install NumPy along with it. Because of this, it is actually somewhat rare so see a NumPy import in a Python program because it's automatically included with a pandas import.
 
@@ -48,7 +48,7 @@ To import pandas into a Python program, the default convention is to use the fol
 import pandas as pd
 Pandas functions can later be called using the dot operator on the "pd" variable.
 
-Python Library #3: SciPy
+##Python Library #3: SciPy
 
 SciPy (pronounced "Sigh Pie") is a Python library that was originally designed for scientific and technical computing. The library contains many advanced functions that are not naturally included in either NumPy or pandas, including:
 
@@ -73,7 +73,8 @@ import scipy
 You may also want to just import the stats module from SciPy. I find this quite useful for a number of my projects. If this is the case, use the following command:
 
 from scipy import stats
-Python Library #4: XlsxWriter
+
+##Python Library #4: XlsxWriter
 
 The first three libraries discussed in this article helped us better manipulate data. The last two libraries discussed in this article will help us present data for outside users.
 
@@ -99,7 +100,7 @@ While this is a bit different than some of the other import commands that we hav
 
 To be more specific, we specify the exact module we'd like to import using the ".pyplot" suffix, and then label that module as "plt" for when we reference it later in the Python program.
 
-Final Thoughts
+##Final Thoughts
 It is hard to overstate how useful the Python programming language can be for quantitative finance practitioners today.
 
 With that said, investors do not need to write all of their code themselves. There are a number of Python libraries available today that make it easy to get started building applications for quantitative finance. Five of the most important were discussed in this article:
