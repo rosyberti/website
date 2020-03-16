@@ -9,15 +9,11 @@ permalink: /shin-splints/
 categories:
   - running
 ---
-<!--more--><figure class="wp-block-embed-youtube aligncenter wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
-
-<div class="wp-block-embed__wrapper">
-</div></figure> 
 
 **If you exercise regularly, then it&#8217;s likely that you&#8217;ve experienced shin splints before.** 
 
 Characterized by a dull ache in the front part of your lower leg, the severity of the shin splints can range from &#8220;mildly annoying when walking up stairs&#8221; to &#8220;need to use my desk chair to wheel myself to the living room.&#8221; 
-
+<!--more-->
 **Generally, shin splints are caused by overuse of the connective muscle tissue surrounding one of the bones in your lower leg, the tibia.** 
 
 This happens quite a bit with athletes who participate in high-impact aerobic exercise such as dancing, jogging, or jumping.
@@ -29,6 +25,11 @@ Seemingly popping up out of nowhere, shin splints are fairly common and nothing 
 [According to some studies,](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2953294/) shin splints make up around 15% of all running-related injuries. 
 
 The military in particular &#8211; likely due to their heavy emphasis on running as a form of exercise and discipline &#8211; [report around a 7% rate of shin splints](https://jmvh.org/article/medial-tibial-stress-syndrome-in-military-recruits/) during basic training.
+
+<figure class="wp-block-embed-youtube aligncenter wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+<div class="wp-block-embed__wrapper">
+</div></figure> 
 
 ## What are the symptoms of shin splints?
 
