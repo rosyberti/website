@@ -13,7 +13,7 @@ With that said, programmers themselves do not need to write all of the code to p
 This article explores the 5 most important Python libraries for quantitative finance today.
 <!--more-->
 ## Python Library #1: NumPy
-![NumPy](https://raw.githubusercontent.com/nicholasmccullum/nicholasmccullum.github.io/master/images/numpy.svg)
+![NumPy](https://raw.githubusercontent.com/nicholasmccullum/nicholasmccullum.github.io/master/images/numpy.svg?sanitize=true)
 NumPy (pronounced "Numb Pie") is arguably the most important library for quantitative finance.
 
 The library's main capability is the creation and manipulation of multi-dimensional data types like array and matrices.
