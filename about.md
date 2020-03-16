@@ -6,7 +6,7 @@ permalink: /about/
 
 # Hi there!
 
-My name is Nick and I live in Fredericton, New Brunswick. I am the [President & Chief Technology Officer at Sure Dividend](www.surediivdend.com), an investment research firm based in Houston, Texas.
+My name is Nick and I live in Fredericton, New Brunswick. I am the [President & Chief Technology Officer at Sure Dividend](www.suredividend.com), an investment research firm based in Houston, Texas.
 
 I love building things and solving tough proglems, but more than anything I enjoy helping other engineers do what they're best at: writing code. If you're starting out as a developer and want to chat, please [mailto:nicholasmccullum@gmail.com](email me.).
 
