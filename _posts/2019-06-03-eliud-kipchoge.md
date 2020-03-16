@@ -9,10 +9,6 @@ permalink: /eliud-kipchoge/
 categories:
   - running
 ---
-<!--more--><figure class="wp-block-image">
-
-<img src="https://nickmccullum.com/wp-content/uploads/2019/06/eliud-kipchoge.jpg" alt="" class="wp-image-154" srcset="https://nickmccullum.com/wp-content/uploads/2019/06/eliud-kipchoge.jpg 600w, https://nickmccullum.com/wp-content/uploads/2019/06/eliud-kipchoge-300x200.jpg 300w, https://nickmccullum.com/wp-content/uploads/2019/06/eliud-kipchoge-500x333.jpg 500w, https://nickmccullum.com/wp-content/uploads/2019/06/eliud-kipchoge-150x100.jpg 150w, https://nickmccullum.com/wp-content/uploads/2019/06/eliud-kipchoge-400x267.jpg 400w, https://nickmccullum.com/wp-content/uploads/2019/06/eliud-kipchoge-200x133.jpg 200w" sizes="(max-width: 600px) 100vw, 600px" /> </figure> 
-
 Eliud Kipchoge has earned himself a spot among the most successful marathoners of all time. From the London and Berlin Marathons to the Rio Olympics, this elite athlete has been clocking up wins one after another.
 
 In 2017, Kipchoge ventured into the unexplored territory of sub-2 hour marathons, beating the world’s record at that time, but sadly that wasn’t ratified by IAAF. The run, which was part of Nike&#8217;s [Breaking2](https://en.wikipedia.org/wiki/Breaking2) project, didn&#8217;t follow the necessary fluid and elevation rules to qualify as a world record. Still, he scored his personal best and he’s thriving for more.
@@ -24,6 +20,10 @@ In 2017, Kipchoge ventured into the unexplored territory of sub-2 hour marathons
 </blockquote>
 
 Obliterating the 2-hour marathon mark is still a record to be broken. Despite Kipchoge’s glorious attempt, there’s more to accomplish and the acclaimed marathoner is up to the challenge. 
+<!--more-->
+<figure class="wp-block-image">
+
+<img src="https://nickmccullum.com/wp-content/uploads/2019/06/eliud-kipchoge.jpg" alt="" class="wp-image-154" srcset="https://nickmccullum.com/wp-content/uploads/2019/06/eliud-kipchoge.jpg 600w, https://nickmccullum.com/wp-content/uploads/2019/06/eliud-kipchoge-300x200.jpg 300w, https://nickmccullum.com/wp-content/uploads/2019/06/eliud-kipchoge-500x333.jpg 500w, https://nickmccullum.com/wp-content/uploads/2019/06/eliud-kipchoge-150x100.jpg 150w, https://nickmccullum.com/wp-content/uploads/2019/06/eliud-kipchoge-400x267.jpg 400w, https://nickmccullum.com/wp-content/uploads/2019/06/eliud-kipchoge-200x133.jpg 200w" sizes="(max-width: 600px) 100vw, 600px" /> </figure> 
 
 ## An Ode to the World’s Best Marathoner
 
