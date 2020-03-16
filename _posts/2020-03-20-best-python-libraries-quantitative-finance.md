@@ -56,14 +56,14 @@ Pandas functions can later be called using the dot operator on the "pd" variable
 SciPy (pronounced "Sigh Pie") is a Python library that was originally designed for scientific and technical computing. The library contains many advanced functions that are not naturally included in either NumPy or pandas, including:
 
 - Optimization functions
--Linear algebra functions
--Integration
--Interpolation (linear and otherwise)
--Image processing
--Signal processing
--Ordinary differential equation solvers
--Partial differential equation solvers
--and other special functions.
+- Linear algebra functions
+- Integration
+- Interpolation (linear and otherwise)
+- Image processing
+- Signal processing
+- Ordinary differential equation solvers
+- Partial differential equation solvers
+- and other special functions.
 
 Like pandas, SciPy is part of the NumPy stack and relies heavily on the NumPy array data type. In fact, the two libraries are so closely related that the NumPy stack is sometimes referred to as the SciPy stack.
 
@@ -114,10 +114,10 @@ It is hard to overstate how useful the Python programming language can be for qu
 
 With that said, investors do not need to write all of their code themselves. There are a number of Python libraries available today that make it easy to get started building applications for quantitative finance. Five of the most important were discussed in this article:
 
--NumPy
--Pandas
--SciPy
--XlsxWriter
--Matplotlib
+- NumPy
+- Pandas
+- SciPy
+- XlsxWriter
+- Matplotlib
 
 Use these libraries as you proceed through your quantiative finance career for a more productive and less stressful development experience.
