@@ -86,7 +86,7 @@ You may also want to just import the stats module from SciPy. I find this quite 
 
 ## Python Library #4: XlsxWriter
 
-![Excel](https://raw.githubusercontent.com/nicholasmccullum/nicholasmccullum.github.io/master/images/excel.png)
+![Excel](https://raw.githubusercontent.com/nicholasmccullum/nicholasmccullum.github.io/master/images/Excel.png)
 
 The first three libraries discussed in this article helped us better manipulate data. The last two libraries discussed in this article will help us present data for outside users.
 
