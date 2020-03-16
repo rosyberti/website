@@ -9,7 +9,7 @@ permalink: /about/bucket-list/
 <p>I started this list when I was 24 years old. The only rule is that I can never (ever!) delete items from it. I can only add to it.</p>
 
 <ul>
-	<<li><strike>Run a marathon</strike></li>
+	<li><strike>Run a marathon</strike></li>
 	<li><strike>Rnu 50km</strike></li>
 	<li><strike>Run 100km</strike></li>
 	<li>Run 100- miles</li>
