@@ -11,7 +11,7 @@ Python is arguably the most widely-used programming language in the world of qua
 With that said, programmers themselves do not need to write all of the code to perform these tasks. A number of Python libraries make it both easier and faster to get started writing mission-critical applications for your business.
 
 This article explores the 5 most important Python libraries for quantitative finance today.
-
+<!--more-->
 ##Python Library #1: NumPy
 
 NumPy (pronounced "Numb Pie") is arguably the most important library for quantitative finance.
