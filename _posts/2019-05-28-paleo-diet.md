@@ -9,10 +9,6 @@ permalink: /paleo-diet/
 categories:
   - diet
 ---
-<!--more--><figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
-
-<div class="wp-block-embed__wrapper">
-</div></figure> 
 
 The paleo diet directly contradicts the following common-sense statement: the world is a better place today than it was a few hundred years ago. 
 
@@ -21,6 +17,11 @@ The paleo diet directly contradicts the following common-sense statement: the wo
 But when it comes to nutrition, it&#8217;s hard to argue against the paleo diet. 
 
 Eating according to the paleo diet is one of those things that seems obvious when you actually take some time and think about it. But being &#8220;trapped&#8221; as we are in the modern world &#8211; inundated with constant advertising from food and beverage companies &#8211; **it&#8217;s easy to forget that the healthiest foods are _exclusively_ ones that existed thousands of years ago.**
+<!--more-->
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+<div class="wp-block-embed__wrapper">
+</div></figure> 
 
 ## What is the Paleo Diet?
 
