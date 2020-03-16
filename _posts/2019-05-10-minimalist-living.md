@@ -10,10 +10,6 @@ categories:
   - lifestyle
 ---
 
-<div class="wp-block-image">
-  <figure class="aligncenter"><img src="https://nickmccullum.com/wp-content/uploads/2019/05/minimalist-living.jpg" alt="" class="wp-image-110" srcset="https://nickmccullum.com/wp-content/uploads/2019/05/minimalist-living.jpg 660w, https://nickmccullum.com/wp-content/uploads/2019/05/minimalist-living-300x169.jpg 300w, https://nickmccullum.com/wp-content/uploads/2019/05/minimalist-living-500x281.jpg 500w, https://nickmccullum.com/wp-content/uploads/2019/05/minimalist-living-150x84.jpg 150w, https://nickmccullum.com/wp-content/uploads/2019/05/minimalist-living-400x225.jpg 400w, https://nickmccullum.com/wp-content/uploads/2019/05/minimalist-living-200x112.jpg 200w" sizes="(max-width: 660px) 100vw, 660px" /></figure>
-</div>
-
 Anyone who knows me personally recognizes that I own very little stuff. Everything I own can fit in my car (if you count strapping my bed to the top of my hatchback).
 
 This is not by accident. I realized a few years ago that most people get no enjoyment from the majority of their belongings, and life can be greatly simplified by getting rid of these crutches.
@@ -21,6 +17,10 @@ This is not by accident. I realized a few years ago that most people get no enjo
 In this article, I will share why I&#8217;ve designed a lifestyle focused on minimalist living and why you should too. 
 
 <!--more-->
+
+<div class="wp-block-image">
+  <figure class="aligncenter"><img src="https://nickmccullum.com/wp-content/uploads/2019/05/minimalist-living.jpg" alt="" class="wp-image-110" srcset="https://nickmccullum.com/wp-content/uploads/2019/05/minimalist-living.jpg 660w, https://nickmccullum.com/wp-content/uploads/2019/05/minimalist-living-300x169.jpg 300w, https://nickmccullum.com/wp-content/uploads/2019/05/minimalist-living-500x281.jpg 500w, https://nickmccullum.com/wp-content/uploads/2019/05/minimalist-living-150x84.jpg 150w, https://nickmccullum.com/wp-content/uploads/2019/05/minimalist-living-400x225.jpg 400w, https://nickmccullum.com/wp-content/uploads/2019/05/minimalist-living-200x112.jpg 200w" sizes="(max-width: 660px) 100vw, 660px" /></figure>
+</div>
 
 ## My Story
 
