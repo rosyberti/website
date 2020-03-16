@@ -35,7 +35,7 @@ NumPy functions can later be called using the dot operator on the np variable.
 
 ## Python Library #2: Pandas
 
-![Pandas](https://raw.githubusercontent.com/nicholasmccullum/nicholasmccullum.github.io/master/images/pandas.svg?sanitize=true)
+![Pandas](https://raw.githubusercontent.com/nicholasmccullum/nicholasmccullum.github.io/master/images/pandas.png)
 
 Pandas goes hand-in-hand with NumPy as one of the most widely-used libraries in quantitative finance. In fact, pandas (whose first letter is not normally capitalized) is so intertwined with NumPy that installing pandas will automatically install NumPy along with it. Because of this, it is actually somewhat rare so see a NumPy import in a Python program because it's automatically included with a pandas import.
 
@@ -56,7 +56,7 @@ Pandas functions can later be called using the dot operator on the "pd" variable
 
 ## Python Library #3: SciPy
 
-![SciPy](https://raw.githubusercontent.com/nicholasmccullum/nicholasmccullum.github.io/master/images/scipy.svg?sanitize=true)
+![SciPy](https://raw.githubusercontent.com/nicholasmccullum/nicholasmccullum.github.io/master/images/scipy.png)
 
 SciPy (pronounced "Sigh Pie") is a Python library that was originally designed for scientific and technical computing. The library contains many advanced functions that are not naturally included in either NumPy or pandas, including:
 
@@ -86,7 +86,7 @@ You may also want to just import the stats module from SciPy. I find this quite 
 
 ## Python Library #4: XlsxWriter
 
-![Excel](https://raw.githubusercontent.com/nicholasmccullum/nicholasmccullum.github.io/master/images/excel.svg?sanitize=true)
+![Excel](https://raw.githubusercontent.com/nicholasmccullum/nicholasmccullum.github.io/master/images/excel.png)
 
 The first three libraries discussed in this article helped us better manipulate data. The last two libraries discussed in this article will help us present data for outside users.
 
