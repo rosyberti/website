@@ -14,6 +14,7 @@ This article explores the 5 most important Python libraries for quantitative fin
 <!--more-->
 ## Python Library #1: NumPy
 ![NumPy](https://raw.githubusercontent.com/nicholasmccullum/nicholasmccullum.github.io/master/images/numpy.svg?sanitize=true)
+
 NumPy (pronounced "Numb Pie") is arguably the most important library for quantitative finance.
 
 The library's main capability is the creation and manipulation of multi-dimensional data types like array and matrices.
@@ -34,6 +35,8 @@ NumPy functions can later be called using the dot operator on the np variable.
 
 ## Python Library #2: Pandas
 
+![Pandas](https://raw.githubusercontent.com/nicholasmccullum/nicholasmccullum.github.io/master/images/pandas.svg?sanitize=true)
+
 Pandas goes hand-in-hand with NumPy as one of the most widely-used libraries in quantitative finance. In fact, pandas (whose first letter is not normally capitalized) is so intertwined with NumPy that installing pandas will automatically install NumPy along with it. Because of this, it is actually somewhat rare so see a NumPy import in a Python program because it's automatically included with a pandas import.
 
 The pandas library derives its name from 'panel data'. As its name suggests, the two main purposes of the pandas library are:
@@ -52,6 +55,8 @@ To import pandas into a Python program, the default convention is to use the fol
 Pandas functions can later be called using the dot operator on the "pd" variable.
 
 ## Python Library #3: SciPy
+
+![SciPy](https://raw.githubusercontent.com/nicholasmccullum/nicholasmccullum.github.io/master/images/scipy.svg?sanitize=true)
 
 SciPy (pronounced "Sigh Pie") is a Python library that was originally designed for scientific and technical computing. The library contains many advanced functions that are not naturally included in either NumPy or pandas, including:
 
@@ -81,6 +86,8 @@ You may also want to just import the stats module from SciPy. I find this quite 
 
 ## Python Library #4: XlsxWriter
 
+![Excel](https://raw.githubusercontent.com/nicholasmccullum/nicholasmccullum.github.io/master/images/excel.svg?sanitize=true)
+
 The first three libraries discussed in this article helped us better manipulate data. The last two libraries discussed in this article will help us present data for outside users.
 
 The first is XlsxWriter, which contains a number of functions and object types to help export data into beautifully-formatted .xlsx files. This package is great for creating resources for non-technical users who are not capable of working with Python scripts.
@@ -93,7 +100,9 @@ To import XlsxWriter into a Python script, use the following line of code:
 
 `import xlsxwriter`
 
-Python Library #5: MatplotLib
+## Python Library #5: MatplotLib
+
+![NumPy](https://raw.githubusercontent.com/nicholasmccullum/nicholasmccullum.github.io/master/images/matplotlib.svg?sanitize=true)
 
 Matplotlib is the most popular library for the presentation of two-dimensional data in Python. Matplotlib has the capability of publishing a variety of charts in both hardcopy formats and interactive environments across platforms.
 
