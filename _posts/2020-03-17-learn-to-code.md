@@ -7,9 +7,9 @@ permalink: /learn-to-code/
 ---
 
 
-Over the last six months, I’ve been on an unbelievably fun journey teaching myself how to code.
+Over the last six months, I’ve been on an unbelievably fun journey teaching myself how to code. I wrote this article to share my journey.
 
-It has not been easy. With that said, learning to code is simpler than ever because of the vast swath of free resources available on the Internet.
+To be clear, it has not been easy. With that said, learning to code is simpler than ever because of the vast swath of free resources available on the Internet.
 
 In this article, I’ll outline my journing from knowing next-to-nothing about software to being a productive software engineer in a real company. Be sure to read to the end, where I provide tips to a novice developer starting today.
 
