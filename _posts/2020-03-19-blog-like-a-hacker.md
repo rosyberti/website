@@ -98,12 +98,12 @@ DNS records point your website at an IP address that is used to serve content ov
 In the portal of the company you used to purchase your domain name, navigate to their DNS section. Create an A record that points to the following IP addresses:
 
 
-``
+```
 185.199.108.153
 185.199.109.153
 185.199.110.153
 185.199.111.153
-``
+```
 
 
 As an example, here is the A record for nickmccullum.com within my AWS Route 53 account:
