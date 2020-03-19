@@ -6,7 +6,7 @@ layout: post
 permalink: /blog-like-a-hacker/
 ---
 
-I have been writing on the Internet in some capacity since 2014. This article explains by current blogging setup, which is excellent for anyone that wants a minimalist blog template combined with the version control capabilities of GitHub
+I have been writing on the Internet in some capacity since 2014. This article explains by current blogging setup, which is excellent for anyone that wants a minimalist blog template combined with the version control capabilities of GitHub.
 
 
 ## My Background as a Writer
