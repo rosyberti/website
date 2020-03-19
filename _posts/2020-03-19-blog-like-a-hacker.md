@@ -98,17 +98,16 @@ DNS records point your website at an IP address that is used to serve content ov
 In the portal of the company you used to purchase your domain name, navigate to their DNS section. Create an A record that points to the following IP addresses:
 
 
-```
-185.199.108.153
+`185.199.108.153
 185.199.109.153
 185.199.110.153
 185.199.111.153
-```
+`
 
 
 As an example, here is the A record for nickmccullum.com within my AWS Route 53 account:
 
-![Route 53 A Records](images/Route-53-A-Record.png)
+![Route 53 A Records]({{ site.baseurl }}/images/Route-53-A-Record.png)
 
 
 Once this is done, the final step is to activate GitHub Pages from within your GitHub repository.
@@ -120,11 +119,11 @@ The last step to implement the ‘Blog Like A Hacker’ methodology is to activa
 
 First, navigate to the repository where your blog is saved. Then, click settings on the right hand side of the screen:
 
-![GitHub Settings](images/GitHub-Repository-Settings.png)
+![GitHub Settings]({{ site.baseurl }}/images/GitHub-Repository-Settings.png)
 
 Scroll down to the GitHub Pages section, and fill in your information. When completed, it should look something like this:
 
-![GitHub Pages](images/GitHub-Pages-Example.png)
+![GitHub Pages]({{ site.baseurl }}/images/GitHub-Pages-Example.png)
 
 After this, your site should be live! 
 
