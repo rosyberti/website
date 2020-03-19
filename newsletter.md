@@ -1,3 +1,9 @@
+---
+layout: page
+title: Newsletter
+permalink: /newsletter/
+---
+
 I send occasional emails sharing interesting ideas and events from the world of finance and technology. Sign up here:
 
 <!-- Begin Mailchimp Signup Form -->
