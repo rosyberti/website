@@ -13,8 +13,6 @@ Eliud Kipchoge has earned himself a spot among the most successful marathoners o
 
 In 2017, Kipchoge ventured into the unexplored territory of sub-2 hour marathons, beating the world’s record at that time, but sadly that wasn’t ratified by IAAF. The run, which was part of Nike&#8217;s [Breaking2](https://en.wikipedia.org/wiki/Breaking2) project, didn&#8217;t follow the necessary fluid and elevation rules to qualify as a world record. Still, he scored his personal best and he’s thriving for more.
 
-<script src="https://gist.github.com/nicholasmccullum/69fddc5ba907577a59316944f457e188.js"></script>
-
 <blockquote class="wp-block-quote">
   <p>
     <em>“Running the fastest ever marathon time of 2:00:25 was the proudest moment of my career,”</em> said Kipchoge commenting on his breakthrough.
