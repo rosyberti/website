@@ -4,6 +4,8 @@ title: Newsletter
 permalink: /newsletter/
 ---
 
+# Join My Email Newsletter
+
 I send occasional emails sharing interesting ideas and events from the world of finance and technology. Sign up here:
 
 <!-- Begin Mailchimp Signup Form -->
