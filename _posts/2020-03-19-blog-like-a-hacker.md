@@ -1,3 +1,11 @@
+---
+title: 'Blog Like A Hacker: Build Your Website Using Jekyll, GitHub Pages and AWS'
+date: 2020-03-19
+author: Nick McCullum
+layout: post
+permalink: /blog-like-a-hacker/
+---
+
 I have been writing on the Internet in some capacity since 2014. This article explains by current blogging setup, which is excellent for anyone that wants a minimalist blog template combined with the version control capabilities of GitHub
 
 
