@@ -61,11 +61,7 @@ You’ll also want to modify the _layouts/default.html file to change your navba
 Once you have modified all of your settings, you can actually publish your blog posts as Markdown files within the _posts directory of the forked GitHub repository. The Jekyll-Now template has a “Hello World” blog post as an example:
 
 
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Blog-Like0.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Blog-Like0.png "image_tooltip")
+![Jekyll Now Hello World Post]({{ site.baseurl }}/images/Jekyll-Now-Hello-World.png)
 
 
 Within that Markdown file, you can see an example of how the post title is configured at the top:
