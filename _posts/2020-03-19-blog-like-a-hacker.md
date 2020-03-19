@@ -69,17 +69,12 @@ You’ll also want to modify the _layouts/default.html file to change your navba
 Once you have modified all of your settings, you can actually publish your blog posts as Markdown files within the _posts directory of the forked GitHub repository. The Jekyll-Now template has a “Hello World” blog post as an example:
 
 
-![Jekyll Now Hello World Post]({{ site.baseurl }}/images/Jekyll-Now-Hello-World.png)
+![Jekyll Now]({{ site.baseurl }}/images/Jekyll-Now.png)
 
 
 Within that Markdown file, you can see an example of how the post title is configured at the top:
 
-
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Blog-Like1.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Blog-Like1.png "image_tooltip")
+![Jekyll Now Hello World Post]({{ site.baseurl }}/images/Jekyll-Now-Hello-World.png)
 
 
 One last thing - if you already have an existing site hosted on Wordpress (like I did), you’ll want to use a tool to export all of your existing posts. I used Ben Balter’s [Wordpress to Jekyll Exporter](https://github.com/benbalter/wordpress-to-jekyll-exporter) and it worked flawlessly.
@@ -113,12 +108,7 @@ In the portal of the company you used to purchase your domain name, navigate to 
 
 As an example, here is the A record for nickmccullum.com within my AWS Route 53 account:
 
-
-
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Blog-Like2.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Blog-Like2.png "image_tooltip")
+![Route 53 A Records](images/Route-53-A-Record.png)
 
 
 Once this is done, the final step is to activate GitHub Pages from within your GitHub repository.
@@ -130,26 +120,13 @@ The last step to implement the ‘Blog Like A Hacker’ methodology is to activa
 
 First, navigate to the repository where your blog is saved. Then, click settings on the right hand side of the screen:
 
-
-
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Blog-Like3.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Blog-Like3.png "image_tooltip")
-
+![GitHub Settings](images/GitHub-Repository-Settings.png)
 
 Scroll down to the GitHub Pages section, and fill in your information. When completed, it should look something like this:
 
-
-
-<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Blog-Like4.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Blog-Like4.png "image_tooltip")
-
+![GitHub Pages](images/GitHub-Pages-Example.png)
 
 After this, your site should be live! 
-
 
 ## One Last Thing - How To Write Blog Posts
 
