@@ -1,10 +1,8 @@
 ---
 layout: page
-title: Newsletter
+title: Join My Email Newsletter
 permalink: /newsletter/
 ---
-
-# Join My Email Newsletter
 
 I send occasional emails sharing interesting ideas and events from the world of finance and technology. Sign up here:
 
