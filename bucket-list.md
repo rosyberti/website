@@ -4,8 +4,6 @@ title: Bucket List: Things to do before I die
 permalink: /bucket-list/
 ---
 
-# Bucket List: Things to do before I die
-
 <p>I started this list when I was 24 years old. The only rule is that I can never (ever!) delete items from it. I can only add to it.</p>
 
 <ul>
