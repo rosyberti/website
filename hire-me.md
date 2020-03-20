@@ -20,6 +20,6 @@ On the software side, the specific technologies I am familiar with are:
 * Django
 * PostgreSQL and the other SQL distributions for RDBMS's
 * Wordpress
-* Amazon Web Services
+* Amazon Web Services - specifically S3, EC2, and RDS
 
 If you're interested in working together, please [email me](mailto:nicholasmccullum@gmail.com). I'd love to hear from you!
