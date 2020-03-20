@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Bucket List: Things to do before I die
-permalink: /about/bucket-list/
+permalink: /bucket-list/
 ---
 
 # Bucket List: Things to do before I die
