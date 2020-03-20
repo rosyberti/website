@@ -6,17 +6,6 @@ layout: post
 permalink: /partners-value-investments/
 ---
 
-<p style="color: red; font-weight: bold">>>>>>  gd2md-html alert:  ERRORs: 0; WARNINGs: 0; ALERTS: 4.</p>
-<ul style="color: red; font-weight: bold"><li>See top comment block for details on ERRORs and WARNINGs. <li>In the converted Markdown or HTML, search for inline alerts that start with >>>>>  gd2md-html alert:  for specific instances that need correction.</ul>
-
-<p style="color: red; font-weight: bold">Links to alert messages:</p><a href="#gdcalert1">alert1</a>
-<a href="#gdcalert2">alert2</a>
-<a href="#gdcalert3">alert3</a>
-<a href="#gdcalert4">alert4</a>
-
-<p style="color: red; font-weight: bold">>>>>> PLEASE check and correct alert issues and delete this message and the inline alerts.<hr></p>
-
-
 The single largest position in my holding company's portfolio is Brookfield Asset Management (BAM.A) (BAM), an alternative asset manager that focuses on real estate, infrastructure, renewable energy, and private equity.
 
 Brookfield is unique in so many ways. It has a track record that is among the best in the business. Brookfield also has size, scale, and a global operating presence that few of its peers can match. Lastly, the company has spun-off publicly listed vehicles that allow everyday investors like you and I to capture the performance characteristics of its various asset classes. The securities are listed below:
