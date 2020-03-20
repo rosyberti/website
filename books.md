@@ -10,6 +10,8 @@ Bolded books are recommended, while red & bolded are highly recommended.
 
 2019
 
+The Ride of a Lifetime: Lessons Learned from 15 Years as CEO of the Walt Disney Company
+
 Extreme Ownership:
 
 Digital Minimalism: Choosing A Focused Life in a Noisy World by Cal Newport
