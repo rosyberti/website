@@ -6,11 +6,15 @@ permalink: /books/
 
 This is a rough list of every book I’ve read, along with links to my thoughts on each (eventually). Books are listed in reverse chronological order (most recent at the top).
 
-Bolded books are recommended, while red & bolded are highly recommended.
+Bolded books are recommended, while red & bolded are highly recommended.(Note: I recently migrated my website and this formatting never stuck. I'll get around to re-adding it eventually).
+
+## 2020
+
+The Phoenix Project
 
 ## 2019
 
-The Ride of a Lifetime: Lessons Learned from 15 Years as CEO of the Walt Disney Company
+[The Ride of a Lifetime: Lessons Learned from 15 Years as CEO of the Walt Disney Company](https://nickmccullum.com/ride-of-a-lifetime/)
 
 Extreme Ownership:
 
