@@ -8,7 +8,7 @@ This is a rough list of every book I’ve read, along with links to my thoughts 
 
 Bolded books are recommended, while red & bolded are highly recommended.
 
-2019
+## 2019
 
 The Ride of a Lifetime: Lessons Learned from 15 Years as CEO of the Walt Disney Company
 
@@ -24,7 +24,7 @@ The Warren Buffett Way, 2nd Edition by Robert Hagstrom (I had previously read th
 
 Bad Blood: Secrets and Lies in a Silicon Valley Startup by John Carreyrou
 
-2018
+## 2018
 
 Atomic Habits by James Clear
 
@@ -56,7 +56,7 @@ Charlie Munger: The Complete Investor by Tren Griffin
 
 Thinking, Fast and Slow by Daniel Kahneman
 
-2017
+## 2017
 
 You Can Be A Stock Market Genius by Joel Greenblatt
 
@@ -68,7 +68,7 @@ The Intelligent Investor by Benjamin Graham (very underwhelming)
 
 Quantitative Momentum by Wes Gray and Tobias Carlisle
 
-2016
+## 2016
 
 The Warren Buffett Way, 3rd edition by Robert G. Hagstrom
 
