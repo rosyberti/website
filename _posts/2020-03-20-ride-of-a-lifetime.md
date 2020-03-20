@@ -1,7 +1,14 @@
-I just finished reading "The Ride of a Lifetime" about Bob Iger's career and his time leading the Walt Disney Company. It was a phenomenal book.
+---
+title: 'The Ride of a Lifetime: Lessons from the Remarkable Career of Bob Iger'
+date: 2020-03-20
+author: Nick McCullum
+layout: post
+permalink: /ride-of-a-lifetime/
+---
 
-As usual, I wanted to spend some time reviewing the book on this website for anyone that is considering reading it. My main takeaways are below.
+I just finished reading "The Ride of a Lifetime" about Bob Iger's career and his time leading the Walt Disney Company. It was a phenomenal book. As usual, I wanted to spend some time reviewing the book on this website for anyone that is considering reading it. 
 
+My main takeaways are below.
 
 ## **The Book's Introduction is Captivating**
 
