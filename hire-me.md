@@ -16,7 +16,7 @@ On the software side, the specific technologies I am familiar with are:
 * Jekyll
 * React.js and GraphQL
 * Node.js
-* Python - specifically the Anaconda distribution and the NumPy/pandas/SciPy data science stack
+* Python - specifically the NumPy/pandas/SciPy data science stack
 * Django
 * PostgreSQL and the other SQL distributions for RDBMS's
 * Wordpress
