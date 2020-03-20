@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-# Hi there!
+## Hi there!
 
 My name is Nick and I live in Fredericton, New Brunswick. I am the [President & Chief Technology Officer at Sure Dividend](www.suredividend.com), an investment research firm based in Houston, Texas.
 
