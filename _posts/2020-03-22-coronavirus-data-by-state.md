@@ -19,7 +19,7 @@ Here are three charts that present the current state of coronavirus in the Unite
 
 <iframe width="100%" height="400px" frameborder="0" scrolling="no" src="//plot.ly/~nickmccullum/3.embed"></iframe>
 
-![Coronavirus Cases by US State]({{ site.baseurl }}/images/cases-by-state.png)
+<iframe width="100%" height="400px" frameborder="0" scrolling="no" src="//plot.ly/~nickmccullum/5.embed"></iframe>
 
 ![Coronavirus Deaths by US State]({{ site.baseurl }}/images/deaths-by-state.png)
 
