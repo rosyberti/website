@@ -3,7 +3,7 @@ title: 'Coronavirus Tests, Cases, and Deaths by US State'
 date: 2020-03-22
 author: Nick McCullum
 layout: post
-permalink: /coronavirus-stats-by-state/
+permalink: /coronavirus-data-by-state/
 ---
 
 The coronavirus pandemic continues to worsen, both in terms of the actual health impact of patients and the broader effect it has had on our economy and psychology. The purpose of this post is to list some real statistics on the coronavirus - **without**the sensationalism that we have seen from some major news outlets.
