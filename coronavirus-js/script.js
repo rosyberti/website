@@ -1,9 +1,3 @@
-/*
- * 20200317
- * Gabriel Cesar
- * gabrielcesar2@gmail.com
- */
-
 google.charts.load('current', {
     'packages':['geochart'],
     // Note: you will need to get a mapsApiKey for your project.
