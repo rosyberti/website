@@ -17,9 +17,9 @@ This post was last updated on March 22nd, 2020. I intend to update this data as 
 
 Here are three charts that present the current state of coronavirus in the United States:
 
-<iframe width="100%" height="400px" frameborder="0" scrolling="no" src="//plot.ly/~nickmccullum/9.embed"></iframe>
-
 <iframe width="100%" height="400px" frameborder="0" scrolling="no" src="//plot.ly/~nickmccullum/5.embed"></iframe>
+
+<iframe width="100%" height="400px" frameborder="0" scrolling="no" src="//plot.ly/~nickmccullum/9.embed"></iframe>
 
 <iframe width="100%" height="400px" frameborder="0" scrolling="no" src="//plot.ly/~nickmccullum/7.embed"></iframe>
 
