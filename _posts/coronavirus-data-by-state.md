@@ -17,7 +17,11 @@ This post was last updated on March 22nd, 2020. I intend to update this data as 
 
 Here are three charts that present the current state of coronavirus in the United States:
 
+![Coronavirus Tests by US State]({{ site.baseurl }}/images/tests-by-state.png)
 
+![Coronavirus Cases by US State]({{ site.baseurl }}/images/cases-by-state.png)
+
+![Coronavirus Deaths by US State]({{ site.baseurl }}/images/deaths-by-state.png)
 
 Note that the last images excludes 20 states where there have been no coronavirus deaths so far.
 
