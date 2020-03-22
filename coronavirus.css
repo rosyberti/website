@@ -18,7 +18,7 @@ body
 
 div.google-visualization-tooltip 
 { 
-    background-color: #bbb; 
+    background-color: #135485; 
     border-color: #888; 
     border-left: 16px solid #888; 
     box-shadow: none;
@@ -80,7 +80,7 @@ pre
 
 .arwen_main
 {
-    background-color: #444;
+    background-color: #135485;
     box-sizing: border-box;
     height: calc(100% - 60px);
     left: 0;
@@ -92,7 +92,7 @@ pre
 
 .arwen_modal
 {
-    background-color: #555;
+    background-color: #135485;
     border: 1px solid #333;
     display: none;
     height: 504px;
@@ -109,7 +109,7 @@ pre
 
 .arwen_navbar
 {
-    background-color: #555;
+    background-color: #135485;
     border-bottom: 1px solid #333;
     border-top: 1px solid #777;
     box-sizing: border-box;
