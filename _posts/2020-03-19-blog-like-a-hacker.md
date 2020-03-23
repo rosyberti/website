@@ -13,7 +13,7 @@ I have been writing on the Internet in some capacity since 2014. This article ex
 
 I have been writing on the Internet in some capacity since 2014. 
 
-My first website was <a href="www.financialcanadian.com">www.financialcanadian.com</a> (which no longer exists), a financial education blog for Canadians that I started writing while I was an investment management intern at the Toronto-Dominion Bank. That website was built using the Wordpress content management system (CMS) and hosted on Bluehost. I chose Wordpress for its ease of use and Bluehost for its low cost. 
+My first website was [www.financialcanadian.com](https://financialcanadian.com/) (which no longer exists), a financial education blog for Canadians that I started writing while I was an investment management intern at the Toronto-Dominion Bank. That website was built using the Wordpress content management system (CMS) and hosted on Bluehost. I chose Wordpress for its ease of use and Bluehost for its low cost. 
 
 After that, I joined Sure Dividend as President and, later, Chief Technology Officer. That website also used the Wordpress CMS. On several side projects, I have also experimented with Wix, Squarespace, Django, Sanity, and Webflow. 
 
