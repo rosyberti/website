@@ -6,6 +6,8 @@ import boto3
 import smtplib
 import matplotlib.pyplot as plt
 
+
+
 data = pd.read_json('https://raw.githubusercontent.com/pomber/covid19/master/docs/timeseries.json')
 
 s3 = boto3.resource('s3')
@@ -27,13 +29,13 @@ for country in data.columns:
         
     
     countryData.columns = ['Date', 'Confirmed Cases','Confirmed Deaths','Confirmed Recoveries']
-    countryData.plot(title= country + ' Coronavirus Cases, Updated ' + updateDate + ', Current Level: ' + confirmed, kind='line',x='Date',y='Confirmed Cases',color='#135485', figsize=(15,6))
+    countryData.plot(title= country + ' Coronavirus Cases, Updated ' + updateDate + ', Current Level: ' + str(confirmed), kind='line',x='Date',y='Confirmed Cases',color='#135485', figsize=(15,6))
     plt.savefig("output_files/"+country+' Cases.png')
 
-    countryData.plot(title= country + ' Coronavirus Deaths, Updated ' + updateDate + ', Current Level: ' + deaths, kind='line',x='Date',y='Confirmed Deaths',color='#135485', figsize=(15,6))
+    countryData.plot(title= country + ' Coronavirus Deaths, Updated ' + updateDate + ', Current Level: ' + str(deaths), kind='line',x='Date',y='Confirmed Deaths',color='#135485', figsize=(15,6))
     plt.savefig("output_files/"+country+' Deaths.png')
 
-    countryData.plot(title= country + ' Coronavirus Recoveries, Updated ' + updateDate + ', Current Level: ' + recovered, kind='line',x='Date',y='Confirmed Recoveries',color='#135485', figsize=(15,6))
+    countryData.plot(title= country + ' Coronavirus Recoveries, Updated ' + updateDate + ', Current Level: ' + str(recovered), kind='line',x='Date',y='Confirmed Recoveries',color='#135485', figsize=(15,6))
     plt.savefig("output_files/"+country+' Recoveries.png')
 
     #delete and re-upload each file
