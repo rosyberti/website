@@ -7,13 +7,10 @@ import smtplib
 import matplotlib.pyplot as plt
 
 data = pd.read_json('https://raw.githubusercontent.com/pomber/covid19/master/docs/timeseries.json')
-countryData = pd.DataFrame(pd.np.empty((0, 4)))
 
-#############################################################################################
-#Comment this out for production
-#############################################################################################  
+s3 = boto3.resource('s3')
 
-countryData = countryData['Thailand']
+updateDate = datetime.datetime.today().strftime('%Y-%m-%d')
 
 #############################################################################################
 #Loop to create all DataFrames
@@ -27,45 +24,20 @@ for country in data.columns:
         deaths = dataPoint['deaths']
         recovered = dataPoint['recovered']
         countryData = countryData.append(pd.Series([date, confirmed, recovered, deaths]),ignore_index=True)
-        print(countryData)
+        
     
     countryData.columns = ['Date', 'Confirmed Cases','Confirmed Deaths','Confirmed Recoveries']
-    
-#############################################################################################
-#Get today's date
-#############################################################################################  
+    countryData.plot(title= country + ' Coronavirus Cases, Updated ' + updateDate + ', Current Level: ' + confirmed, kind='line',x='Date',y='Confirmed Cases',color='#135485', figsize=(15,6))
+    plt.savefig("output_files/"+country+' Cases.png')
 
-timeForS3Push = datetime.datetime.today().strftime('%Y-%m-%d')
+    countryData.plot(title= country + ' Coronavirus Deaths, Updated ' + updateDate + ', Current Level: ' + deaths, kind='line',x='Date',y='Confirmed Deaths',color='#135485', figsize=(15,6))
+    plt.savefig("output_files/"+country+' Deaths.png')
 
-#############################################################################################
-#Push the .xlsx documents to AWS S3
-#############################################################################################  
+    countryData.plot(title= country + ' Coronavirus Recoveries, Updated ' + updateDate + ', Current Level: ' + recovered, kind='line',x='Date',y='Confirmed Recoveries',color='#135485', figsize=(15,6))
+    plt.savefig("output_files/"+country+' Recoveries.png')
 
-# #initialize an s3 object
+    #delete and re-upload each file
 
-# s3 = boto3.resource('s3')
-
-# #delete and re-upload each file
-
-# s3.meta.client.delete_object(Bucket='sure-dividend-data-feeds', Key= securityGroup[:-4] + '.xlsx')
-# s3.meta.client.upload_file("output_files/"+securityGroup[:-4]+'.xlsx', 'sure-dividend-data-feeds', securityGroup[:-4]+'.xlsx', ExtraArgs={'ACL':'public-read'})
-
-
-#############################################################################################
-#Send email to Nick notifying him that the script has run successfully
-#############################################################################################  
-
-# time = datetime.datetime.now().strftime("%I%M%p on %B %d, %Y")
-# content = 'Subject: {}\n\n{}'.format('Generic Builder - Complete', 'The generic data feeds builder Python script has been completed at ' + time + ' Universal Coordinated Time (UTC)')
-# mail = smtplib.SMTP('smtp.gmail.com', 587)
-# mail.ehlo()
-
-# mail.starttls()
-
-# password = 'EngineeringPass123'
-
-# mail.login('engineering@suredividend.com',password)
-# mail.sendmail('engineering@suredividend.com','nick@suredividend.com',content)
-
-# #Close the connection.
-# mail.close()
+    s3.meta.client.upload_file("output_files/"+country+' Cases.png', 'coronavirus-country-charts', country+' Cases.png', ExtraArgs={'ACL':'public-read'})
+    s3.meta.client.upload_file("output_files/"+country+' Deaths.png', 'coronavirus-country-charts', country+' Deaths.png', ExtraArgs={'ACL':'public-read'})
+    s3.meta.client.upload_file("output_files/"+country+' Recoveries.png', 'coronavirus-country-charts', country+' Recoveries.png', ExtraArgs={'ACL':'public-read'})
