@@ -18,10 +18,6 @@ In this article, I will share why I&#8217;ve designed a lifestyle focused on min
 
 <!--more-->
 
-<div class="wp-block-image">
-  <figure class="aligncenter"><img src="https://nickmccullum.com/wp-content/uploads/2019/05/minimalist-living.jpg" alt="" class="wp-image-110" srcset="https://nickmccullum.com/wp-content/uploads/2019/05/minimalist-living.jpg 660w, https://nickmccullum.com/wp-content/uploads/2019/05/minimalist-living-300x169.jpg 300w, https://nickmccullum.com/wp-content/uploads/2019/05/minimalist-living-500x281.jpg 500w, https://nickmccullum.com/wp-content/uploads/2019/05/minimalist-living-150x84.jpg 150w, https://nickmccullum.com/wp-content/uploads/2019/05/minimalist-living-400x225.jpg 400w, https://nickmccullum.com/wp-content/uploads/2019/05/minimalist-living-200x112.jpg 200w" sizes="(max-width: 660px) 100vw, 660px" /></figure>
-</div>
-
 ## My Story
 
 I grew up with five older sisters in a house that was lower-middle class. 
@@ -89,7 +85,7 @@ As an example, I spent a great deal of money on the following core belongings th
   * [My computer](https://amzn.to/2Vt89m1)
   * [My cell phone](https://amzn.to/2VudYQa)
   * [My backpack](https://www.goruck.com/rucker/) (which can also be used for rucking)
-  * [Running shoes](https://www.nike.com/ca/t/air-zoom-pegasus-35-running-shoe-YPTAvp47?nst=0&cp=gsns_kw_pla!ca!goo!gsproducts!c!!!208352894863&ds_rl=1252249&gclid=CjwKCAjwwtTmBRBqEiwA-b6c_zNh3XqGlRbAWchGp-6rZADb7A0WhWrQiSMDuo-wgcMMN7YusGQPRxoCcNAQAvD_BwE&gclsrc=aw.ds)
+  * Running shoes
   * [Thermos](https://amzn.to/2Jxio1Q)
 
 The happiness and utility that I derive from these belongings makes me so glad that I was willing to pay up for the nicer version of the product. 
@@ -142,14 +138,3 @@ With that said, I am investigating the possibility of doing a multi-month trip l
 ## Final Thoughts
 
 Minimalist living is a powerful tool to simplify your life, improve your happiness and declutter your mind. I am living a minimalist life right now and strongly recommend it to anyone who wants to be happier and live a more simple life. 
-
-I plan on publishing a similar article once per week on this website. I will be distributing periodic emails sharing my writings as well as interesting topics I&#8217;ve read elsewhere on the Internet. If you&#8217;d like to receive them, you can sign up below: 
-
-<!-- Begin Mailchimp Signup Form -->
-
-<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css" />
-
-<div id="mc_embed_signup">
-</div>
-
-<!--End mc_embed_signup-->
