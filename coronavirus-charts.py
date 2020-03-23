@@ -9,9 +9,18 @@ import matplotlib.pyplot as plt
 data = pd.read_json('https://raw.githubusercontent.com/pomber/covid19/master/docs/timeseries.json')
 countryData = pd.DataFrame(pd.np.empty((0, 4)))
 
+#############################################################################################
+#Comment this out for production
+#############################################################################################  
+
+countryData = countryData['Thailand']
+
+#############################################################################################
+#Loop to create all DataFrames
+#############################################################################################  
+
 for country in data.columns:
     countryData = pd.DataFrame(pd.np.empty((0, 4)))
-    countryData.columns = ['Date', 'Confirmed Cases','Confirmed Deaths','Confirmed Recoveries']
     for dataPoint in data[country]:
         date = dataPoint['date']
         confirmed = dataPoint['confirmed']
@@ -19,6 +28,9 @@ for country in data.columns:
         recovered = dataPoint['recovered']
         countryData = countryData.append(pd.Series([date, confirmed, recovered, deaths]),ignore_index=True)
         print(countryData)
+    
+    countryData.columns = ['Date', 'Confirmed Cases','Confirmed Deaths','Confirmed Recoveries']
+    
 #############################################################################################
 #Get today's date
 #############################################################################################  
