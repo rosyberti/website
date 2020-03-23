@@ -1,9 +1,9 @@
 ---
-title: 'Coronavirus Tests, Cases, and Deaths by US State'
+title: 'Coronavirus Cases, Deaths, and Recoveries by Conutry'
 date: 2020-03-22
 author: Nick McCullum
 layout: post
-permalink: /coronavirus-data-by-state/
+permalink: /coronavirus-data-by-country/
 ---
 
 The coronavirus pandemic continues to worsen, and I want to do my part to 
