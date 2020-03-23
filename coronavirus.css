@@ -121,12 +121,3 @@ pre
     text-align: center;
     width: auto;
 }
-
-/* hidden on default */
-#popup { display: none; }
-
-/* use a media query to filter small devices */
-@media only screen and (max-device-width:480px) {
-    /* show the popup */
-    #popup { display: block; }
-}
