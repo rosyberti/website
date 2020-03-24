@@ -61,7 +61,7 @@ If you’re not a GitHub user (you should be), I have also embedded the profiler
 
 <script src="https://gist.github.com/nicholasmccullum/69fddc5ba907577a59316944f457e188.js"></script>
 
-Open up some sort of Python environment (like a Jupyer Notebook, vim, or VS Code) and open the profiler.py file. 
+Open up some sort of Python environment (like a Jupyter Notebook, vim, or VS Code) and open the profiler.py file. 
 
 
 ## Step 3: Enter the Code You Wish to Profile
