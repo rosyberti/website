@@ -10,6 +10,8 @@ The coronavirus pandemic continues to worsen. It is more important than ever to 
 
 ## A Few Notes
 
+Countries are listed on this page in alphabetical order.
+
 This page is a work in progress. A few things on my to-do list:
 
 * Find a matplotlib wiz to help me nicely style these charts.
