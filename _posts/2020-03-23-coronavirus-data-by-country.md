@@ -13,7 +13,7 @@ The coronavirus pandemic continues to worsen. It is more important than ever to 
 This page is a work in progress. A few things on my to-do list:
 
 * Find a matplotlib wiz to help me nicely style these charts.
-* Create a table of contents so you can click to a specific country you're interested in.
+* Create a table of contents so you can click to a specific country you're interested in. For now, please perform a CTRL+F search to find the country you are looking for.
 
 Also, I should give credit where credit is due. The data on this page has been made available through the interactive coronavirus map provided by [Johns Hopkins University](https://coronavirus.jhu.edu/map.html). The data has been compield into an easy-to-use JSON file by [Rodrigo Pombo](https://github.com/pomber) in this [GitHub repository](https://github.com/pomber/covid19).
 
