@@ -29,13 +29,18 @@ for country in data.columns:
         
     
     countryData.columns = ['Date', 'Confirmed Cases','Confirmed Deaths','Confirmed Recoveries']
-    countryData.plot(title= country + ' Coronavirus Cases, Updated ' + updateDate + ', Current Level: ' + str(confirmed), kind='line',x='Date',y='Confirmed Cases',color='#135485', figsize=(15,6))
+    
+
+    plot1 = countryData.plot(kind='line',x='Date',y='Confirmed Cases',color='#135485', figsize=(15,6))
+    plot1.set_title(country + ' Coronavirus Cases, Updated ' + updateDate + ', Current Level: ' + str(confirmed), fontsize=22)
     plt.savefig("output_files/"+country+' Cases.png')
 
-    countryData.plot(title= country + ' Coronavirus Deaths, Updated ' + updateDate + ', Current Level: ' + str(deaths), kind='line',x='Date',y='Confirmed Deaths',color='#135485', figsize=(15,6))
+    plot2 = countryData.plot(kind='line',x='Date',y='Confirmed Deaths',color='#135485', figsize=(15,6))
+    plot2.set_title(country + ' Coronavirus Deaths, Updated ' + updateDate + ', Current Level: ' + str(deaths), fontsize=22)
     plt.savefig("output_files/"+country+' Deaths.png')
 
-    countryData.plot(title= country + ' Coronavirus Recoveries, Updated ' + updateDate + ', Current Level: ' + str(recovered), kind='line',x='Date',y='Confirmed Recoveries',color='#135485', figsize=(15,6))
+    plot3 = countryData.plot(kind='line',x='Date',y='Confirmed Recoveries',color='#135485', figsize=(15,6))
+    plot3.set_title(country + ' Coronavirus Recoveries, Updated ' + updateDate + ', Current Level: ' + str(recovered), fontsize=22)
     plt.savefig("output_files/"+country+' Recoveries.png')
 
     #delete and re-upload each file
