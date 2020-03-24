@@ -20,6 +20,9 @@ updateDate = datetime.datetime.today().strftime('%Y-%m-%d')
 
 for country in data.columns:
     countryData = pd.DataFrame(pd.np.empty((0, 4)))
+    confirmed = 0
+    deaths = 0
+    recovered = 0
     for dataPoint in data[country]:
         date = dataPoint['date']
         if(dataPoint['confirmed']>confirmed):
