@@ -22,9 +22,12 @@ for country in data.columns:
     countryData = pd.DataFrame(pd.np.empty((0, 4)))
     for dataPoint in data[country]:
         date = dataPoint['date']
-        confirmed = dataPoint['confirmed']
-        deaths = dataPoint['deaths']
-        recovered = dataPoint['recovered']
+        if(dataPoint['confirmed']>confirmed):
+            confirmed = dataPoint['confirmed']
+        if(dataPoint['deaths']>deaths):
+            deaths = dataPoint['deaths']
+        if(dataPoint['recovered']>recovered):
+            recovered = dataPoint['recovered']
         countryData = countryData.append(pd.Series([date, confirmed, recovered, deaths]),ignore_index=True)
         
     
