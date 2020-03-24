@@ -1,5 +1,5 @@
 ---
-title: 'Coronavirus Cases, Deaths, and Recoveries by Conutry'
+title: 'Coronavirus Cases, Deaths, and Recoveries by Country'
 date: 2020-03-22
 author: Nick McCullum
 layout: post
