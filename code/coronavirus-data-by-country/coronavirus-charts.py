@@ -31,7 +31,7 @@ for country in data.columns:
             deaths = dataPoint['deaths']
         if(dataPoint['recovered']>recovered):
             recovered = dataPoint['recovered']
-        countryData = countryData.append(pd.Series([date, confirmed, recovered, deaths]),ignore_index=True)
+        countryData = countryData.append(pd.Series([date, confirmed, deaths, recovered]),ignore_index=True)
         
     
     countryData.columns = ['Date', 'Confirmed Cases','Confirmed Deaths','Confirmed Recoveries']
