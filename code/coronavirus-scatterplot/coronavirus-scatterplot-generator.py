@@ -16,3 +16,6 @@ countries = ['China',
 populationData = pd.read_json('https://raw.githubusercontent.com/samayo/country-json/master/src/country-by-population.json')
 
 finalData = pd.DataFrame(pd.np.empty((0, 2)))
+
+for country in countries:
+  for dataPoint in populationData:
