@@ -59,7 +59,7 @@ I’ve created [a GitHub repository to accompany this blog post](https://github.
 
 If you’re not a GitHub user (you should be), I have also embedded the profiler.py file below:
 
-&lt;script src="[https://gist.github.com/nicholasmccullum/69fddc5ba907577a59316944f457e188.js](https://gist.github.com/nicholasmccullum/69fddc5ba907577a59316944f457e188.js)">&lt;/script>
+<script src="https://gist.github.com/nicholasmccullum/69fddc5ba907577a59316944f457e188.js"></script>
 
 Open up some sort of Python environment (like a Jupyer Notebook, vim, or VS Code) and open the profiler.py file. 
 
@@ -88,8 +88,7 @@ Within the commented block, replace it with the code you’d like to profile. Fo
 
 The entire program we’re profiling is only 13 lines long. I have embedded it below.
 
-&lt;script src="https://gist.github.com/nicholasmccullum/8630f0839d4fc590e18e6cdbee54d018.js">&lt;/script>
-
+<script src="https://gist.github.com/nicholasmccullum/8630f0839d4fc590e18e6cdbee54d018.js"></script>
 
 ## Step 4: Run the Profiler
 
