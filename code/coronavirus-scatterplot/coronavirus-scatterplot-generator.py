@@ -14,3 +14,5 @@ countries = ['China',
              'Mexico']
 
 populationData = pd.read_json('https://raw.githubusercontent.com/samayo/country-json/master/src/country-by-population.json')
+
+finalData = pd.DataFrame()
