@@ -3,7 +3,7 @@ title: 'How to Profile Python Code: Accurately Measure the Performance of your S
 date: 2020-03-24
 author: Nick McCullum
 layout: post
-description: As software engineers, we are paid to create high-quality code that performs. In this article, I’ll show you how to measure the speed of Python code using a process called “profiling”.
+excerpt_separator: <!--more-->
 permalink: /how-to-profile-python-code/
 ---
 
@@ -12,7 +12,7 @@ As software engineers, we are paid to create high-quality code that performs.
 Performance can be measured in a number of ways: the problems it solves, its uptime, or a slew of quantitative metrics.
 
 Speed is unquestionably an important component of software performance. In this article, I’ll show you how to measure the speed of Python code using a process called “profiling”, step-by-step.
-
+ <!--more-->
 
 ## What is Profiling?
 
