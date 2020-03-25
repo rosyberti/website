@@ -116,7 +116,21 @@ Within the commented block, replace it with the code you’d like to profile. Fo
 
 The entire program we’re profiling is only 13 lines long. I have embedded it below.
 
-<script src="https://gist.github.com/nicholasmccullum/8630f0839d4fc590e18e6cdbee54d018.js"></script>
+```python
+import numpy as np
+import pandas as pd
+
+populationData = pd.read_json('https://raw.githubusercontent.com/samayo/country-json/master/src/country-by-population.json')
+stringDataFrame = pd.DataFrame(pd.np.empty((0,1)))
+for index, row in populationData.iterrows():
+    stringDataFrame.append(pd.Series(row[0] + ' has population ' + str(row[1])),ignore_index = True)
+
+i=0
+while i < 10**8:
+    i+=1
+
+print('The code is done!')
+```
 
 ## Step 4: Run the Profiler
 
