@@ -68,7 +68,7 @@ Open up some sort of Python environment (like a Jupyter Notebook, vim, or VS Cod
 
 In the profiler.py file, you’ll see the following code block:
 
-```
+```python
 
 @profile
 
@@ -108,7 +108,7 @@ To be clear, tottime and cumtime are indeed different. Here is the best explanat
 
 From time to time when profiling code, you may also see something like this:
 
-```
+```python
 
 CPU times: user 2 µs, sys: 0 ns, total: 2 µs
 
