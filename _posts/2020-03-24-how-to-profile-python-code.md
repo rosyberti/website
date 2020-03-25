@@ -59,7 +59,35 @@ I’ve created [a GitHub repository to accompany this blog post](https://github.
 
 If you’re not a GitHub user (you should be), I have also embedded the profiler.py file below:
 
-<script src="https://gist.github.com/nicholasmccullum/69fddc5ba907577a59316944f457e188.js"></script>
+```python
+import cProfile, pstats, io
+
+def profile(fnc):
+    
+    def inner(*args, **kwargs):
+        
+        pr = cProfile.Profile()
+        pr.enable()
+        retval = fnc(*args, **kwargs)
+        pr.disable()
+        s = io.StringIO()
+        sortby = 'cumulative'
+        ps = pstats.Stats(pr, stream=s).sort_stats(sortby)
+        ps.print_stats()
+        print(s.getvalue())
+        return retval
+
+    return inner
+
+@profile
+def code_to_profile():    
+    ###################################
+    # Insert code to be profiled here
+    ###################################
+    pass
+    
+%time datafeeds_builder()
+```
 
 Open up some sort of Python environment (like a Jupyter Notebook, vim, or VS Code) and open the profiler.py file. 
 
