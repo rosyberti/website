@@ -13,7 +13,7 @@ finalData = pd.DataFrame(pd.np.empty((0, 5)))
 #Drawdown calculation
 #############################################################################################
 countryETFs = {
-              'United States': 'SPY',
+              'US': 'SPY',
               'China': 'MCHI', 
               'Japan': 'EWJ',
               'Germany': 'EWG',
@@ -26,7 +26,7 @@ countryETFs = {
               }
 
 countryDrawdowns = {
-              'United States': 0.00,
+              'US': 0.00,
               'China': 0.00,
               'Japan': 0.00,
               'Germany': 0.00,
@@ -57,7 +57,7 @@ for country in list(countryETFs.keys()):
 #Coronavirus cases
 #############################################################################################
 coronavirusCases = {
-              'United States': 0.00,
+              'US': 0.00,
               'China': 0.00,
               'Japan': 0.00,
               'Germany': 0.00,
@@ -79,7 +79,7 @@ for country in list(coronavirusCases.keys()):
 #Coronavirus Deaths
 #############################################################################################
 coronavirusDeaths = {
-              'United States': 0.00,
+              'US': 0.00,
               'China': 0.00,
               'Japan': 0.00,
               'Germany': 0.00,
@@ -98,7 +98,7 @@ for country in list(coronavirusDeaths.keys()):
 #Country populations
 #############################################################################################
 countryPopulations = {
-              'United States': 0.00,
+              'US': 0.00,
               'China': 0.00,
               'Japan': 0.00,
               'Germany': 0.00,
