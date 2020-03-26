@@ -81,6 +81,7 @@ coronavirusCases = {
 
 coronavirusData = pd.read_json('https://raw.githubusercontent.com/pomber/covid19/master/docs/timeseries.json')
 updateDate = datetime.datetime.today().strftime('%Y-%m-%d')
+yesterday = datetime.datetime.strftime(datetime.datetime.now() - datetime.timedelta(1), '%Y-%-m-%-d')
 
 for country in list(coronavirusCases.keys()):
   coronavirusCases[country] = coronavirusData[country][updateDate]['confirmed']
