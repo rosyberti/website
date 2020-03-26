@@ -7,6 +7,11 @@ import json
 import datetime
 from datetime import date
 
+finalData = pd.DataFrame(pd.np.empty((0, 5)))
+
+#############################################################################################
+#Drawdown calculation
+#############################################################################################
 countryETFs = {
               'United States': 'SPY',
               'China': 'MCHI', 
@@ -20,11 +25,6 @@ countryETFs = {
               'Canada': 'EWC'
               }
 
-finalData = pd.DataFrame(pd.np.empty((0, 5)))
-
-#############################################################################################
-#Drawdown calculation
-#############################################################################################
 countryDrawdowns = {
               'United States': 0.00,
               'China': 0.00,
