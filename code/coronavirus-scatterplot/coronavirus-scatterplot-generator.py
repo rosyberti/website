@@ -92,7 +92,7 @@ coronavirusDeaths = {
               }
 
 for country in list(countryETFs.keys()):
-  pass
+  coronavirusCases[country][updateDate]['confirmed']
 
 #############################################################################################
 #Country populations
