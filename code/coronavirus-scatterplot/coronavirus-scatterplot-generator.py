@@ -197,3 +197,33 @@ plt.savefig('Cases.png')
 #############################################################################################
 #Plot (DEATHS)
 #############################################################################################
+y = finalData['Drawdown']
+x1 = finalData['Cases per Capita']*10000
+x2 = finalData['Deaths per Capita']*10000
+z = finalData.index
+plt.clf()
+plt.figure(figsize=(14,6))
+plt.scatter(x2, y)
+ax = plt.gca()
+ax.yaxis.set_major_formatter(PercentFormatter(1))
+for x,y,z in zip(x2,y,z):
+
+    label = z
+    if(z=='Canada' or z=='France'):
+        plt.annotate(label, # this is the text
+                     (x,y), # this is the point to label
+                     textcoords="offset points", # how to position the text
+                     xytext=(0,10), # distance from text to points (x,y)
+                     ha='center') # horizontal alignment can be left, right or center
+    else:
+        plt.annotate(label, # this is the text
+                     (x,y), # this is the point to label
+                     textcoords="offset points", # how to position the text
+                     xytext=(0,10), # distance from text to points (x,y)
+                     ha='left') # horizontal alignment can be left, right or center
+    
+plt.title('Stock market reactions to coronavirus deaths')
+plt.ylabel('Stock market drawdown')
+plt.xlabel('Coronavirus deaths per 10000')
+
+plt.savefig('Deaths.png')
