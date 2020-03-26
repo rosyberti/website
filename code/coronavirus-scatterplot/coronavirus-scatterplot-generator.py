@@ -109,7 +109,12 @@ coronavirusDeaths = {
               }
 
 for country in list(coronavirusDeaths.keys()):
-  coronavirusCases[country][updateDate]['confirmed']
+    try:
+        i = find(coronavirusData[country],'date',updateDate)
+        coronavirusDeaths[country] = coronavirusData[country][i]['deaths']
+    except:
+        i = find(coronavirusData[country],'date',yesterday)
+        coronavirusDeaths[country] = coronavirusData[country][i]['deaths']
 
 #############################################################################################
 #Country populations
