@@ -144,8 +144,13 @@ for country in list(countryPopulations.keys()):
 #Creation of the finalized DataFrame
 #############################################################################################
 for country in list(countryETFs.keys()):
-#     finalData = finalData.append(pd.Series[country,countryDrawdowns[country],CoronaCases[country],coronaDeaths[country],populationData[country]], ignore_index=True)
-    pass
+    finalData = finalData.append(pd.Series([
+                                            country,
+                                            countryDrawdowns[country],
+                                            coronavirusCases[country],
+                                            coronavirusDeaths[country],
+                                            countryPopulations[country]]), 
+                                                                            ignore_index=True)
 #############################################################################################
 #Plot
 #############################################################################################
