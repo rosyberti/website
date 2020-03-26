@@ -135,7 +135,10 @@ countryPopulations = {
 populationDict = pd.read_json('https://raw.githubusercontent.com/samayo/country-json/master/src/country-by-population.json').set_index('country').to_dict()['population']
 
 for country in list(countryPopulations.keys()):
-  countryPopulations[country] = populationDict[country]
+    if(country == 'US'):
+        countryPopulations[country] = populationDict['United States']
+    else:
+        countryPopulations[country] = populationDict[country]
 
 #############################################################################################
 #Creation of the finalized DataFrame
