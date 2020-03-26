@@ -6,6 +6,7 @@ import requests
 import json
 import datetime
 from datetime import date
+from matplotlib.ticker import PercentFormatter
 
 finalData = pd.DataFrame(pd.np.empty((0, 5)))
 
@@ -162,8 +163,6 @@ finalData['Deaths per Capita'] = finalData['Coronavirus Deaths']/finalData['Popu
 #############################################################################################
 #Plot (CASES)
 #############################################################################################
-from matplotlib.ticker import PercentFormatter
-
 finalData['Cases per Capita'] = finalData['Coronavirus Cases']/finalData['Population']
 finalData['Deaths per Capita'] = finalData['Coronavirus Deaths']/finalData['Population']
 
