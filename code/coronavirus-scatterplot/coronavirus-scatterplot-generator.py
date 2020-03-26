@@ -35,4 +35,4 @@ populationData = pd.read_json('https://raw.githubusercontent.com/samayo/country-
 finalData = pd.DataFrame(pd.np.empty((0, 5)))
 
 for country in list(countryETFs.keys()):
-    print(country)
+    finalData = finalData.append(pd.Series[country,drawdown,CoronaCases[country],coronaDeaths[country],populationData[country]], ignore_index=True)
