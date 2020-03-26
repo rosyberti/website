@@ -2,8 +2,6 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-IEXCloudToken = 'pk_dd4acf3b93b840f2878acef207ffd8cc'
-
 countryETFs = {
               'United States': 'SPY',
               'China': 'MCHI', 
