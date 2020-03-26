@@ -37,7 +37,7 @@ countryDrawdowns = {
               }
 
 for country in list(countryETFs.keys()):
-  b = countryETFs['United States']
+  b = country
   tgt_website = r'https://sg.finance.yahoo.com/quote/'+b+'/key-statistics?p='+b
   stock_company = f"https://finance.yahoo.com/quote/{b}"
   soup = BeautifulSoup(requests.get(stock_company).text, "html.parser")
