@@ -85,7 +85,13 @@ updateDateNoZeros = datetime.datetime.today().strftime('%Y-%-m-%-d')
 yesterday = datetime.datetime.strftime(datetime.datetime.now() - datetime.timedelta(1), '%Y-%-m-%-d')
 
 for country in list(coronavirusCases.keys()):
-  coronavirusCases[country] = coronavirusData[country][updateDate]['confirmed']
+    print(country)
+    try:
+        i = find(coronavirusData[country],'date',updateDate)
+        coronavirusCases[country] = coronavirusData[country][i]['confirmed']
+    except:
+        i = find(coronavirusData[country],'date',yesterday)
+        coronavirusCases[country] = coronavirusData[country][i]['confirmed']
 
 #############################################################################################
 #Coronavirus Deaths
