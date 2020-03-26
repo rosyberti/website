@@ -152,7 +152,9 @@ for country in list(countryETFs.keys()):
                                             countryPopulations[country]]), 
                                                                             ignore_index=True)
 
-finalData.set_index(0, inplace = True)
+finalData.columns=['Country','Drawdown','Coronavirus Cases','Coronavirus Deaths','Population']
+
+finalData.set_index('Country', inplace = True)
 
 #############################################################################################
 #Plot
