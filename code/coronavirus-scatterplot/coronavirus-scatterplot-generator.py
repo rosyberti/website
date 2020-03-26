@@ -110,7 +110,7 @@ countryPopulations = {
               'Canada': 0.00,
               }
 
-populationData = pd.read_json('https://raw.githubusercontent.com/samayo/country-json/master/src/country-by-population.json')
+populationDict = pd.read_json('https://raw.githubusercontent.com/samayo/country-json/master/src/country-by-population.json').set_index('country').to_dict()['population']
 
 for country in list(countryETFs.keys()):
   pass
