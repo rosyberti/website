@@ -21,7 +21,9 @@ populationData = pd.read_json('https://raw.githubusercontent.com/samayo/country-
 
 finalData = pd.DataFrame(pd.np.empty((0, 5)))
 
-#Drawdown Calculation
+#############################################################################################
+#Drawdown calculation
+#############################################################################################
 countryDrawdowns = {
               'United States': 0.00,
               'China': 0.00,
@@ -38,18 +40,30 @@ countryDrawdowns = {
 for country in list(countryETFs.keys()):
   pass
 
-#Corona Cases
+#############################################################################################
+#Coronavirus cases
+#############################################################################################
 for country in list(countryETFs.keys()):
   pass
 
-#Corona Deaths
+#############################################################################################
+#Coronavirus Deaths
+#############################################################################################
 for country in list(countryETFs.keys()):
   pass
 
-#Population
+#############################################################################################
+#Country populations
+#############################################################################################
 for country in list(countryETFs.keys()):
   pass
 
-#Creation of the DataFrame
+#############################################################################################
+#Creation of the finalized DataFrame
+#############################################################################################
 for country in list(countryETFs.keys()):
     finalData = finalData.append(pd.Series[country,countryDrawdowns[country],CoronaCases[country],coronaDeaths[country],populationData[country]], ignore_index=True)
+    
+#############################################################################################
+#Plot
+#############################################################################################
