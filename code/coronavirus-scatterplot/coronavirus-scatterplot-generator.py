@@ -4,6 +4,8 @@ import matplotlib.pyplot as plt
 from bs4 import BeautifulSoup
 import requests
 import json
+import datetime
+from datetime import date
 
 countryETFs = {
               'United States': 'SPY',
