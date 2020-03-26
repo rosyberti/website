@@ -29,8 +29,8 @@ for country in data.columns:
             confirmed = dataPoint['confirmed']
         if(dataPoint['deaths']>deaths):
             deaths = dataPoint['deaths']
-        if(dataPoint['recovered']>recovered):
-            recovered = dataPoint['recovered']
+#         if(dataPoint['recovered']>recovered):
+#             recovered = dataPoint['recovered']
         countryData = countryData.append(pd.Series([date, confirmed, deaths, recovered]),ignore_index=True)
         
     
@@ -45,12 +45,12 @@ for country in data.columns:
     plot2.set_title(country + ' Coronavirus Deaths, Updated ' + updateDate + ', Current Level: ' + str(deaths), fontsize=22)
     plt.savefig("output_files/"+country+' Deaths.png')
 
-    plot3 = countryData.plot(kind='line',x='Date',y='Confirmed Recoveries',color='#135485', figsize=(15,6))
-    plot3.set_title(country + ' Coronavirus Recoveries, Updated ' + updateDate + ', Current Level: ' + str(recovered), fontsize=22)
-    plt.savefig("output_files/"+country+' Recoveries.png')
+#     plot3 = countryData.plot(kind='line',x='Date',y='Confirmed Recoveries',color='#135485', figsize=(15,6))
+#     plot3.set_title(country + ' Coronavirus Recoveries, Updated ' + updateDate + ', Current Level: ' + str(recovered), fontsize=22)
+#     plt.savefig("output_files/"+country+' Recoveries.png')
 
     #delete and re-upload each file
 
     s3.meta.client.upload_file("output_files/"+country+' Cases.png', 'coronavirus-country-charts', country+' Cases.png', ExtraArgs={'ACL':'public-read'})
     s3.meta.client.upload_file("output_files/"+country+' Deaths.png', 'coronavirus-country-charts', country+' Deaths.png', ExtraArgs={'ACL':'public-read'})
-    s3.meta.client.upload_file("output_files/"+country+' Recoveries.png', 'coronavirus-country-charts', country+' Recoveries.png', ExtraArgs={'ACL':'public-read'})
+#     s3.meta.client.upload_file("output_files/"+country+' Recoveries.png', 'coronavirus-country-charts', country+' Recoveries.png', ExtraArgs={'ACL':'public-read'})
