@@ -6,7 +6,7 @@ layout: post
 permalink: /coronavirus-data-by-country/
 ---
 
-The coronavirus pandemic continues to worsen. It is more important than ever to make decisions based on data, not fear or panic. On this page you can find up-to-date statistics on coronavirus cases, deaths, and recoveries by country (updated daily).
+The coronavirus pandemic continues to worsen. It is more important than ever to make decisions based on data, not fear or panic. On this page you can find up-to-date statistics on coronavirus cases and deaths by country (updated daily).
 
 ## A Few Notes
 
@@ -20,6 +20,8 @@ This page is a work in progress. A few things on my to-do list:
 Also, I should give credit where credit is due. The data on this page has been made available through the interactive coronavirus map provided by [Johns Hopkins University](https://coronavirus.jhu.edu/map.html). The data has been compiled into an easy-to-use JSON file by [Rodrigo Pombo](https://github.com/pomber) in this [GitHub repository](https://github.com/pomber/covid19).
 
 If you have feedback on this resource, please [email me](mailto:nicholasmccullum@gmail.com).
+
+**Note:** This blog post previously had a third chart for 'recoveries', but I have removed them because the data is not longer supported in muy data source.
 
 ## Afghanistan
 
