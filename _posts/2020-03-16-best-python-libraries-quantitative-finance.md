@@ -3,7 +3,7 @@ title: 'The 5 Best Python Libraries for Quantiative Finance'
 date: 2020-03-16
 author: Nick McCullum
 layout: post
-permalink: /best-python-libraries-quantiative-finance/
+permalink: /best-python-libraries-quantitative-finance/
 ---
 
 Python is arguably the most widely-used programming language in the world of quantitative finance. Investors, asset managers, and investment bankers use Python for tasks ranging from security selection to portfolio rebalancing to high-frequency trading.
