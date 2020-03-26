@@ -163,9 +163,6 @@ finalData['Deaths per Capita'] = finalData['Coronavirus Deaths']/finalData['Popu
 #############################################################################################
 #Plot (CASES)
 #############################################################################################
-finalData['Cases per Capita'] = finalData['Coronavirus Cases']/finalData['Population']
-finalData['Deaths per Capita'] = finalData['Coronavirus Deaths']/finalData['Population']
-
 y = finalData['Drawdown']
 x1 = finalData['Cases per Capita']*10000
 x2 = finalData['Deaths per Capita']
