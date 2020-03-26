@@ -156,6 +156,9 @@ finalData.columns=['Country','Drawdown','Coronavirus Cases','Coronavirus Deaths'
 
 finalData.set_index('Country', inplace = True)
 
+finalData['Cases per Capita'] = finalData['Coronavirus Cases']/finalData['Population']
+finalData['Deaths per Capita'] = finalData['Coronavirus Deaths']/finalData['Population']
+
 #############################################################################################
 #Plot
 #############################################################################################
