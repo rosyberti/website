@@ -91,7 +91,7 @@ coronavirusDeaths = {
               'Canada': 0.00,
               }
 
-for country in list(countryETFs.keys()):
+for country in list(coronavirusDeaths.keys()):
   coronavirusCases[country][updateDate]['confirmed']
 
 #############################################################################################
@@ -112,7 +112,7 @@ countryPopulations = {
 
 populationDict = pd.read_json('https://raw.githubusercontent.com/samayo/country-json/master/src/country-by-population.json').set_index('country').to_dict()['population']
 
-for country in list(countryETFs.keys()):
+for country in list(countryPopulations.keys()):
   pass
 
 #############################################################################################
