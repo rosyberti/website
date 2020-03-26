@@ -196,6 +196,8 @@ plt.title('Stock market reactions to coronavirus cases')
 plt.ylabel('Stock market drawdown')
 plt.xlabel('Coronavirus cases per 10000')
 
+plt.savefig('Cases.png')
+
 #############################################################################################
 #Plot (DEATHS)
 #############################################################################################
