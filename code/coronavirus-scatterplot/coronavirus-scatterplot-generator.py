@@ -19,5 +19,5 @@ populationData = pd.read_json('https://raw.githubusercontent.com/samayo/country-
 
 finalData = pd.DataFrame(pd.np.empty((0, 5)))
 
-for country in countries:
-  for dataPoint in populationData:
+for country in list(countryETFs.keys()):
+    print(country)
