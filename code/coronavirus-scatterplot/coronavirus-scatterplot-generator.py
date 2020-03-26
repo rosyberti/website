@@ -167,28 +167,34 @@ from matplotlib.ticker import PercentFormatter
 finalData['Cases per Capita'] = finalData['Coronavirus Cases']/finalData['Population']
 finalData['Deaths per Capita'] = finalData['Coronavirus Deaths']/finalData['Population']
 
-x = finalData['Drawdown']
-y1 = finalData['Cases per Capita']*10000
-y2 = finalData['Deaths per Capita']
+y = finalData['Drawdown']
+x1 = finalData['Cases per Capita']*10000
+x2 = finalData['Deaths per Capita']
 z = finalData.index
 plt.clf()
-plt.figure(figsize=(8,10))
-plt.scatter(x, y1)
+plt.figure(figsize=(14,6))
+plt.scatter(x1, y)
 ax = plt.gca()
-ax.xaxis.set_major_formatter(PercentFormatter(1))
-for x,y,z in zip(x,y1,z):
+ax.yaxis.set_major_formatter(PercentFormatter(1))
+for x,y,z in zip(x1,y,z):
 
     label = z
-
-    plt.annotate(label, # this is the text
-                 (x,y), # this is the point to label
-                 textcoords="offset points", # how to position the text
-                 xytext=(0,10), # distance from text to points (x,y)
-                 ha='center') # horizontal alignment can be left, right or center
+    if(z=='Canada' or z=='France'):
+        plt.annotate(label, # this is the text
+                     (x,y), # this is the point to label
+                     textcoords="offset points", # how to position the text
+                     xytext=(0,10), # distance from text to points (x,y)
+                     ha='center') # horizontal alignment can be left, right or center
+    else:
+        plt.annotate(label, # this is the text
+                     (x,y), # this is the point to label
+                     textcoords="offset points", # how to position the text
+                     xytext=(0,10), # distance from text to points (x,y)
+                     ha='left') # horizontal alignment can be left, right or center
     
 plt.title('Stock market reactions to coronavirus cases')
-plt.xlabel('Stock market drawdown')
-plt.ylabel('Coronavirus cases per 10000')
+plt.ylabel('Stock market drawdown')
+plt.xlabel('Coronavirus cases per 10000')
 
 #############################################################################################
 #Plot (DEATHS)
