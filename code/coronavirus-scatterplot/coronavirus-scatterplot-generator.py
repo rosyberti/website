@@ -97,6 +97,19 @@ for country in list(countryETFs.keys()):
 #############################################################################################
 #Country populations
 #############################################################################################
+countryPopulations = {
+              'United States': 0.00,
+              'China': 0.00,
+              'Japan': 0.00,
+              'Germany': 0.00,
+              'India': 0.00,
+              'United Kingdom': 0.00,
+              'France': 0.00,
+              'Italy': 0.00,
+              'Brazil': 0.00,
+              'Canada': 0.00,
+              }
+
 populationData = pd.read_json('https://raw.githubusercontent.com/samayo/country-json/master/src/country-by-population.json')
 
 for country in list(countryETFs.keys()):
