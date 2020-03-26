@@ -5,8 +5,12 @@ import numpy as np
 import boto3
 import smtplib
 import matplotlib.pyplot as plt
+import os
 
-
+try:
+    os.mkdir('output_files')
+except:
+    pass
 
 data = pd.read_json('https://raw.githubusercontent.com/pomber/covid19/master/docs/timeseries.json')
 
