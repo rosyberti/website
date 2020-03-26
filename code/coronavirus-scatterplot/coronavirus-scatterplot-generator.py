@@ -1,8 +1,9 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-import requests from bs4 
-import BeautifulSoup import csv
+from bs4 import BeautifulSoup
+import requests
+import json
 
 countryETFs = {
               'United States': 'SPY',
