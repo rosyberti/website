@@ -57,6 +57,7 @@ for country in list(countryETFs.keys()):
 #Coronavirus cases
 #############################################################################################
 coronavirusData = pd.read_json('https://raw.githubusercontent.com/pomber/covid19/master/docs/timeseries.json')
+updateDate = datetime.datetime.today().strftime('%Y-%m-%d')
 
 for country in list(countryETFs.keys()):
   pass
