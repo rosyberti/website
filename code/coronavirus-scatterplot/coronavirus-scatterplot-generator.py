@@ -44,4 +44,4 @@ finalData = pd.DataFrame(pd.np.empty((0, 5)))
 
 #Creation of the DataFrame
 for country in list(countryETFs.keys()):
-    finalData = finalData.append(pd.Series[country,drawdown,CoronaCases[country],coronaDeaths[country],populationData[country]], ignore_index=True)
+    finalData = finalData.append(pd.Series[country,countryDrawdowns[country],CoronaCases[country],coronaDeaths[country],populationData[country]], ignore_index=True)
