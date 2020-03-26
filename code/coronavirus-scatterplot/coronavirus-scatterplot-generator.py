@@ -56,6 +56,19 @@ for country in list(countryETFs.keys()):
 #############################################################################################
 #Coronavirus cases
 #############################################################################################
+coronavirusCases = {
+              'United States': 0.00,
+              'China': 0.00,
+              'Japan': 0.00,
+              'Germany': 0.00,
+              'India': 0.00,
+              'United Kingdom': 0.00,
+              'France': 0.00,
+              'Italy': 0.00,
+              'Brazil': 0.00,
+              'Canada': 0.00,
+              }
+
 coronavirusData = pd.read_json('https://raw.githubusercontent.com/pomber/covid19/master/docs/timeseries.json')
 updateDate = datetime.datetime.today().strftime('%Y-%m-%d')
 
@@ -65,6 +78,19 @@ for country in list(countryETFs.keys()):
 #############################################################################################
 #Coronavirus Deaths
 #############################################################################################
+coronavirusDeaths = {
+              'United States': 0.00,
+              'China': 0.00,
+              'Japan': 0.00,
+              'Germany': 0.00,
+              'India': 0.00,
+              'United Kingdom': 0.00,
+              'France': 0.00,
+              'Italy': 0.00,
+              'Brazil': 0.00,
+              'Canada': 0.00,
+              }
+
 for country in list(countryETFs.keys()):
   pass
 
