@@ -161,12 +161,16 @@ finalData['Cases per Capita'] = finalData['Coronavirus Cases']/finalData['Popula
 finalData['Deaths per Capita'] = finalData['Coronavirus Deaths']/finalData['Population']
 
 #############################################################################################
-#Plot (CASES)
+#Define axis variables for plotting
 #############################################################################################
 y = finalData['Drawdown']
 x1 = finalData['Cases per Capita']*10000
 x2 = finalData['Deaths per Capita']
 z = finalData.index
+
+#############################################################################################
+#Plot (CASES)
+#############################################################################################
 plt.clf()
 plt.figure(figsize=(14,6))
 plt.scatter(x1, y)
@@ -197,10 +201,6 @@ plt.savefig('Cases.png')
 #############################################################################################
 #Plot (DEATHS)
 #############################################################################################
-y = finalData['Drawdown']
-x1 = finalData['Cases per Capita']*10000
-x2 = finalData['Deaths per Capita']*10000
-z = finalData.index
 plt.clf()
 plt.figure(figsize=(14,6))
 plt.scatter(x2, y)
