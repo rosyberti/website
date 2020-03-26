@@ -10,4 +10,4 @@ for country in data.columns:
 
 !["""+country+""" Coronavirus Cases](https://coronavirus-country-charts.s3.ca-central-1.amazonaws.com/"""+country+"""+Cases.png)
 
-!["""+country+""" Coronavirus Deaths](https://coronavirus-country-charts.s3.ca-central-1.amazonaws.com/"""+country+"""+Deaths.png)
+!["""+country+""" Coronavirus Deaths](https://coronavirus-country-charts.s3.ca-central-1.amazonaws.com/"""+country+"""+Deaths.png)""")
