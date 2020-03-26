@@ -17,7 +17,12 @@ countryETFs = {
               'Canada': 'EWC'
               }
 
-countryDeclines = {
+populationData = pd.read_json('https://raw.githubusercontent.com/samayo/country-json/master/src/country-by-population.json')
+
+finalData = pd.DataFrame(pd.np.empty((0, 5)))
+
+#Drawdown Calculation
+countryDrawdowns = {
               'United States': 0.00,
               'China': 0.00,
               'Japan': 0.00,
@@ -30,11 +35,6 @@ countryDeclines = {
               'Canada': 0.00,
               }
 
-populationData = pd.read_json('https://raw.githubusercontent.com/samayo/country-json/master/src/country-by-population.json')
-
-finalData = pd.DataFrame(pd.np.empty((0, 5)))
-
-#Drawdown Calculation
 for country in list(countryETFs.keys()):
   pass
 
