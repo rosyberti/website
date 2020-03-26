@@ -72,8 +72,8 @@ coronavirusCases = {
 coronavirusData = pd.read_json('https://raw.githubusercontent.com/pomber/covid19/master/docs/timeseries.json')
 updateDate = datetime.datetime.today().strftime('%Y-%m-%d')
 
-for country in list(countryETFs.keys()):
-  pass
+for country in list(coronavirusCases.keys()):
+  coronavirusCases[country][updateDate]['confirmed']
 
 #############################################################################################
 #Coronavirus Deaths
