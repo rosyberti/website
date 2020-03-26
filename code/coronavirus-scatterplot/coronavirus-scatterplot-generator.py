@@ -73,7 +73,7 @@ coronavirusData = pd.read_json('https://raw.githubusercontent.com/pomber/covid19
 updateDate = datetime.datetime.today().strftime('%Y-%m-%d')
 
 for country in list(coronavirusCases.keys()):
-  coronavirusCases[country][updateDate]['confirmed']
+  coronavirusCases[country] = coronavirusData[country][updateDate]['confirmed']
 
 #############################################################################################
 #Coronavirus Deaths
