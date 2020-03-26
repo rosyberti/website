@@ -41,7 +41,7 @@ for country in list(countryETFs.keys()):
   tgt_website = r'https://sg.finance.yahoo.com/quote/'+b+'/key-statistics?p='+b
   stock_company = f"https://finance.yahoo.com/quote/{b}"
   soup = BeautifulSoup(requests.get(stock_company).text, "html.parser")
-  ticker_data_url = f"https://query1.finance.yahoo.com//v8/finance/chart/SPY?symbol={b}&period1=1546300800&period2=9999999999&interval=1d"
+  ticker_data_url = f"https://query1.finance.yahoo.com/v8/finance/chart/{b}?symbol={b}&period1=1546300800&period2=9999999999&interval=1d"
   ticker_data = json.loads(requests.get(ticker_data_url).text)
   closingPrices = pd.Series(ticker_data['chart']['result'][0]['indicators']['quote'][0]['close'])
 
