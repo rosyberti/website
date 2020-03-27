@@ -29,7 +29,7 @@ This means that the entire line that starts with ‘#’ will not be executed by
 
 ### Multi-Line Comments in Python
 
-Multi-line comments in Python are initiated and completed using three double-quotes:
+Multi-line comments in Python are initiated and completed using three quotes (can be single or double quotes):
 
 ```python
 
@@ -64,13 +64,13 @@ Multi-line comments are often used at the beginning of function declarations to 
 def my_function(name):
 
 
-    “””
+    '''
 
 
     This function prints the name passed in as an argument.
 
 
-    “””
+    '''
 
 
     print(name)
