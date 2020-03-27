@@ -8,6 +8,19 @@ permalink: /python-course/
 
 This course will set you on a path towards becoming an expert in Python and SQL programming. You can jump to any of the course lessons below:
 
+* The Anaconda Distribution and the Jupyter Notebook
+* [Python Comments, Operations, and Variables](https://nickmccullum.com/python-course/python-comments-operations-variables/)
+* Strings, Concatenation, and Interpolation in Python
+* Data Structures
+* Logical Operators and If Statements
+* Loops
+* Functions
+* Modules and the Math Package
+* The NumPy Module
+* The Pandas Module
+* Git and GitHub
+* The Basics of SQL
+
 Additional details about the instructor and this course are listed below.
 
 ## About Me
