@@ -113,7 +113,7 @@ Strings are very different from normal Python code because whitespace matters. B
 
 ```python
 
-string1 = "this is a string'
+string1 = "this is a string"
 
 string2 = "this  is  a  string"
 
