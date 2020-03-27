@@ -27,7 +27,7 @@ yetAnotherString = ‘This is another string!!! Yeehaw!’
 
 ## Single-Quotes vs. Double-Quotes
 
-Single-quotes and double-quotes serve _exactly_the same purpose in Python. The only caveat is you must be consistent: single-quotes can only be used with single-quotes and double-quotes can only be used with double-quotes. 
+Single-quotes and double-quotes serve _exactly_ the same purpose in Python. The only caveat is you must be consistent: single-quotes can only be used with single-quotes and double-quotes can only be used with double-quotes. 
 
 Said another way, you can’t do this:
 
@@ -198,7 +198,7 @@ lastName = ‘McCullum’
 
 I would not recommend this method in general because it is considered to be a poor practice among the Python community, since the code is a bit harder to read. 
 
-To be clear, the example I provided wasn’t _impossible_to read, but the readability of chained concatenation gets worse and worse the more variables you have. It also becomes harder to read if there are any ‘+’ characters in the strings themselves.
+To be clear, the example I provided wasn’t _impossible_ to read, but the readability of chained concatenation gets worse and worse the more variables you have. It also becomes harder to read if there are any ‘+’ characters in the strings themselves.
 
 The next section introduces a better alternative.
 
