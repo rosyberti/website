@@ -33,7 +33,7 @@ Multi-line comments in Python are initiated and completed using three double-quo
 
 ```python
 
-“””
+'''
 
 This
 
@@ -51,7 +51,7 @@ in
 
 Python
 
-“””
+'''
 
 ```
 
