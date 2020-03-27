@@ -1,3 +1,7 @@
+---
+layout: page
+title: How to Install Anaconda and Launch a Jupyter Notebook
+---
 
 Before we can begin this course, you’ll need to download Anaconda.
 
