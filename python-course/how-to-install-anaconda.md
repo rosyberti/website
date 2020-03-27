@@ -33,7 +33,7 @@ With that out of the way, let’s dig in to how to install Anaconda!
 
 The easiest way to do this is by running a Google search for something like “download anaconda python.” I navigated to the first link on this search: 
 
-![Anaconda Google Search](({{ site.baseurl }}../images/python-course/anaconda/anaconda-google-search.png))
+![Anaconda Google Search]({{ site.baseurl }}/images/python-course/anaconda/anaconda-google-search.png)
 
 This brought me to the following page:
 
