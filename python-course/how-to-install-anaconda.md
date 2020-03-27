@@ -37,11 +37,11 @@ The easiest way to do this is by running a Google search for something like “d
 
 This brought me to the following page:
 
-![Anaconda Home Page](({{ site.baseurl }}/images/python-course/anaconda/anaconda-home-page.png))
+![Anaconda Home Page]({{ site.baseurl }}/images/python-course/anaconda/anaconda-home-page.png)
 
 Click the large ‘Download’ button to proceed. This will bring you to a page asking you to select between the Python 3.7 and the Python 2.7 version of Anaconda.
 
-![Anaconda Versions](({{ site.baseurl }}/images/python-course/anaconda/anaconda-versions.png))
+![Anaconda Versions]({{ site.baseurl }}/images/python-course/anaconda/anaconda-versions.png)
 
 Note that these versions may change after this course is published.
 
@@ -53,7 +53,7 @@ With that out of the way, click on the download button below the Python 3.7 Vers
 
 Once the download is complete, navigate to your Downloads folder and click on the .pkg file. You may receive a warning like this:
 
-![Anaconda Warning](({{ site.baseurl }}/images/python-course/anaconda/anaconda-warning.png))
+![Anaconda Warning]({{ site.baseurl }}/images/python-course/anaconda/anaconda-warning.png)
 
 Click ‘continue’ to proceed.
 
@@ -74,14 +74,14 @@ Once Anaconda is installed, you can open your first Jupyter Notebook very easily
 
 1. Open the Anaconda-Navigator application from the folder where you installed it. It will look like this:
 
-![Anaconda Navigator]((({{ site.baseurl }}/images/python-course/anaconda/anaconda-navigator.png)))
+![Anaconda Navigator]({{ site.baseurl }}/images/python-course/anaconda/anaconda-navigator.png)
 
 
 
 2. Click the ‘Launch’ button below the Jupyter Notebook icon.
 3. This triggers two events: first, a terminal window will open to run the backend of the Jupyter Notebook, and a new browser tab will open that actually presents the Jupyter Notebook to the user. The Notebook will look like this:
 
-![Jupyter Notebook Directory](({{ site.baseurl }}/images/python-course/anaconda/jupyter-notebook-directory.png))
+![Jupyter Notebook Directory]({{ site.baseurl }}/images/python-course/anaconda/jupyter-notebook-directory.png)
 
 This isn’t yet a Jupyter Notebook - instead, it is the directory manager through which you navigate folders _to_a Jupyter Notebook.
 
@@ -89,6 +89,6 @@ To open your first Jupyter Notebook, first navigate to the folder that you want 
 
 The resulting Notebook will look like this:
 
- ![Jupyter Notebook](({{ site.baseurl }}/images/python-course/anaconda/jupyter-notebook.png))
+ ![Jupyter Notebook]({{ site.baseurl }}/images/python-course/anaconda/jupyter-notebook.png)
 
 That’s all for this lesson. In the next lesson, we will explore the Jupyter Notebook in more detail.
