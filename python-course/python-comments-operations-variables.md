@@ -111,7 +111,7 @@ As you’d guess, you can add two numbers in Python using the ‘+’ character:
 
 You can chain multiple addition operators together, just as you can in conventional mathematics. An example is below:
 
-```
+```python
 
 2 + 3 + 5
 
@@ -235,6 +235,7 @@ Note that round brackets, curly brackets, and square brackets are _not_equivalen
 
 [2 + 3] * 20
 
+#WRONG - Don't Do This!
 ```
 
 We’ll discuss how to properly use curly brackets and square brackets when we talk about data structures later in this course.
