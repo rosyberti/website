@@ -231,7 +231,7 @@ This code will first execute the 3*20 (giving 60) and then add 2, which gives 62
 
 ```
 
-Note that round brackets, curly brackets, and square brackets are _not_equivalent in Python. This code would not execute in the same manner as the previous example:
+Note that round brackets, curly brackets, and square brackets are _not_ equivalent in Python. This code would not execute in the same manner as the previous example:
 
 ```python
 
