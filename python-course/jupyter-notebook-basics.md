@@ -23,6 +23,8 @@ First, let’s examine the top toolbar of icons, which is directly above the emp
 *   Delete the current cell
 *   Copy the current cell
 *   Paste a copied cell below the current cell
+*   Move the selected cells up
+*   Move the selected cells down
 *   Run the current cell
 *   Interrupt the current code that is running
 *   Restart the kernel
