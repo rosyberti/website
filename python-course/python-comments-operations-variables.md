@@ -217,6 +217,8 @@ In Python, you can force your mathematical operations to execute in a certain or
 
 2 + 3 * 20
 
+#Returns 62
+
 ```
 
 This code will first execute the 3*20 (giving 60) and then add 2, which gives 62. If you wanted the addition to be implemented prior to the division, you’d wrap it brackets like this:
