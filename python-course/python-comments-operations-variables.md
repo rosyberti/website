@@ -303,6 +303,7 @@ b = 4
 
 ```
 
+The second variable assignment overwrites the first because it came later in the Python script.
 
 ### Best Practices on Variable Naming
 
