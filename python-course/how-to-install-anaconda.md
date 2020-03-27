@@ -11,14 +11,14 @@ That probably doesn’t mean very much unless you’re already a Python expert..
 
 A distribution contains various Python libraries (which are chunks of code that help you build applications). A distribution ensures that these libraries work well together. 
 
-Said differently, some of the more complex libraries that we’ll be using in this course hav certain dependencies. Anaconda makes sure they work well together!
+Said differently, some of the more complex libraries that we’ll be using in this course have certain dependencies. Anaconda makes sure they work well together!
 
 Anaconda also comes with the Jupyter Notebook application installed, which is the environment that we will be using to run and test our code. 
 
 
 ## A Word For Experienced Developers
 
-Before we dig in, it’s worth noting that you do not necessarily _need_to use Anaconda to benefit from this course. If you’re an experienced Python user and want to skip using both Anaconda and the Jupyter Notebook, please feel free to use a different environment of your choice (like VS Code or vim). If you want to use the Jupyter Notebook but NOT Anaconda, you can install the Jupyter Notebook application using the following command:
+Before we dig in, it’s worth noting that you do not necessarily _need_ to use Anaconda to benefit from this course. If you’re an experienced Python user and want to skip using both Anaconda and the Jupyter Notebook, please feel free to use a different environment of your choice (like VS Code or vim). If you want to use the Jupyter Notebook but NOT Anaconda, you can install the Jupyter Notebook application using the following command:
 
 `pip install jupyter`
 
@@ -83,7 +83,7 @@ Once Anaconda is installed, you can open your first Jupyter Notebook very easily
 
 ![Jupyter Notebook Directory]({{ site.baseurl }}/images/python-course/anaconda/jupyter-notebook-directory.png)
 
-This isn’t yet a Jupyter Notebook - instead, it is the directory manager through which you navigate folders _to_a Jupyter Notebook.
+This isn’t yet a Jupyter Notebook - instead, it is the directory manager through which you navigate folders _to_ a Jupyter Notebook.
 
 To open your first Jupyter Notebook, first navigate to the folder that you want to work in for this course. I would recommend creating a dedicated folder to keep all of your documents organized. Once you’ve navigated to your desired folder, click “New” in the upper-right corner and then “Python 3’ for your type of Notebook.
 
