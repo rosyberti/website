@@ -7,7 +7,7 @@ In this lesson, we will be discussing the very basics of Python. Specifically, w
 
 ## The Basics of Comments in Python (or any other language!)
 
-In computer programming, comments are text included in your code that is not actually run by the computer. Comments exist to instruct _humans;_the rest of the code exists to instruct _computers_.
+In computer programming, comments are text included in your code that is not actually run by the computer. Comments exist to instruct _humans_;the rest of the code exists to instruct _computers_.
 
 To start our course, I’ll explain how you can put comments in your code. Throughout the rest of this course, I will include comments after blocks of code to explain what the output of the course should be.
 
