@@ -8,9 +8,9 @@ permalink: /python-course/
 
 This course will set you on a path towards becoming an expert in Python and SQL programming. You can jump to any of the course lessons below:
 
-* [How To Install Anaconda and Launch a Jupyter Notebook] ({{site.base}}/python-course/python-comments-operations-variables/)
+* [How To Install Anaconda and Launch a Jupyter Notebook]({{ site.baseurl }}/python-course/how-to-install-anaconda/)
 * Jupyter Notebook Basics
-* [Python Comments, Operations, and Variables]({{site.base}}/python-course/python-comments-operations-variables/)
+* [Python Comments, Operations, and Variables]({{ site.baseurl }}/python-course/python-comments-operations-variables/)
 * Strings, Concatenation, and Interpolation in Python
 * Data Structures
 * Logical Operators and If Statements
