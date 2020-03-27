@@ -20,19 +20,11 @@ Anaconda also comes with the Jupyter Notebook application installed, which is th
 
 Before we dig in, it’s worth noting that you do not necessarily _need_to use Anaconda to benefit from this course. If you’re an experienced Python user and want to skip using both Anaconda and the Jupyter Notebook, please feel free to use a different environment of your choice (like VS Code or vim). If you want to use the Jupyter Notebook but NOT Anaconda, you can install the Jupyter Notebook application using the following command:
 
-`
-
-pip install jupyter
-
-`
+`pip install jupyter`
 
 Once that install has been completed, you can open a Jupyter Notebook using the following command:
 
-`
-
-jupyter notebook
-
-`
+`jupyter notebook`
 
 With that out of the way, let’s dig in to how to install Anaconda!
 
