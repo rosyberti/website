@@ -63,7 +63,7 @@ mrRogersQuote = "It's a beautiful day in the neighborhood!"
 
 ```
 
-The second solution is to use what is called an 'escape character', which in Python is coded to the backslash '\'. The escape character allows you to include characters in a string that otherwise have special meaning (like single-quotes and double-quotes).
+The second solution is to use what is called an 'escape character', which in Python is coded to the backslash '\\'. The escape character allows you to include characters in a string that otherwise have special meaning (like single-quotes and double-quotes).
 
 In other words, the backslash allows you to include a single-quote in a string that is wrapped in single-quotes, like this:
 
