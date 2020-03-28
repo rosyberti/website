@@ -80,7 +80,7 @@ In this specific case, it definitely makes more sense to just wrap the string in
 
 The string syntax that we have explored so far in this lesson _only works for single-line strings_. Fortunately, the syntax for multi-line strings is similar - and, interestingly enough, we've already discussed it in this course!
 
-The multi-line comments that we explored previously were actually just multi-line strings included in the codebase. The strings aren't used for anything, so they're funcitnoally equivalent to comments. 
+The multi-line comments that we explored previously were actually just multi-line strings included in the codebase. The strings aren't used for anything, so they're functionally equivalent to comments. 
 
 In case you've forgotten, we created these multi-line comments (now multi-line strings) using triple-quotes, like this:
 
@@ -350,7 +350,7 @@ email.lower()
 
 ```
 
-How To Replace A Character in a String
+### How To Replace A Character in a String
 
 The last string operation we'll discuss is the `.replace()` method, which is used to replace a character in a string. This method has two required arguments: the character to be replaced, and the character you'd like it to be replaced with.
 
