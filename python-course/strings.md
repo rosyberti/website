@@ -130,7 +130,7 @@ String concatenation in Python is performed using the '+' character. An example 
 
 ```python
 
-str1 = "Hello"
+str1 = 'Hello'
 
 str2 = "World"
 
@@ -140,7 +140,7 @@ str1 + str2
 
 ```
 
-Again, notice how the lack of whitespace is reflected in the code block above.
+Again, notice how the lack of whitespace is reflected in the code block above. One other observation is that even though the two strings being concatenated together used different quotes (single-quotes and double-quotes), they were still able to be concatenated together. This demonstrates how single-quotes and double-quotes are equivalent in Python.
 
 Like integer addition discussed earlier in this course, you can chain together string concatenation as long as you'd like. This is actually an easy way to add spaces between words when the necessary whitespace isn't included in the variables themselves. After all, very few people want to concatenate words with no spaces, like 'HelloWord'.
 
