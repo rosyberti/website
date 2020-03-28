@@ -16,19 +16,19 @@ This course will set you on a path towards becoming an expert in Python and SQL 
 * Practice Problems: Strings
 * [Data Structures: Lists]({{ site.baseurl }}/python-course/lists/)
 * Practice Problems: Lists
-* Data Structures: Tuples 
+* [Data Structures: Tuples]({{ site.baseurl }}/python-course/tuples/)
 * Practice Problems: Tuples
-* Data Structures: Dictionaries
+* [Data Structures: Dictionaries]({{ site.baseurl }}/python-course/dictionaries/)
 * Practice Problems: Dictionaries
-* Data Structures: Sets
+* [Data Structures: Sets]({{ site.baseurl }}/python-course/sets/)
 * Practice Problems: Sets
-* Logical Operators and If Statements
+* [Logical Operators and If Statements]({{ site.baseurl }}/python-course/logical-operators-if-statements/)
 * Practice Problems: Logical Operators and If Statements
-* Loops
+* [Loops]({{ site.baseurl }}/python-course/loops/)
 * Practice Problems: Loops
-* Functions
+* [Functions]({{ site.baseurl }}/python-course/functions/)
 * Practice Problems: Functions
-* Classes
+* [Classes]({{ site.baseurl }}/python-course/classes/)
 * Practice Problems: Classes
 * Final Exam
 
