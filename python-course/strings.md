@@ -321,7 +321,7 @@ len(country)
 
 ```
 
-Since Python is zero-indexed, the last character always has index of `len(string)-1`.
+Since Python is zero-indexed, the last character always has index of `len(string)-1`. For example, the last index of the string 'four' is 3 - the length of the string, 4, minus 1.
 
 
 ### How To Transform A String to Uppercase or Lowercase
