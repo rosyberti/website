@@ -14,7 +14,7 @@ This course will set you on a path towards becoming an expert in Python and SQL 
 * Practice Problems: Commments, Operations, and Variables
 * [Strings and String Operations]({{ site.baseurl }}/python-course/strings/)
 * Practice Problems: Strings
-* Data Structures: Lists
+* [Data Structures: Lists]({{ site.baseurl }}/python-course/lists/)
 * Practice Problems: Lists
 * Data Structures: Tuples 
 * Practice Problems: Tuples
