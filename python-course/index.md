@@ -23,13 +23,13 @@ This course will set you on a path towards becoming an expert in Python and SQL 
 * Data Structures: Sets
 * Practice Problems: Sets
 * Logical Operators and If Statements
+* Practice Problems: Logical Operators and If Statements
 * Loops
+* Practice Problems: Loops
 * Functions
-* Modules and the Math Package
-* The NumPy Module
-* The Pandas Module
-* Git and GitHub
-* The Basics of SQL
+* Practice Problems: Functions
+* Classes
+* Practice Problems: Classes
 
 Additional details about the instructor and this course are listed below.
 
