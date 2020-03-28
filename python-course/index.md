@@ -10,9 +10,18 @@ This course will set you on a path towards becoming an expert in Python and SQL 
 
 * [How To Install Anaconda and Launch a Jupyter Notebook]({{ site.baseurl }}/python-course/how-to-install-anaconda/)
 * [Jupyter Notebook Basics]({{ site.baseurl }}/python-course/jupyter-notebook-basics/)
-* [Python Comments, Operations, and Variables]({{ site.baseurl }}/python-course/python-comments-operations-variables/)
+* [Comments, Operations, and Variables]({{ site.baseurl }}/python-course/python-comments-operations-variables/)
+* Practice Problems: Commments, Operations, and Variables
 * [Strings and String Operations]({{ site.baseurl }}/python-course/strings/)
-* Data Structures
+* Practice Problems: Strings
+* Data Structures: Lists
+* Practice Problems: Lists
+* Data Structures: Tuples 
+* Practice Problems: Tuples
+* Data Structures: Dictionaries
+* Practice Problems: Dictionaries
+* Data Structures: Sets
+* Practice Problems: Sets
 * Logical Operators and If Statements
 * Loops
 * Functions
