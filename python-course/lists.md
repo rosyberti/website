@@ -20,7 +20,7 @@ Conversion notes:
 ----->
 
 
-So far in this course, we have examined integers and string as examples of data structures (although we may not have specifically referred to them by that name). In this lesson, we will explore another data structure called _lists_ - which are arguably one of the most important data structures in the Python programming language. 
+So far in this course, we have examined integers and strings as examples of data structures (although we may not have specifically referred to them by that name). In this lesson, we will explore another data structure called _lists_ - which are arguably one of the most important data structures in the Python programming language. 
 
 
 ## What Are Lists
@@ -204,6 +204,17 @@ sum(listThatCannotBeSummed)
 
 Finding the smallest and largest values in a list of numbers can be easily done using the `min()` and `max()` functions. Examples of each function are below:
 
+```python
+list1 = [5, 6, 7]
+min(list1)
+#Returns 5
+```
+
+```python
+list2 = [10, 15, 25]
+max(list2)
+#Returns 25
+```
 
 ### How To Append An Element To The End Of A List
 
