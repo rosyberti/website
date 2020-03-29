@@ -305,6 +305,20 @@ b = 4
 
 The second variable assignment overwrites the first because it came later in the Python script.
 
+## Boolean Variables
+
+So far in this lesson, we have only discussed numerical variables. There are many different types of variables (called data structures) that can be assigned to variables outside of basic numbers.
+
+We explore some of the more complicated data structures in their own lessons later in this course. However, in this lesson we will also take a moment to discuss a special type of variable called Boolean variables.
+
+Boolan variables are a unique type of variable that can only have two values: True or False. You assign these variables like this:
+
+```python
+trueBoolean = True
+falseBoolean = False
+```
+These variables are useful in a number of cases - for example, evaluating whether to run certain blocks of code. We'll explore boolean variables in more detail later in this course. 
+
 ### Best Practices on Variable Naming
 
 When creating variable names in Python, there are a few best practices that we should make sure to follow.
