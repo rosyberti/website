@@ -10,7 +10,7 @@ This course will set you on a path towards becoming an expert in Python and SQL 
 
 * [How To Install Anaconda and Launch a Jupyter Notebook]({{ site.baseurl }}/python-course/how-to-install-anaconda/)
 * [Jupyter Notebook Basics]({{ site.baseurl }}/python-course/jupyter-notebook-basics/)
-* [Comments, Operations, and Variables]({{ site.baseurl }}/python-course/python-comments-operations-variables/)
+* [Comments, Operations, and Variables]({{ site.baseurl }}/python-course/comments-operations-variables/)
 * Practice Problems: Commments, Operations, and Variables
 * [Strings and String Operations]({{ site.baseurl }}/python-course/strings/)
 * Practice Problems: Strings
