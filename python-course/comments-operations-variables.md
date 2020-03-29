@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Python Comments, Operations, and Variables
+title: Comments, Operations, and Variables
 ---
 In this lesson, we will be discussing the very basics of Python. Specifically, we will discuss comments, operations, and variables in the Python programming language.
 
