@@ -85,7 +85,7 @@ Please make sure to understand all of these examples before proceeding. Specific
 
 ## Inequality Operators
 
-The inequality operator is the opposite of the equality operator. It tests whether two variables are _not_equal to each other. The inequality operator is represented by `!=` in Python.
+The inequality operator is the opposite of the equality operator. It tests whether two variables are _not_ equal to each other. The inequality operator is represented by `!=` in Python.
 
 Five examples of the inequality operator are listed below:
 
@@ -125,6 +125,13 @@ Given that the equality operator and the inequality operator are polar opposites
 You can easily chain together equality and inequality variables in Python. Here is an example, which tests for whether someone is over 65, likes to dance, and has grey hair:
 
 ```python
+
+isOver65 = True
+likesToDance = True
+hasGreyHair = False
+
+True == isOver65 == likesToDance == hasGreyHair
+#Returns False
 
 ```
 
