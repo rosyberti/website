@@ -332,7 +332,7 @@ age = 20
 
 if(age &lt; 20):
 
-	print("You are less than 20 years old!)
+	print("You are less than 20 years old!")
 
 if(age == 20):
 
