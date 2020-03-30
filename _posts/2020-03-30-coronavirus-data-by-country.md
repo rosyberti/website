@@ -1,6 +1,6 @@
 ---
 title: 'Coronavirus Cases, Deaths, and Recoveries by Country'
-date: 2020-03-23
+date: 2020-03-30
 author: Nick McCullum
 layout: post
 permalink: /coronavirus-data-by-country/
