@@ -356,7 +356,7 @@ if(totalHours < 40):
 
 if(totalHours >= 40):
 
-	weeklyPay = 40 * hourlyPay + (totalHours - 40) * 
+	weeklyPay = 40 * hourlyPay + (totalHours - 40) * 2 * hourlyPay
 
 ```
 
