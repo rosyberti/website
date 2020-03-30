@@ -157,7 +157,19 @@ not isNickCool
 
 Testing for equality or inequality is useful, but it becomes significantly more useful when you start to store the outputs of these tests in variables. You can do this using the assignment operator `=` that we have been relying on throughout this course. Let's peruse three examples to understand this properly.
 
-As you can tell, I find it useful to write my boolean variable names as quasi-questions so that I can easily remember the statement that they're store a `True` or `False` value for. Variable names like `isNickCool` or 
+As you can tell, I find it useful to write my boolean variable names as quasi-questions so that I can easily remember the statement that they're store a `True` or `False` value for. Variable names like `isNickCool` or `hasGreyHair` allow us to easily recognize what statement they're representing. 
+
+Here are a few examples of storing equality tests in variables:
+
+```python
+int1 = 1
+int2 = 2
+areTheIntegersEqual = int1 == int2
+
+myName = 'Nick'
+myFriendsName = 'Levi'
+doWeHaveTheSameName = myName == myFriendsName
+```
 
 So far, we have discussed how to test for equality and inequality, and how to store those tests' outputs in variables. We have also explored how to change the value of a boolean variable using the 'not' operator. 
 
