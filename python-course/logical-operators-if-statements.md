@@ -14,7 +14,7 @@ We just finished a thorough overview of the major data structures in Python, inc
 
 However, all of the data structure knowledge in the world is not enough to build real-world applications. There is a common saying in computer programming:
 
-	_"Data Structures + Algorithms = Applications"_
+>_"Data Structures + Algorithms = Applications"_
 
 In this lesson, we'll begin learning about logical operators, which are the backbone of the algorithms you'll need to build full applications later in your career. 
 
@@ -233,7 +233,7 @@ sunnyDay or rainyDay
 
 ```
 
-Comparison Operators
+## Comparison Operators
 
 While the equality and inequality operators were used earlier in this lesson to test the equality (or lack thereof) of two variables, the comparison operators are used to _compare_ values.
 
