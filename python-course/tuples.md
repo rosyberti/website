@@ -26,7 +26,7 @@ Like lists, tuples do not necessarily need to contain all of the same data types
 
 ```python
 
-anotherTuple = (['this', 'is', 'a', 'nested', 'list], 1, 'string', ('nested', 'tuple))
+anotherTuple = (['this', 'is', 'a', 'nested', 'list'], 1, 'string', ('nested', 'tuple'))
 
 ```
 
