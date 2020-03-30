@@ -1,5 +1,13 @@
+---
+---
+
+//
+// IMPORTS
+//
+
 @import "reset";
 @import "variables";
+// Syntax highlighting @import is at the bottom of this file
 
 /**************/
 /* BASE RULES */
@@ -112,7 +120,7 @@ img {
   color: $gray;
 }
 
-//Specify the color of the selection
+// Specify the color of the selection
 ::-moz-selection {
   color: $black;
   background: $lightGray;
