@@ -243,11 +243,11 @@ There are four comparison operators in Python, and their syntax mimics their mat
 
 >
 
-&lt;
+<
 
 >=
 
-&lt;=
+<=
 
 ```
 
@@ -255,11 +255,11 @@ Examples of how to use these comparison operators are demonstrated below:
 
 ```python
 
-1 &lt; 2
+1 < 2
 
 #Returns True
 
-2 &lt; 1
+2 < 1
 
 #Returns False
 
@@ -271,15 +271,15 @@ Examples of how to use these comparison operators are demonstrated below:
 
 #Returns False
 
-1 &lt;= 2
+1 <= 2
 
 #Returns True
 
-3 &lt;= 2 
+3 <= 2 
 
 #Returns False
 
-3 &lt;= 3 
+3 <= 3 
 
 #Returns True
 
@@ -326,7 +326,7 @@ Let's consider a real example of an if statement in action:
 
 age = 20
 
-if(age &lt; 20):
+if(age < 20):
 
 	print("You are less than 20 years old!")
 
@@ -350,7 +350,7 @@ totalHours = 37
 
 hourlyPay = 25
 
-if(totalHours &lt; 40):
+if(totalHours < 40):
 
 	weeklyPay = totalHours * hourlyPay
 
