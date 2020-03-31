@@ -108,7 +108,7 @@ For obvious reasons, it is ideal to make `x` something that is easy for outside 
 
 ## The `While` Loop
 
-The `while` loop exists to continue running _while_some outside condition continues to be satisfied. 
+The `while` loop exists to continue running _while_ some outside condition continues to be satisfied. 
 
 While loops have the following general syntax:
 
@@ -179,7 +179,7 @@ Increment variables are very important for avoiding infinite loops in Python. Pl
 
 ## The Relationship Between For Loops and While Loops
 
-Although `for` loop and `while` loops seem quite different on the service, it is actually common to see situations where `for` loops and `while` loops can both adequately solve a problem.
+Although `for` loop and `while` loops seem quite different on the surface, it is actually common to see situations where `for` loops and `while` loops can both adequately solve a problem.
 
 For example, imagine that you have a list of ingredients for a pizza and you want to loop through the ingredients and print them out.
 
