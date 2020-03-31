@@ -11,26 +11,26 @@ This course will set you on a path towards becoming an expert in Python and SQL 
 * [How To Install Anaconda and Launch a Jupyter Notebook]({{ site.baseurl }}/python-course/how-to-install-anaconda/)
 * [Jupyter Notebook Basics]({{ site.baseurl }}/python-course/jupyter-notebook-basics/)
 * [Comments, Operations, and Variables]({{ site.baseurl }}/python-course/comments-operations-variables/)
-* Practice Problems: Commments, Operations, and Variables
+* [Practice Problems: Commments, Operations, and Variables]({{ site.baseurl }}/python-course/comments-operations-variables-practice-problems/)
 * [Strings and String Operations]({{ site.baseurl }}/python-course/strings/)
-* Practice Problems: Strings
+* [Practice Problems: Strings]({{ site.baseurl }}/python-course/strings-practice-problems/)
 * [Data Structures: Lists]({{ site.baseurl }}/python-course/lists/)
-* Practice Problems: Lists
+* [Practice Problems: Lists]({{ site.baseurl }}/python-course/lists-practice-problems/)
 * [Data Structures: Tuples]({{ site.baseurl }}/python-course/tuples/)
-* Practice Problems: Tuples
+* [Practice Problems: Tuples]({{ site.baseurl }}/python-course/tuples-practice-problems/)
 * [Data Structures: Dictionaries]({{ site.baseurl }}/python-course/dictionaries/)
-* Practice Problems: Dictionaries
+* [Practice Problems: Dictionaries]({{ site.baseurl }}/python-course/dictionaries-practice-problems/)
 * [Data Structures: Sets]({{ site.baseurl }}/python-course/sets/)
-* Practice Problems: Sets
+* [Practice Problems: Sets]({{ site.baseurl }}/python-course/sets-practice-problems/)
 * [Logical Operators and If Statements]({{ site.baseurl }}/python-course/logical-operators-if-statements/)
-* Practice Problems: Logical Operators and If Statements
+* [Practice Problems: Logical Operators and If Statements]({{ site.baseurl }}/python-course/logical-operators-if-statements-practice-problems/)
 * [Loops]({{ site.baseurl }}/python-course/loops/)
-* Practice Problems: Loops
+* [Practice Problems: Loops]({{ site.baseurl }}/python-course/loops/)
 * [Functions]({{ site.baseurl }}/python-course/functions/)
-* Practice Problems: Functions
+* [Practice Problems: Functions]({{ site.baseurl }}/python-course/functions-practice-problems/)
 * [Classes]({{ site.baseurl }}/python-course/classes/)
-* Practice Problems: Classes
-* Final Exam
+* [Practice Problems: Classes]({{ site.baseurl }}/python-course/classes-practice-problems/)
+* [Final Exam]({{ site.baseurl }}/python-course/final-exam/)
 
 Additional details about the instructor and this course are listed below.
 
