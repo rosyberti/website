@@ -42,9 +42,18 @@ For those unfamiliar, Slack is a team messaging platform primarily used by busin
 
 [Click here to sign up for our Slack community and start communicating with other students!](https://join.slack.com/t/nickmccullumscourses/shared_invite/zt-d9bj9yus-rkbkJNaDEEhYCXD8A4zkTw)
 
-## Course Repository
+## Course Repository & Practice Problems
 
-All of the code for this course can be found in [this GitHub repository](https://github.com/nicholasmccullum/python-sql-finance). 
+All of the code for this course's practice problems can be found in [this GitHub repository](https://github.com/nicholasmccullum/learn-python).
+
+There are two options that you can use to complete the practice problems:
+
+* Open them in your browser with a platform called Binder using this link (recommended)
+* Download the repository to your local computer and open them in a Jupyter Notebook using Anaconda (a bit more tedious)
+
+Note that binder can take up to a minute to load the repository, so please be patient. 
+
+Within that repository, there is a folder called `starter-files` and a folder called `finished-files`. You should open the appropriate practice problems within the `starter-files` folder and only consult the corresponding file in the `finished-files` folder if you get stuck.
 
 The repository is public, which means that you can suggest changes using a pull request later in this course if you’d like. 
 
@@ -65,5 +74,3 @@ My name is Nick McCullum and I have worked in quantitative finance and computer 
 * a client-facing Wordpress site featuring a members-only login area
 
 and more.
-
-I created this course because I wanted to make it easy to learn the Python/SQL stack to jump-start your career and live a more fulfilling life.
