@@ -48,7 +48,7 @@ All of the code for this course's practice problems can be found in [this GitHub
 
 There are two options that you can use to complete the practice problems:
 
-* Open them in your browser with a platform called Binder using this link (recommended)
+* Open them in your browser with a platform called Binder using [this link](https://mybinder.org/v2/gh/nicholasmccullum/learn-python/master) (recommended)
 * Download the repository to your local computer and open them in a Jupyter Notebook using Anaconda (a bit more tedious)
 
 Note that binder can take up to a minute to load the repository, so please be patient. 
@@ -62,7 +62,7 @@ The repository is public, which means that you can suggest changes using a pull 
 If you're working through this course and are stuck on a difficult problem, here's what you should do:
 
 * __Google for a solution__: This is not just me being lazy! Real-world software developers often have to Google for solutions to their problems, so getting practice at this from the start is very beneficial.
-* __Ask a question in the Slack community__: Other students
+* __Ask a question in the Slack community__: Other students further into this course will be more than willing to help you.
 * __Email me__: You can use [this link](mailto:nicholasmccullum@gmail.com) to email me. While I always love hearing from students, please exhaust the other two options first since I might not reply right away.
 
 ## About Me
