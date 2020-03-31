@@ -157,16 +157,22 @@ Here is an example of a while loop that appropriately uses an increment variable
 ```python
 
 numberString = ""
-#Note - this is an empty string that we will be adding characters to in each iteration of the loop. When you're modifying an outside data structure in a loop, that data structure must be created outside the loop before the loop begins.
+#Note - this is an empty string that we will be adding characters to in each iteration of the loop. 
+#When you're modifying an outside data structure in a loop, 
+# that data structure must be created outside the loop before the loop begins.
 
 i = 0
 
 while(i <= 10):
 
 	numberString = numberString + str(i)
-	#The line above adds each number to the string. The str() operator transforms the integer into a string. Without the str() operator, this concatenation would not be possible.
+	#The line above adds each number to the string. 
+	#The str() operator transforms the integer into a string. 
+	#Without the str() operator, this concatenation would not be possible.
+	
 	i += 1
-
+	#The line above increases the value of the increment variable.
+	
 print(numberString)
 
 #Returns '012345678910' (which is a string, not an integer)
