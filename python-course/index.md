@@ -4,7 +4,7 @@ title: Python and SQL for Quantitative Finance
 permalink: /python-course/
 ---
 
-## Thanks for signing up for my comprehensive course on Python and SQL programming!
+## Thanks for signing up for my Introduction to Python course!
 
 This course will set you on a path towards becoming an expert in Python and SQL programming. You can jump to any of the course lessons below:
 
@@ -48,8 +48,11 @@ I created this course because I wanted to make it easy to learn the Python/SQL s
 
 ## Slack Community
 
-I want this course to be a personal experience. Because of that, I have created a Slack community for 
+I want this course to be a personal experience. Because of that, I have created a Slack community for students to ask questions and interact with each other!
 
+For those unfamiliar, Slack is a team messaging platform primarily used by businesses. Think MSN Messenger, but 10x better. I've used Slack in various capacities over the years and have always been pleased with my experience. 
+
+[Click here to sign up for our Slack community and start communicating with other students!](https://join.slack.com/t/nickmccullumscourses/shared_invite/zt-d9bj9yus-rkbkJNaDEEhYCXD8A4zkTw)
 
 ## Course Repository
 
@@ -57,6 +60,10 @@ All of the code for this course can be found in [this GitHub repository](https:/
 
 The repository is public, which means that you can suggest changes using a pull request later in this course if you’d like. 
 
-## Contact Me
+## What To Do If You Get Stuck
 
-If you have any questions or feedback about this course, please [email me](mailto:nicholasmccullum@gmail.com). I'd love to hear from you!
+If you're working through this course and are stuck on a difficult problem, here's what you should do:
+
+* Google for a solution: This is not just me being lazy! Real-world software developers often have to Google for solutions to their problems, so getting practice at this from the start is very beneficial.
+* Ask a question in the Slack community: Other students
+* Email me: You can use [this link](mailto:nicholasmccullum@gmail.com) to email me. While I always love hearing from students, please exhaust the other two options first since I might not reply right away.
