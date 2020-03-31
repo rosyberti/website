@@ -61,9 +61,9 @@ The repository is public, which means that you can suggest changes using a pull 
 
 If you're working through this course and are stuck on a difficult problem, here's what you should do:
 
-* Google for a solution: This is not just me being lazy! Real-world software developers often have to Google for solutions to their problems, so getting practice at this from the start is very beneficial.
-* Ask a question in the Slack community: Other students
-* Email me: You can use [this link](mailto:nicholasmccullum@gmail.com) to email me. While I always love hearing from students, please exhaust the other two options first since I might not reply right away.
+* __Google for a solution__: This is not just me being lazy! Real-world software developers often have to Google for solutions to their problems, so getting practice at this from the start is very beneficial.
+* __Ask a question in the Slack community__: Other students
+* __Email me__: You can use [this link](mailto:nicholasmccullum@gmail.com) to email me. While I always love hearing from students, please exhaust the other two options first since I might not reply right away.
 
 ## About Me
 
