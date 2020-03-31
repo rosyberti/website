@@ -107,7 +107,7 @@ len.__doc__
 
 ```
 
-We've covered the basics of functions so far in this lesson. Given their complexity, the best way to learn functions is by practicing examples of increasing difficulty. We will work throguh 5 more examples together to conclude this lesson. 
+We've covered the basics of functions so far in this lesson. Given their complexity, the best way to learn functions is by practicing examples of increasing difficulty. We will work throguh 3 more examples together to conclude this lesson. 
 
 
 ## Function Example #1: How To Calculate The Length of a String in Python
