@@ -83,7 +83,7 @@ len(set)
 
 ```
 
-How To Add An item To A Set
+## How To Add An Item To A Set
 
 You can add items to sets in Python using the `add()` method. You simply pass in the item to be added in the brackets. An example is below:
 
@@ -99,6 +99,7 @@ ingredients		#This prints the modified set
 
 ```
 
+Notice how the output of that code does not match the order in which the elements were created? That's because sets are unordered!
 
 ### How To Remove An Item From A Set 
 
@@ -112,7 +113,7 @@ my_set = {'alpha', 'omega', 'charlie'}
 
 my_set.remove('alpha')
 
-My_set
+my_set
 
 #Returns {'charlie', 'omega'}
 
