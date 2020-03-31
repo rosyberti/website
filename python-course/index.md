@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Python and SQL for Quantitative Finance
+title: Introduction to Python
 permalink: /python-course/
 ---
 
