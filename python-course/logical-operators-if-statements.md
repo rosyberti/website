@@ -157,7 +157,7 @@ not isNickCool
 
 Testing for equality or inequality is useful, but it becomes significantly more useful when you start to store the outputs of these tests in variables. You can do this using the assignment operator `=` that we have been relying on throughout this course. Let's peruse three examples to understand this properly.
 
-As you can tell, I find it useful to write my boolean variable names as quasi-questions so that I can easily remember the statement that they're store a `True` or `False` value for. Variable names like `isNickCool` or `hasGreyHair` allow us to easily recognize what statement they're representing. 
+As you can tell, I find it useful to write my boolean variable names as quasi-questions so that I can easily remember the statement that they're storing a `True` or `False` value for. Variable names like `isNickCool` or `hasGreyHair` allow us to easily recognize what statement they're representing. 
 
 Here are a few examples of storing equality tests in variables:
 
@@ -165,10 +165,14 @@ Here are a few examples of storing equality tests in variables:
 int1 = 1
 int2 = 2
 areTheIntegersEqual = int1 == int2
+areTheIntegersEqual 		#To print its value
+#Returns False, since they are not equal
 
 myName = 'Nick'
 myFriendsName = 'Levi'
 doWeHaveTheSameName = myName == myFriendsName
+doWeHaveTheSameName 		#To print its value
+#Returns False, since the names are different
 ```
 
 So far, we have discussed how to test for equality and inequality, and how to store those tests' outputs in variables. We have also explored how to change the value of a boolean variable using the 'not' operator. 
@@ -237,17 +241,21 @@ sunnyDay or rainyDay
 
 While the equality and inequality operators were used earlier in this lesson to test the equality (or lack thereof) of two variables, the comparison operators are used to _compare_ values.
 
-There are four comparison operators in Python, and their syntax mimics their mathematical counterparts:
+There are four comparison operators in Python, and their syntax mimics their mathematical counterparts. They are presented and explain below:
 
 ```python
 
 >
+#Greater than
 
 <
+#Less Than
 
 >=
+#Greater than or equal to
 
 <=
+#Less than or equal to
 
 ```
 
@@ -299,7 +307,7 @@ Examples of how to use these comparison operators are demonstrated below:
 
 We have spent a great deal of time in this lesson learning various logical operators. In the next section, we will learn how to use
 
-If Statements
+## If Statements
 
 'If statements' are used in computer programming to control whether or not a block of code is executed depending on some outside condition. In Python, if statements are controlled by boolean variables.
 
@@ -342,7 +350,7 @@ if(age > 20):
 
 If statements can also be used to modify other variables. 
 
-For example, consider an hourly working being paid $25/hour who gets 2x overtime for all hours above 40 hours per week. This section of if statements calculates his weekly compensation after accounting for his overtime pay:
+For example, consider an hourly worker being paid $25/hour who gets 2x overtime for all hours above 40 hours per week. This section of if statements calculates his weekly compensation after accounting for his overtime pay:
 
 ```python
 
@@ -361,7 +369,7 @@ if(totalHours >= 40):
 ```
 
 
-## ElseIf and Else Statements
+## Elif and Else Statements
 
 As we saw in the last section, you can pair together multiple if statements to account for different scenarios. In this section, we will discuss a better, more readable way of using different logic scenarios: if else statements.
 
@@ -455,7 +463,7 @@ else:
 
 ```
 
-**Important Note:** The code above is for illustation's purpose only. The best way to solve the shopping cart item would be to use the f string interpolation that we learned earlier in this course, like this:
+**Important Note:** The code above is for illustration's purpose only. The best way to solve the shopping cart item would be to use the f string interpolation that we learned earlier in this course, like this:
 
 ```python
 
