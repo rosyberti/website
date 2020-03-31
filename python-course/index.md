@@ -34,18 +34,6 @@ This course will set you on a path towards becoming an expert in Python and SQL 
 
 Additional details about the instructor and this course are listed below.
 
-## About Me
-
-My name is Nick McCullum and I have worked in quantitative finance and computer programming for my entire career. I'm currently working as the President of Sure Dividend, where I built our technology stack from scratch, including:
-
-* Python scripts deployed on AWS EC2 and AWS Lambda
-* a PostgreSQL relational database on AWS RDS 
-* a client-facing Wordpress site featuring a members-only login area
-
-and more.
-
-I created this course because I wanted to make it easy to learn the Python/SQL stack to jump-start your career and live a more fulfilling life.
-
 ## Slack Community
 
 I want this course to be a personal experience. Because of that, I have created a Slack community for students to ask questions and interact with each other!
@@ -67,3 +55,15 @@ If you're working through this course and are stuck on a difficult problem, here
 * Google for a solution: This is not just me being lazy! Real-world software developers often have to Google for solutions to their problems, so getting practice at this from the start is very beneficial.
 * Ask a question in the Slack community: Other students
 * Email me: You can use [this link](mailto:nicholasmccullum@gmail.com) to email me. While I always love hearing from students, please exhaust the other two options first since I might not reply right away.
+
+## About Me
+
+My name is Nick McCullum and I have worked in quantitative finance and computer programming for my entire career. I'm currently working as the President of Sure Dividend, where I built our technology stack from scratch, including:
+
+* Python scripts deployed on AWS EC2 and AWS Lambda
+* a PostgreSQL relational database on AWS RDS 
+* a client-facing Wordpress site featuring a members-only login area
+
+and more.
+
+I created this course because I wanted to make it easy to learn the Python/SQL stack to jump-start your career and live a more fulfilling life.
