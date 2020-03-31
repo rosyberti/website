@@ -459,7 +459,7 @@ elif (items == 10):
 
 else:
 
-    print(f'There are too many items to count in your shopping cart!')
+    print('There are too many items to count in your shopping cart!')
 
 ```
 
