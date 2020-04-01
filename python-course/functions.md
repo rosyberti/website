@@ -107,6 +107,8 @@ len.__doc__
 
 ```
 
+We haven't seen leading underscores (meaning underscores at the beginning of words) in variable or function names yet in this course. They are used to indicate that a variable or function is primarily intended for internal use by the programmer who created them.
+
 We've covered the basics of functions so far in this lesson. Given their complexity, the best way to learn functions is by practicing examples of increasing difficulty. We will work throguh 3 more examples together to conclude this lesson. 
 
 
