@@ -65,7 +65,7 @@ Note that the actions performed within the function's `while` loop are indented 
 
 All functions should have a docstring, which is an embedded string within the function that describes its purpose and functionality. 
 
-Docstrings are created at the start of the function and wrapped in triple-quotes. To provide another example, here's how you could create a docstring within called `this_function`:
+Docstrings are created at the start of the function and wrapped in triple-quotes. To provide another example, here's how you could create a docstring within a function called `this_function`:
 
 ```python
 
@@ -73,7 +73,7 @@ def this_function():
 
 	"""This function serves to demonstrates how docstrings work."""
 
-	Return 'Docstrings are awesome!'
+	return 'Docstrings are awesome!'
 
 ```
 
@@ -109,7 +109,7 @@ len.__doc__
 
 We haven't seen leading underscores (meaning underscores at the beginning of words) in variable or function names yet in this course. They are used to indicate that a variable or function is primarily intended for internal use by the programmer who created them.
 
-We've covered the basics of functions so far in this lesson. Given their complexity, the best way to learn functions is by practicing examples of increasing difficulty. We will work throguh 3 more examples together to conclude this lesson. 
+We've covered the basics of functions so far in this lesson. Given their complexity, the best way to learn functions is by practicing examples of increasing difficulty. We will work through 3 more examples together to conclude this lesson. 
 
 
 ## Function Example #1: How To Calculate The Length of a String in Python
@@ -122,7 +122,7 @@ To start, initialize the function with the `def` keyword with the argument `item
 
 def myLen(item):
 
-"""Docstring"""
+	"""Docstring"""
 
 ```
 
@@ -140,7 +140,7 @@ Let's place this docstring into our `myLen()` function:
 
 def myLen(item):
 
-"""Return the number of items in a container."""
+	"""Return the number of items in a container."""
 
 ```
 
@@ -164,26 +164,26 @@ Placing a `return` statement after that loop is all we need to complete the func
 
 def myLen(item):
 
-"""Return the number of items in a container."""
+	"""Return the number of items in a container."""
 
 
-    length = 0
+	length = 0
 
 
-    for i in str:
+	for i in str:
 
 
-    	length += 1
+		length += 1
 
 
-    return length
+	return length
 
 ```
 
 
 ## Function Example #2: How To Reverse A String In Python
 
-Let's start by creating a function template called `stringReverser` that takes in a string. We'll place some useful text within the docstring as well. Here's what this should look like:
+Let's start by creating a function template called `stringReverser` that takes in a string and returns a reversed version of that string (where the last character becomes the first character, and so on). We'll place some useful text within the docstring as well. Here's what this should look like:
 
 ```python
 
@@ -203,7 +203,7 @@ def stringReverser(string):
 
 	reversedString = ""
 
-return reversedString
+	return reversedString
 
 ```
 
@@ -248,14 +248,14 @@ def stringReverser(string):
 
     	i -= 1
 
-return reversedString
+	return reversedString
 
 ```
 
 
 ## Function Example #3: How To Calculate Absolute Value in Python
 
-Next, we will build a function that calculates absolute value. For those unfamiliar with absolute value, it is a mathematical concept that removes any concept of positive or negatiev. In other words, the absolute value of all numbers is positive. 
+Next, we will build a function that calculates absolute value. For those unfamiliar with absolute value, it is a mathematical concept that removes any concept of positive or negative. In other words, the absolute value of all numbers is positive. 
 
 Let's start by creating a blank function with a docstring, as before:
 
