@@ -4,7 +4,7 @@ title: Classes
 ---
 
 
-In this last lesson of this course, we will explore Python classes, which provide a means of combining data and functionality.
+In the last lesson of this course, we will explore Python classes, which provide a means of combining data and functionality.
 
 
 ## What Are Classes?
@@ -15,7 +15,7 @@ Although you may not have known it at the time, we have used many classes alread
 
 To create a new class, we use the keyword `class`. Class names are somewhat unique in Python because they are one of the only variable names that should not follow camelCase. Instead, class names should have their first letter capitalized.
 
-After that, we name the class and place a colon before an indented block that specifies the class's attributes and methods.
+Once we've named the class, we place a colon before an indented block that specifies the class's attributes and methods.
 
 In a very basic example, here is how we would create a class called `Person` which has an attribute called `age` that is given a default value of `0`:
 
@@ -27,7 +27,9 @@ class Person:
 
 ```
 
-Once a class is created, we can create `instances` of this class, which have their own variable values but inherit the methods from the parent class. The instance is created using a function called `__init__`. Note that since the `__init__` function is missing from the `Person` class that we created in the example above, there is actually no way for us to create a new instance of `Person`.
+Once a class is created, we can create `instances` of this class, which have their own variable values but inherit the methods from the parent class. This means that any methods from the parent class can be used by instances of that class. 
+
+The instance is created using a function called `__init__`. Note that since the `__init__` function is missing from the `Person` class that we created in the example above, there is actually no way for us to create a new instance of `Person`.
 
 To fix this, let's add the `__init__` function to the `Person` class. By convention, `__init__` functions should always go at the start of class declarations, like this:
 
@@ -147,7 +149,7 @@ def giveParkingTicket(self):
 
 ```
 
-And we're done! We now have a working class with a dynamic variable `age`, a static variable `parkingTickets`, and a function `giveParkingTickets()`. 
+And we're done! We now have a working class with a dynamic variable `age`, a static variable `parkingTickets`, and a function `giveParkingTickets()`. To clarify, by 'dynamic variables' I mean those that are passed into the class's brackets upon creation. Static variables are not passed into the brackets upon creation.
 
 The next step is understanding how to create instances of this class. We can create instances of any class by using the class's name and assigning it to a variable, like this:
 
