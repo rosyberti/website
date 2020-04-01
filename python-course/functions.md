@@ -50,7 +50,7 @@ def new_function(string):
 
 	i = 0
 
-	while (i &lt; 5):
+	while (i < 5):
 
 		print(string)
 
@@ -285,7 +285,7 @@ Calculating absolute value is usually done through an `if` statement:
 
 ```python
 
-if(number &lt; 0)
+if(number < 0)
 
 	number = -number
 
@@ -299,7 +299,7 @@ def absoluteValue(number):
 
 	"""This function takes in a number and returns its absolute value."""
 
-	if(number &lt; 0)
+	if(number < 0)
 
 		number = -number
 
