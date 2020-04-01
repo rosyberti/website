@@ -83,7 +83,7 @@ len(set)
 
 ```
 
-## How To Add An Item To A Set
+### How To Add An Item To A Set
 
 You can add items to sets in Python using the `add()` method. You simply pass in the item to be added in the brackets. An example is below:
 
