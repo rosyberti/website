@@ -26,7 +26,7 @@ You've just done plenty of reading about functions, but you haven't actually see
 
 def new_function(string):
 
-	"""The docstring goes here""
+	"""The docstring goes here"""
 
 	print(string)
 
@@ -46,7 +46,7 @@ Functions can contain any type of code that we've discussed already in this cour
 
 def new_function(string):
 
-	"""The docstring goes here""
+	"""The docstring goes here"""
 
 	i = 0
 
