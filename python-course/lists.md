@@ -173,7 +173,7 @@ len(duplicatedNestedList)
 Notice that even though the `duplicatedNestedList` list contains a nested list, its length is still 3 because the nested list only counts as one element. 
 
 
-## How To Calculate The Sum Of A List
+### How To Calculate The Sum Of A List
 
 Calculating the sum of a list (assuming the list contains only numbers and no other data types) is very easy. We simply use the `sum()` function:
 
