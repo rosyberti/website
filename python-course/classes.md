@@ -96,7 +96,7 @@ class Person:
 
 	
 
-parkingTickets = 0
+	parkingTickets = 0
 
 ```
 
@@ -112,14 +112,14 @@ class Person:
 
 	
 
-parkingTickets = 0
+	parkingTickets = 0
 
 	
 
-def giveParkingTicket(self):
+	def giveParkingTicket(self):
 
 
-    """This function increases the value of parkingTickets by 1"""	
+    		"""This function increases the value of parkingTickets by 1"""	
 
 ```
 
@@ -135,17 +135,17 @@ class Person:
 
 	
 
-parkingTickets = 0
+	parkingTickets = 0
 
 	
 
-def giveParkingTicket(self):
+	def giveParkingTicket(self):
 
 
-    """This function increases the value of parkingTickets by 1"""	
+    		"""This function increases the value of parkingTickets by 1"""	
 
 
-    parkingTickets += 1
+    		parkingTickets += 1
 
 ```
 
