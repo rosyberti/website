@@ -6,7 +6,9 @@ permalink: /python-course/
 
 ## Thanks for signing up for my Introduction to Python course!
 
-This course will set you on a path towards becoming an expert in Python and SQL programming. You can jump to any of the course lessons below:
+This course will teach you the fundamentals of computer programming in Python. 
+
+You can jump to any of the course lessons below:
 
 * [How To Install Anaconda and Launch a Jupyter Notebook]({{ site.baseurl }}/python-course/how-to-install-anaconda/)
 * [Jupyter Notebook Basics]({{ site.baseurl }}/python-course/jupyter-notebook-basics/)
