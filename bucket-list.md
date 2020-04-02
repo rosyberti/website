@@ -8,7 +8,7 @@ permalink: /bucket-list/
 
 <ul>
 	<li><strike>Run a marathon</strike></li>
-	<li><strike>Rnu 50km</strike></li>
+	<li><strike>Run 50km</strike></li>
 	<li><strike>Run 100km</strike></li>
 	<li>Run 100- miles</li>
 	<li>Try a strict keto diet for 1 month</li>
