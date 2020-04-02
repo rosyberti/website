@@ -315,7 +315,7 @@ Python also has four comparison operators that allow us to compare the values of
 
 #Greater than
 
-&lt;
+<
 
 #Less Than
 
@@ -323,7 +323,7 @@ Python also has four comparison operators that allow us to compare the values of
 
 #Greater than or equal to
 
-&lt;=
+<=
 
 #Less than or equal to
 
@@ -345,7 +345,7 @@ Here is an example of three `if` statements that print different text depending 
 
 age = 20
 
-if(age &lt; 20):
+if(age < 20):
 
 	print("You are less than 20 years old!")
 
@@ -365,7 +365,7 @@ We can also use `elif` and `else` statements ,which is considered more readable.
 
 age = 20
 
-if(age &lt; 20):
+if(age < 20):
 
 	print("You are less than 20 years old!")
 
@@ -424,7 +424,7 @@ numberString = ""
 
 i = 0
 
-while(i &lt;= 10):
+while(i <= 10):
 
 	numberString = numberString + str(i)
 
@@ -460,7 +460,7 @@ for student in students:
 
 i = 0 
 
-while i &lt; len(students):
+while i < len(students):
 
 	print(f'Is {students[i]} here?')
 
@@ -483,7 +483,7 @@ def new_function(string):
 
 	i = 0
 
-	while (i &lt; 5):
+	while (i < 5):
 
 		print(string)
 
