@@ -30,7 +30,6 @@ This course will set you on a path towards becoming an expert in Python and SQL 
 * [Practice Problems: Functions]({{ site.baseurl }}/python-course/functions-practice-problems/)
 * [Classes]({{ site.baseurl }}/python-course/classes/)
 * [Practice Problems: Classes]({{ site.baseurl }}/python-course/classes-practice-problems/)
-* [Final Exam]({{ site.baseurl }}/python-course/final-exam/)
 
 Additional details about the instructor and this course are listed below.
 
