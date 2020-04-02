@@ -53,7 +53,7 @@ canadianPrimeMinisters =[
 
                         'Paul Martin',
 
-                        'Jean Chrétien',
+                        'Jean Chretien',
 
                         'Kim Campbell',
 
