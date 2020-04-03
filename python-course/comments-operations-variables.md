@@ -7,9 +7,9 @@ In this lesson, we will be discussing the very basics of Python. Specifically, w
 
 ## The Basics of Comments in Python (or any other language!)
 
-In computer programming, comments are text included in your code that is not actually run by the computer. Comments exist to instruct _humans_;the rest of the code exists to instruct _computers_.
+In computer programming, comments are text included in your code that is not actually run by the computer. Comments exist to instruct _humans_; the rest of the code exists to instruct _computers_.
 
-To start our course, I’ll explain how you can put comments in your code. Throughout the rest of this course, I will include comments after blocks of code to explain what the output of the course should be.
+To start our course, I’ll explain how you can put comments in your code. Throughout the rest of this course, I will include comments after blocks of code to explain what the output of the code should be.
 
 
 ### Single-Line Comments in Python
@@ -57,7 +57,7 @@ Python
 
 This means that any code after the first “”” and before the second “”” will not be executed by the Python compiler or interpreter. 
 
-Multi-line comments are often used at the beginning of function declarations to describe the purpose of a function. We have not yet explored functions in this course yet, but an example of a multi-line comment in a Python function is below:
+Multi-line comments are often used at the beginning of function declarations to describe the purpose of a function. We have not yet explored functions in this course, but an example of a multi-line comment in a Python function is below:
 
 ```python
 
@@ -94,7 +94,7 @@ You may also sometimes see block comments, which serve to visibly chunk up your 
 
 Now that we have a basic understanding of comments in the Python programming language, let’s continue by discussing basic math operations in Python.
 
-Since Python is primarily used by scientists and other quantitatively-oriented programmers, these fundamental math operations are extremely extremely important. Let’s dig in!
+Since Python is primarily used by scientists and other quantitatively-oriented programmers, these fundamental math operations are extremely, extremely important. Let’s dig in!
 
 
 ### Addition
@@ -307,11 +307,11 @@ The second variable assignment overwrites the first because it came later in the
 
 ## Boolean Variables
 
-So far in this lesson, we have only discussed numerical variables. There are many different types of variables (called data structures) that can be assigned to variables outside of basic numbers.
+So far in this lesson, we have only discussed numerical variables. There are many different types of data (called data structures) that can be assigned to variables outside of basic numbers.
 
 We explore some of the more complicated data structures in their own lessons later in this course. However, in this lesson we will also take a moment to discuss a special type of variable called Boolean variables.
 
-Boolan variables are a unique type of variable that can only have two values: True or False. You assign these variables like this:
+Boolean variables are a unique type of variable that can only have two values: True or False. You assign these variables like this:
 
 ```python
 trueBoolean = True
