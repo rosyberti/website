@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Data Structres - Tuples
+title: Data Structures - Tuples
 ---
 
 In the last lesson of this course, we discussed lists, which are arguably the most important data structure in the Python programming language. In this lesson we'll discuss tuples, which are similar to lists but with one important difference. 
