@@ -80,7 +80,7 @@ In this specific case, it definitely makes more sense to just wrap the string in
 
 The string syntax that we have explored so far in this lesson _only works for single-line strings_. Fortunately, the syntax for multi-line strings is similar - and, interestingly enough, we've already discussed it in this course!
 
-The multi-line comments that we explored previously were actually just multi-line strings included in the codebase. The strings aren't used for anything, so they're functionally equivalent to comments. 
+The multi-line comments that we explored previously were actually just multi-line strings included in the codebase. The strings were not used for anything in the code we were running (like performing operations, printing variables, or creating functions), so they're functionally equivalent to comments and are widely considered to be the best way to leave multi-line comments in Python code. 
 
 In case you've forgotten, we created these multi-line comments (now multi-line strings) using triple-quotes, like this:
 
@@ -142,9 +142,9 @@ str1 + str2
 
 Again, notice how the lack of whitespace is reflected in the code block above. One other observation is that even though the two strings being concatenated together used different quotes (single-quotes and double-quotes), they were still able to be concatenated together. This demonstrates how single-quotes and double-quotes are equivalent in Python.
 
-Like integer addition discussed earlier in this course, you can chain together string concatenation as long as you'd like. This is actually an easy way to add spaces between words when the necessary whitespace isn't included in the variables themselves. After all, very few people want to concatenate words with no spaces, like 'HelloWord'.
+Like integer addition discussed earlier in this course, you can chain together string concatenation as long as you'd like. Chaining together string concatenation is actually an easy way to add spaces between words when the necessary whitespace isn't included in the variables themselves. After all, very few people want to concatenate words with no spaces, like 'HelloWord'.
 
-The following code fixes the whitespace problem from the previous code block:
+An an example, the following code fixes the whitespace problem from the previous code block:
 
 ```python
 
@@ -231,9 +231,9 @@ topping3 = 'bacon'
 
 pizzaType = 'Canadian'
 
-f'Your {pizzaType} will have {topping1}, {topping2} and {topping3} on it.'
+f'Your {pizzaType} Pizza will have {topping1}, {topping2} and {topping3} on it.'
 
-#Returns 'Your Canadian will have pepperoni, mushrooms and bacon on it.'
+#Returns 'Your Canadian Pizza will have pepperoni, mushrooms and bacon on it.'
 
 ```
 
@@ -256,7 +256,7 @@ f'Your {carModel} with {feature1} and {feature2} is waiting for you on the lot!'
 
 ## Other Methods of String Interpolation
 
-While I discussed two methods of string interpolation in this lesson, there are others. They generally make use of the '%' character or the .format() function and have been carried forward from older versions of Python. While you may encounter these older methods in legacy programs, it is best to use f strings for all new code that you write moving forward. 
+While I discussed two methods of string interpolation in this lesson, there are others. They generally make use of the '%' character or the .format() function and have been carried forward from older versions of Python. While you may encounter these older methods in legacy programs, it is best to use f-strings for all new code that you write moving forward. 
 
 
 ## Other String Operations
@@ -321,7 +321,7 @@ len(country)
 
 ```
 
-Since Python is zero-indexed, the last character always has index of `len(string)-1`. For example, the last index of the string 'four' is 3 - the length of the string, 4, minus 1.
+Since Python is zero-indexed, the last character always has index of `len(string)-1`. For example, the last index of the string 'roar' is 3 - the length of the string, 4, minus 1.
 
 
 ### How To Transform A String to Uppercase or Lowercase
