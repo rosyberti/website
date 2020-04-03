@@ -11,8 +11,8 @@ This course will set you on a path towards becoming an expert in Python programm
 * How To Import External Libraries in Python
 * Introduction to NumPy
 * NumPy Arrays
-* NumPy Indexing and Assignment
 * NumPy Methods and Operations
+* NumPy Indexing and Assignment
 * Introduction to Pandas
 * Pandas Series
 * Pandas DataFrames
