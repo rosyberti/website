@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Data Structures: Lists
+title: Data Structures - Lists
 ---
 <!----- Conversion time: 1.032 seconds.
 
