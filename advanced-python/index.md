@@ -11,18 +11,30 @@ This course will set you on a path towards becoming an expert in Python programm
 * [How To Import External Libraries in Python]({{ site.baseurl }}/advanced-python/how-to-import-python-libraries/)
 * [Introduction to NumPy]({{ site.baseurl }}/advanced-python/numpy/)
 * [NumPy Arrays]({{ site.baseurl }}/advanced-python/numpy-arrays/)
+* Practice Problems: NumPy Arrays
 * [NumPy Methods and Operations]({{ site.baseurl }}/advanced-python/numpy-methods-operations/)
+* Practice Problems: NumPy Methods and Operations
 * [NumPy Indexing and Assignment]({{ site.baseurl }}/advanced-python/numpy-indexing-assignment/)
+* Practice Problems: NumPy Indexing and Assignment
 * [Introduction to Pandas]({{ site.baseurl }}/advanced-python/pandas/)
 * Pandas Series
+* Practice Problems: Pandas Series
 * Pandas DataFrames
+* Practice Problems: Pandas DataFrames
 * How To Deal With Missing Data in Pandas
+* Practice Problems: How To Deal With Missing Data in Pandas
 * How To Merge DataFrame in Pandas
+* Practice Problems: How To Merge DataFrames in Pandas
 * How To Join DataFrames in Pandas
+* Practice Problems: How To Join DataFrames in Pandas
 * How To Concatenate DataFrames in Pandas
+* Practice Problems: How To Concatenate DataFrames in Pandas
 * Common Operations in Pandas
+* Practice Problems: Common Operations in Pandas
 * Data Input and Output in Pandas
+* Practice Problems: Data Input and Output in Pandas
 * How To Save Pandas DataFrames as Excel Files for External Users
+* Practice Problems: How To Save Pandas DataFrames as Excel Files for External Users
 
 Additional details about the instructor and this course are listed below.
 
