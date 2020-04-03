@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Data Structures: Dictionaries
+title: Data Structures - Dictionaries
 ---
 
 In this lesson, we will continue our discussion of Python data structures by discussing dictionaries.
