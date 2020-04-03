@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Data Structures: Sets
+title: Data Structures - Sets
 ---
 
 To continue our discussion of data structures, we're going to discuss sets. 
