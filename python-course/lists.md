@@ -2,23 +2,6 @@
 layout: page
 title: Data Structures - Lists
 ---
-<!----- Conversion time: 1.032 seconds.
-
-
-Using this Markdown file:
-
-1. Cut and paste this output into your source file.
-2. See the notes and action items below regarding this conversion run.
-3. Check the rendered output (headings, lists, code blocks, tables) for proper
-   formatting and use a linkchecker before you publish this page.
-
-Conversion notes:
-
-* Docs to Markdown version 1.0β20
-* Sat Mar 28 2020 11:00:02 GMT-0700 (PDT)
-* Source doc: 4 - Data Structures: Lists
------>
-
 
 So far in this course, we have examined integers and strings as examples of data structures (although we may not have specifically referred to them by that name). In this lesson, we will explore another data structure called _lists_ - which are arguably one of the most important data structures in the Python programming language. 
 
@@ -75,7 +58,7 @@ yet_another_list = [10, 9, 8, 7]
 
 yet_another_list = [1, 2, 3]
 
-yet_another_list
+yet_another_list #This line prints out the current data stored in that variable name
 
 #Returns [1, 2, 3]
 
