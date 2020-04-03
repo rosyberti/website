@@ -7,13 +7,13 @@ title: Advanced Python for Finance
 
 This course will set you on a path towards becoming an expert in Python programming with a specific focus on financial use cases. You can jump to any of the course lessons below:
 
-* A Review From Introduction to Python
-* How To Import External Libraries in Python
-* Introduction to NumPy
-* NumPy Arrays
-* NumPy Methods and Operations
-* NumPy Indexing and Assignment
-* Introduction to Pandas
+* [A Review From Introduction to Python]({{ site.baseurl }}/advanced-python/review/)
+* [How To Import External Libraries in Python]({{ site.baseurl }}/advanced-python/how-to-import-python-libraries/)
+* [Introduction to NumPy]({{ site.baseurl }}/advanced-python/numpy/)
+* [NumPy Arrays]({{ site.baseurl }}/advanced-python/numpy-arrays/)
+* [NumPy Methods and Operations]({{ site.baseurl }}/advanced-python/numpy-methods-operations/)
+* [NumPy Indexing and Assignment]({{ site.baseurl }}/advanced-python/numpy-indexing-assignment/)
+* [Introduction to Pandas]({{ site.baseurl }}/advanced-python/pandas/)
 * Pandas Series
 * Pandas DataFrames
 * How To Deal With Missing Data in Pandas
