@@ -19,7 +19,7 @@ This course will set you on a path towards becoming an expert in Python programm
 * [Introduction to Pandas]({{ site.baseurl }}/advanced-python/pandas/)
 * [Pandas Series]({{ site.baseurl }}/advanced-python/pandas-series/)
 * Practice Problems: Pandas Series
-* Pandas DataFrames
+* [Pandas DataFrames]({{ site.baseurl }}/advanced-python/pandas-dataframes/)
 * Practice Problems: Pandas DataFrames
 * How To Deal With Missing Data in Pandas
 * Practice Problems: How To Deal With Missing Data in Pandas
