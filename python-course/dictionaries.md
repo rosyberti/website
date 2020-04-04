@@ -22,7 +22,7 @@ A dictionary is a data structure that contains an unordered collection of key-va
 
 ```python
 
-myFirstDictionary = { 'key1': 'value1', 'key2': 'value2'	}
+myFirstDictionary = { 'key1': 'value1', 'key2': 'value2'}
 
 ```
 
