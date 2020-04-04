@@ -249,7 +249,7 @@ There are four comparison operators in Python, and their syntax mimics their mat
 #Greater than
 
 <
-#Less Than
+#Less than
 
 >=
 #Greater than or equal to
@@ -305,7 +305,7 @@ Examples of how to use these comparison operators are demonstrated below:
 
 ```
 
-We have spent a great deal of time in this lesson learning various logical operators. In the next section, we will learn how to use
+We have spent a great deal of time in this lesson learning various logical operators. In the next section, we will learn how to use 'if statements'.
 
 ## If Statements
 
@@ -377,7 +377,7 @@ If else statements are another way to run conditional code that is considered mo
 
 ```python
 
-if(statement)
+if(statement):
 
 	action
 
@@ -393,13 +393,13 @@ You can also use `elif` statements to test multiple conditions before executing 
 
 ```python
 
-if(statement1)
+if(statement1):
 
 	action1
 
 elif(statement2):
 
-action2
+	action2
 
 else:
 
