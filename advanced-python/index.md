@@ -17,7 +17,7 @@ This course will set you on a path towards becoming an expert in Python programm
 * [NumPy Indexing and Assignment]({{ site.baseurl }}/advanced-python/numpy-indexing-assignment/)
 * Practice Problems: NumPy Indexing and Assignment
 * [Introduction to Pandas]({{ site.baseurl }}/advanced-python/pandas/)
-* Pandas Series
+* [Pandas Series]({{ site.baseurl }}/advanced-python/pandas-series/)
 * Practice Problems: Pandas Series
 * Pandas DataFrames
 * Practice Problems: Pandas DataFrames
