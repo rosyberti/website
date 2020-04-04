@@ -31,7 +31,7 @@ This course will set you on a path towards becoming an expert in Python programm
 * Practice Problems: How To Merge DataFrames in Pandas
 * [How To Join DataFrames in Pandas]({{ site.baseurl }}/advanced-python/how-to-join-pandas-dataframes/)
 * Practice Problems: How To Join DataFrames in Pandas
-* Common Operations in Pandas
+* [Common Operations in Pandas]({{ site.baseurl }}/advanced-python/pandas-common-operations/)
 * Practice Problems: Common Operations in Pandas
 * Data Input and Output in Pandas
 * Practice Problems: Data Input and Output in Pandas
