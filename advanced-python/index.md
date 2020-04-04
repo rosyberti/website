@@ -25,12 +25,12 @@ This course will set you on a path towards becoming an expert in Python programm
 * Practice Problems: How To Deal With Missing Data in Pandas
 * [How To Use Pandas DataFrames' Groupby Method]({{ site.baseurl }}/advanced-python/pandas-dataframes-groupby/)
 * Practice Problems: How To Use Pandas DataFrames' Groupby Method
+* [How To Concatenate DataFrames in Pandas]({{ site.baseurl }}/advanced-python/how-to-concatenate-pandas-dataframes/)
+* Practice Problems: How To Concatenate DataFrames in Pandas
 * How To Merge DataFrame in Pandas
 * Practice Problems: How To Merge DataFrames in Pandas
 * How To Join DataFrames in Pandas
 * Practice Problems: How To Join DataFrames in Pandas
-* How To Concatenate DataFrames in Pandas
-* Practice Problems: How To Concatenate DataFrames in Pandas
 * Common Operations in Pandas
 * Practice Problems: Common Operations in Pandas
 * Data Input and Output in Pandas
