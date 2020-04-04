@@ -23,6 +23,8 @@ This course will set you on a path towards becoming an expert in Python programm
 * Practice Problems: Pandas DataFrames
 * [How To Deal With Missing Data in Pandas]({{ site.baseurl }}/advanced-python/missing-data-pandas/)
 * Practice Problems: How To Deal With Missing Data in Pandas
+* [How To Use Pandas DataFrames' Groupby Function]({{ site.baseurl }}/advanced-python/pandas-dataframes-groupby/)
+* Practice Problems: How To Use Pandas DataFrames' Groupby Function
 * How To Merge DataFrame in Pandas
 * Practice Problems: How To Merge DataFrames in Pandas
 * How To Join DataFrames in Pandas
