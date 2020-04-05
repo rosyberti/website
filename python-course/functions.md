@@ -240,13 +240,13 @@ def stringReverser(string):
 	i = len(string) - 1
 
 
-    while i >= 0:
+	while i >= 0:
 
 
-    	reversedString = reversedString + string[i]
+		reversedString = reversedString + string[i]
 
 
-    	i -= 1
+		i -= 1
 
 	return reversedString
 
