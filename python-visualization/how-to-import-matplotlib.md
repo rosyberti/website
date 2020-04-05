@@ -67,6 +67,16 @@ If your output looks like this, then you can proceed!
 
 ![Python Visualization Example]({{ site.baseurl }}/images/python-visualization/how-to-import-matplotlib/python-visualization-example.png)
 
+## A Note For Mac Users
+
+If you are working through this course on a Mac that has a Retina display, you may notice that the chart we just created is pretty blurry.
+
+IPython has a built-in solution for this. You can run the following code to change your Jupyter Notebook to 'Retina Mode', which significantly improves the resolution of your visualizations:
+
+```python
+from IPython.display import set_matplotlib_formats
+set_matplotlib_formats('retina')
+```
 
 ## Moving On
 
