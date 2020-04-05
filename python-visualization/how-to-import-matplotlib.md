@@ -11,18 +11,10 @@ In this lesson, we will briefly discuss the imports and configurations required 
 Every lesson in this course will assume that you have run the following code before creating any Python visualizations:
 
 ```python
-
-
-```
 %matplotlib inline
 ```
 
-
-```
-
 You probably have two questions:
-
-
 
 *   What is the meaning of the `%` syntax?
 *   What does this command do?
