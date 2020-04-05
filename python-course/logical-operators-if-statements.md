@@ -119,23 +119,6 @@ falseBoolean != False
 
 Given that the equality operator and the inequality operator are polar opposites of one another, you might be wondering if there is any way to relate the two. There is, and it is called the 'not' operator. 
 
-
-## Chaining Equality Operators Together
-
-You can easily chain together equality and inequality variables in Python. Here is an example, which tests for whether someone is over 65, likes to dance, and has grey hair:
-
-```python
-
-isOver65 = True
-likesToDance = True
-hasGreyHair = False
-
-True == isOver65 == likesToDance == hasGreyHair
-#Returns False
-
-```
-
-
 ## The 'Not' Operator
 
 The word 'not' is a special keyword in Python that modifies the value of a boolean variable. Specifically, it changes `True` values to `False` and `False` values to `True`.
@@ -152,6 +135,20 @@ not isNickCool
 
 ```
 
+## Chaining Equality Operators Together
+
+You can easily chain together equality and inequality variables in Python. Here is an example, which tests for whether someone is over 65, likes to dance, and has grey hair:
+
+```python
+
+isOver65 = True
+likesToDance = True
+hasGreyHair = False
+
+True == isOver65 == likesToDance == hasGreyHair
+#Returns False
+
+```
 
 ## Storing Equality Tests in Variables
 
