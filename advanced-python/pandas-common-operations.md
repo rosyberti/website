@@ -154,7 +154,7 @@ df.sort_values('col2')
 
 The output of this command is below:
 
-![Pandas DataFrame Sort Values]({{ site.baseurl }}/images/advanced-python/common-pandas-operations/pandas-dataframe-sort-values.png)
+![Pandas DataFrame Sort Values]({{ site.baseurl }}/images/advanced-python/common-operations-pandas/pandas-dataframe-sort-values.png)
 
 There are two things to note from this output:
 
