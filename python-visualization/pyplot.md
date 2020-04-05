@@ -22,7 +22,7 @@ I will also run the command to set my display to 'Retina Mode':
 
 ```python
 
-**from** IPython.display **import** set_matplotlib_formats
+from IPython.display import set_matplotlib_formats
 
 set_matplotlib_formats('retina')
 
