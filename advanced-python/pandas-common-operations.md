@@ -140,7 +140,7 @@ Returns
 Name: col3, dtype: int64
 
 """
-
+```
 
 ## How To Sort A Pandas DataFrame
 
