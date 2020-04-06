@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Practice Problems: Tuples
+title: 'Practice Problems: Tuples'
 ---
 
 It's now time for some practice problems! See below for details on how to proceed.
