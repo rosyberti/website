@@ -8,7 +8,7 @@ In this lesson, we will begin exploring data input and output with the pandas Py
 
 ## The File We Will Be Working With in This Lesson
 
-We will be working with different files containing stock prices for Facebook (FB), Amazon (AMZN), Google (GOOG), and Microsoft (MSFT) in this lesson. To download this file, download the entire GitHub repository for this course [here](https://github.com/nicholasmccullum/advanced-python). The files used in this lesson can be found in the `stock_prices` folder of the repository.
+We will be working with different files containing stock prices for Facebook (FB), Amazon (AMZN), Google (GOOG), and Microsoft (MSFT) in this lesson. To download these files, download the entire GitHub repository for this course [here](https://github.com/nicholasmccullum/advanced-python). The files used in this lesson can be found in the `stock_prices` folder of the repository.
 
 You'll want to save these files in the same directory as your Jupyter Notebook for this lesson. The easiest way to do this is to download the GitHub repository, and then open your Jupyter Notebook in the `stock_prices` folder of the repository.
 
