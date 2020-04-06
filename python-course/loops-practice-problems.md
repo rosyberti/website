@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Practice Problems: Loops
+title: 'Practice Problems: Loops'
 ---
 
 It's now time for some practice problems! See below for details on how to proceed.
