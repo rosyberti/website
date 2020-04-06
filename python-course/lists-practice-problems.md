@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Practice Problems: List
+title: 'Practice Problems: List'
 ---
 
 It's now time for some practice problems! See below for details on how to proceed.
