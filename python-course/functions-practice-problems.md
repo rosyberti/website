@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Practice Problems: Functions
+title: 'Practice Problems: Functions'
 ---
 
 It's now time for some practice problems! See below for details on how to proceed.
