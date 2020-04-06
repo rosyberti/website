@@ -186,6 +186,8 @@ Like `read_excel`, `to_excel` accepts a second argument called `sheet_name` that
 
 ```python
 
+df.to_excel('my_new_excel_file.xlsx', sheet_name='My New Sheet!')
+
 ```
 
 If you do not specify a value for `sheet_name`, then the sheet will be named `Sheet1` by default (just like when you create a new Excel document using the actual application).
