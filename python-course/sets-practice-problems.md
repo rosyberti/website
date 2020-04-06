@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Practice Problems: Sets
+title: 'Practice Problems: Sets'
 ---
 
 It's now time for some practice problems! See below for details on how to proceed.
