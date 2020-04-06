@@ -33,8 +33,10 @@ This course will set you on a path towards becoming an expert in Python programm
 * Practice Problems: How To Join DataFrames in Pandas
 * [Common Operations in Pandas]({{ site.baseurl }}/advanced-python/pandas-common-operations/)
 * Practice Problems: Common Operations in Pandas
-* Data Input and Output in Pandas
+* [Local Data Input and Output in Pandas]({{ site.baseurl }}/advanced-python/pandas-data-input-output/)
 * Practice Problems: Data Input and Output in Pandas
+* [Remote Data Input and Output in Pandas]({{ site.baseurl }}/advanced-python/remote-data/)
+* Practice Problems: Remote Data Input and Output in Pandas
 * How To Save Pandas DataFrames as Excel Files for External Users
 * Practice Problems: How To Save Pandas DataFrames as Excel Files for External Users
 
