@@ -53,9 +53,9 @@ pd.read_excel()
 
 We will explore some of these methods later in this lesson.
 
-If we wanted to import a `.csv` file that was not directly in our working directory, we need to modify the syntax slightly. 
+If we wanted to import a `.csv` file that was not directly in our working directory, we need to modify the syntax of the `read_csv` method slightly. 
 
-If the file is in a folder deeper than what you're working in how, you need to specify the full path of the file in the `read_csv` method argument. As an example, if the `stock_prices.csv` file was contained in a folder called `new_folder`, then we could import it like this:
+If the file is in a folder deeper than what you're working in now, you need to specify the full path of the file in the `read_csv` method argument. As an example, if the `stock_prices.csv` file was contained in a folder called `new_folder`, then we could import it like this:
 
 ```python
 
@@ -65,7 +65,7 @@ new_data_frame = pd.read_csv('./new_folder/stock_prices.csv')
 
 For those unfamiliar with working with directory notation, the `.` at the start of the filepath indicates the current directory. Similarly, a `..` indicates one directory above the current directory, and a `...`indicates _two_ directories above the current directory.
 
-This syntax is exactly how we reference (and import) files that are above our current working directory. As an example, open a Jupyter Notebook inside the `new_folder` folder, and place `stock_prices.csv` in the parent folder. With this file layout, you could import the `stock_prices.csv` file using the following command:
+This syntax (using periods) is exactly how we reference (and import) files that are above our current working directory. As an example, open a Jupyter Notebook inside the `new_folder` folder, and place `stock_prices.csv` in the parent folder. With this file layout, you could import the `stock_prices.csv` file using the following command:
 
 ```python
 
@@ -112,7 +112,7 @@ new_data_frame.to_csv('my_new_csv.csv', index = False)
 
 The new `.csv` file does not have the unlabelled index column:
 
-![An Example of Data Input to a Pandas DataFrame]({{ site.baseurl }}/images/advanced-python/pandas-data-input-output/pandas-data-csv-output.png)
+![An Example of Data Input to a Pandas DataFrame]({{ site.baseurl }}/images/advanced-python/pandas-data-input-output/pandas-data-csv-output-index-false.png)
 
 We will see later in this lesson that for every `read` method that allows us to import data, there is usually a corresponding `to` function that allows us to save that data!
 
