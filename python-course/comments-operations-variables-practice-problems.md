@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Practice Problems: Comments, Operations, and Variables
+title: 'Practice Problems: Comments, Operations, and Variables'
 ---
 
 It's now time for some practice problems! See below for details on how to proceed.
