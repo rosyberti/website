@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Data Input and Output in Pandas
+title: Local Data Input and Output in Pandas
 ---
 
 In this lesson, we will begin exploring data input and output with the pandas Python library. 
