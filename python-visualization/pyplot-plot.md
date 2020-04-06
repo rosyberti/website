@@ -11,24 +11,15 @@ In this lesson, we'll be exploring the pyplot `plot` function and all of its ass
 As before, I'm assuming you've run the following code before working through this lesson:
 
 ```python
-
-
-```
 import matplotlib.pyplot as plt
 
 %matplotlib inline
-```
-
 
 import numpy as np
 
-
-```
 from IPython.display import set_matplotlib_formats
 
 set_matplotlib_formats('retina')
-```
-
 
 ```
 
