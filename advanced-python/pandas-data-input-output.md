@@ -114,12 +114,16 @@ The new `.csv` file does not have the unlabelled index column:
 
 ![An Example of Data Input to a Pandas DataFrame]({{ site.baseurl }}/images/advanced-python/pandas-data-input-output/pandas-data-csv-output-index-false.png)
 
-We will see later in this lesson that for every `read` method that allows us to import data, there is usually a corresponding `to` function that allows us to save that data!
+The `read_csv` and `to_csv` methods make it very easy to import and export data from `.csv` files using pandas. We will see later in this lesson that for every `read` method that allows us to import data, there is usually a corresponding `to` function that allows us to save that data!
 
 
 ## How To Import `.json` Files Using Pandas
 
-If you are not experienced in working with large datasets, then you may not be familiar with the JSON file type. JSON stands for JavaScript Object Notation. JSON files are very similar to Python Dictionaries. JSON files are one of the most commonly-used data types among software developers because they can be manipulated using basically every programming language.
+If you are not experienced in working with large datasets, then you may not be familiar with the JSON file type. 
+
+JSON stands for JavaScript Object Notation. JSON files are very similar to Python Dictionaries. 
+
+JSON files are one of the most commonly-used data types among software developers because they can be manipulated using basically every programming language.
 
 Pandas has a method called `read_json` that makes it very easy to import JSON files as a pandas DataFrame. An example is below.
 
