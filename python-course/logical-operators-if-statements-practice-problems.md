@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Practice Problems: Logical Operations and If Statements
+title: 'Practice Problems: Logical Operations and If Statements'
 ---
 
 It's now time for some practice problems! See below for details on how to proceed.
