@@ -27,7 +27,7 @@ You can jump to any of the course lessons below:
 * [Logical Operators and If Statements]({{ site.baseurl }}/python-course/logical-operators-if-statements/)
 * [Practice Problems: Logical Operators and If Statements]({{ site.baseurl }}/python-course/logical-operators-if-statements-practice-problems/)
 * [Loops]({{ site.baseurl }}/python-course/loops/)
-* [Practice Problems: Loops]({{ site.baseurl }}/python-course/loops/)
+* [Practice Problems: Loops]({{ site.baseurl }}/python-course/loops-practice-problems/)
 * [Functions]({{ site.baseurl }}/python-course/functions/)
 * [Practice Problems: Functions]({{ site.baseurl }}/python-course/functions-practice-problems/)
 * [Classes]({{ site.baseurl }}/python-course/classes/)
