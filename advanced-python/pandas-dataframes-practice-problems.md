@@ -1,4 +1,4 @@
 ---
 layout: page
-title: Practice Problems: Pandas DataFrames
+title: 'Practice Problems: Pandas DataFrames'
 ---
