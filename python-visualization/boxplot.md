@@ -3,7 +3,7 @@ layout: page
 title: How To Create Boxplots in Python Using Matplotlib
 ---
 
-In this lesson, you'll learn how to create boxplots using matplotlib.
+In this lesson, you'll learn how to create boxplots in Python using matplotlib.
 
 
 ## The Imports We'll Need For This Lesson
@@ -64,7 +64,7 @@ A boxplot is a chart that has the following image for each data point (like `sep
 
 ![An Example of a Boxplot]({{ site.baseurl }}/images/python-visualization/boxplot/boxplot-example.png)
 
-Each specific component of this boxplot has a very well-defined meaning. They are labeled in the following image
+Each specific component of this boxplot has a very well-defined meaning. They are labeled in the following image.
 
 ![An Example of a Boxplot With Labels]({{ site.baseurl }}/images/python-visualization/boxplot/labeled-boxplot.png)
 
@@ -83,7 +83,11 @@ For those unfamiliar with the terminology of this diagram, they are described be
 
 So how can we actually create a boxplot using matplotlib?
 
-First, we will have to drop any non-numerical columns from the `iris_data` DataFrame. The only column that is non-numerical is `species`. We can drop `species` from `iris_data` using the `drop` method, like this:
+First, we will have to drop any non-numerical columns from the `iris_data` DataFrame. 
+
+The only column that is non-numerical is `species`. 
+
+We can drop `species` from `iris_data` using the `drop` method, like this:
 
 ```python
 
@@ -129,7 +133,11 @@ plt.boxplot(iris_data.transpose())
 
 ![An Example of a Boxplot With Labels]({{ site.baseurl }}/images/python-visualization/boxplot/second-boxplot.png)
 
-This looks much better! However, we still have work to do. One of the problems that remains is that the x-axis is not labeled. It is currently 
+This looks much better! 
+
+However, we still have work to do. 
+
+One of the problems that remains is that the x-axis is not labeled. It is currently unclear which boxplot represents which data point.
 
 We can modify the labels of the x-axis using matplotlib's `xticks` method. The `xticks` method takes two arguments:
 
@@ -177,9 +185,11 @@ labels = list(iris_data.columns)
 
 ```
 
-First, we create an object that contains all of the column names using the pandas DataFrame `columns` attribute.
+A brief explanation of this code cell is below:
 
-Next, we force this object into a `list` data structure using the `list` function.
+* First, we create an object that contains all of the column names using the pandas DataFrame `columns` attribute.
+
+* Next, we force this object into a `list` data structure using the `list` function.
 
 With all this done, we can relabel the x-axis as follows:
 
@@ -193,7 +203,7 @@ plt.xticks(ticks,labels)
 
 ![An Example of a Boxplot]({{ site.baseurl }}/images/python-visualization/boxplot/fourth-boxplot.png)
 
-That plot looks much better! In the next section, we will explore how to style boxplots using the `flierprops` argument.
+That plot looks much better! In the next section, we will explore how to style boxplots using vairous methods available in matplotlib.
 
 
 ## Customizing The Appearance of Boxplots
@@ -230,11 +240,7 @@ Both `boxprops` and `flierprops` must be passed into the `boxplot` method as a d
 
 ```python
 
-
-```
 boxprops = dict(linestyle='--', linewidth=3, color='darkgoldenrod')
-```
-
 
 ```
 
@@ -254,11 +260,7 @@ The `flierprops` argument works in a similar manner. We first create the `flierp
 
 ```python
 
-
-```
 flierprops = dict(marker='o', markerfacecolor='green', markersize=12, linestyle='none')
-```
-
 
 ```
 
