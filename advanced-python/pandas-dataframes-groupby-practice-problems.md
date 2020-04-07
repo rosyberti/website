@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 'Practice Problems: How To Use Pandas DataFrames' GroupBy Method'
+title: "Practice Problems: How To Use Pandas DataFrames' GroupBy Method"
 ---
 
 It's now time for some practice problems! See below for details on how to proceed.
