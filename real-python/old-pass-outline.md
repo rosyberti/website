@@ -1,54 +1,45 @@
-# OLD OUTLINE: DO NOT USE
-
 ## Who is this article for?
 
-This article will likely be geared towards Python developers looking to expand
-their knowledge of the language, or are have come across the `pass` statement in some other code and do not know what it is. It will likely not be for absolute beginners, nor for more seasoned developers.
+This article is for a novice Python developer who is not familiar with the fundamentals of flow control in Python.
 
 
 ## How will your article benefit your ideal reader?
 
 It will provide readers with an understanding of:
 
-1. why the pass statement exists;
-2. how it might differ from other control flow statements (such as `break` and `continue`);
-3. how it can be implemented in real life use cases.
+* The basics of flow control
+* The purpose of flow controls statements
+* How the `pass` statement fits into a flow control process
+* How the `pass` statement is different from other flow control statements like `break` and `continue`
+* Many examples of the `pass` statement
 
 ## What will your ideal reader be able to do at the end of your article?
 
-Understand when it is appropriate (and not appropriate) to use pass
+Understand the `pass` statement's use case, and when it might be appropriate
 
 ## Title Ideas
 
-- The Complete Guide to Python's Pass Statement
-- How to Pass with Python
-- Pass with Python like a Pro
+* Understanding the Python Pass Statement
+* The Python Pass Statement: Uses, Opportunities, and Examples
 
 ## What examples and/or datasets will you use (if applicable)?
 
+* The UCI Machine Learning Wine Quality dataset
+* Examples of the `pass` statement being used in a `try`/`except` flow
+* Examples of the `pass` statement being used in a `for` and `while` loop
+* Examples of the `pass` statement being used in a function
+* Examples of the `pass` statement being used in a class
+
 ## Outline / Main Sections
 
-- Introduction to control flow
-    - Explanation of keywords in Python
-        - Show what they are using: `keyword.kwlist`
-    - General description of Python control flow (conditionals, loops)
-    - Briefly explain the syntax, and provide a few examples
-- Explanation of behavior
-    - What it does
-        "Nothing."
-    - What it does NOT do
-        "Anything."
-    - But why does Python need `pass`? 
-        - And, why does it not exist in other languages?
-    - Compare and contrast with `break` and `continue`
-        - For example, what happens inside a code block AFTER `pass`?
-- Some exmaples of usage in the following categories. For Each category, provide an example and then explain where you might want to use this and how it could be done in practice
-    - stubbing functions, classes, or conditionals
-    - with if/else for code readability or clarity
-    - with exceptions for ignoring certain exceptions
-- Alternatives with `Ellipsis` and docstrings
-    - show some examples of valid code without any content and without pass
-    - How do these differ from `pass`?
+- The Fundamentals of Flow Control in Python
+- The Difference Flow Control Statements in Python
+- Examples of the Python Pass Statement:
+    - If statement
+    - Loops
+    - Functions
+    - Classes
+- The Differences Between `pass`, `break`, and `continue`
 
 ## Other helpful RP articles/videos you could link to
 
