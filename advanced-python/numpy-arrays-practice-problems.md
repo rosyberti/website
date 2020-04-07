@@ -7,11 +7,11 @@ It's now time for some practice problems! See below for details on how to procee
 
 ## Course Repository & Practice Problems
 
-All of the code for this course's practice problems can be found in [this GitHub repository](https://github.com/nicholasmccullum/learn-python).
+All of the code for this course's practice problems can be found in [this GitHub repository](https://github.com/nicholasmccullum/advanced-python).
 
 There are two options that you can use to complete the practice problems:
 
-* Open them in your browser with a platform called Binder using [this link](https://mybinder.org/v2/gh/nicholasmccullum/learn-python/master) (recommended)
+* Open them in your browser with a platform called Binder using [this link](https://mybinder.org/v2/gh/nicholasmccullum/advanced-python/master) (recommended)
 * Download the repository to your local computer and open them in a Jupyter Notebook using Anaconda (a bit more tedious)
 
 Note that binder can take up to a minute to load the repository, so please be patient. 
