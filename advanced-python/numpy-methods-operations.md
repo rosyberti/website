@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Advanced Python for Finance
+title: NumPy Methods and Operations
 ---
 
 In this lesson, we will be working through various operations included in the NumPy library. 
