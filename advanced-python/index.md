@@ -11,34 +11,32 @@ This course will set you on a path towards becoming an expert in Python programm
 * [How To Import External Libraries in Python]({{ site.baseurl }}/advanced-python/how-to-import-python-libraries/)
 * [Introduction to NumPy]({{ site.baseurl }}/advanced-python/numpy/)
 * [NumPy Arrays]({{ site.baseurl }}/advanced-python/numpy-arrays/)
-* Practice Problems: NumPy Arrays
+* [Practice Problems: NumPy Arrays]({{ site.baseurl }}/advanced-python/numpy-arrays-practice-problems/)
 * [NumPy Methods and Operations]({{ site.baseurl }}/advanced-python/numpy-methods-operations/)
-* Practice Problems: NumPy Methods and Operations
+* [Practice Problems: NumPy Methods and Operations]({{ site.baseurl }}/advanced-python/numpy-methods-operations-practice-problems/)
 * [NumPy Indexing and Assignment]({{ site.baseurl }}/advanced-python/numpy-indexing-assignment/)
-* Practice Problems: NumPy Indexing and Assignment
+* [Practice Problems: NumPy Indexing and Assignment]({{ site.baseurl }}/advanced-python/numpy-indexing-assignment-practice-problems/)
 * [Introduction to Pandas]({{ site.baseurl }}/advanced-python/pandas/)
 * [Pandas Series]({{ site.baseurl }}/advanced-python/pandas-series/)
-* Practice Problems: Pandas Series
+* [Practice Problems: Pandas Series]({{ site.baseurl }}/advanced-python/pandas-series-practice-problems/)
 * [Pandas DataFrames]({{ site.baseurl }}/advanced-python/pandas-dataframes/)
-* Practice Problems: Pandas DataFrames
+* [Practice Problems: Pandas DataFrames]({{ site.baseurl }}/advanced-python/pandas-dataframes-practice-problems/)
 * [How To Deal With Missing Data in Pandas]({{ site.baseurl }}/advanced-python/missing-data-pandas/)
-* Practice Problems: How To Deal With Missing Data in Pandas
+* [Practice Problems: How To Deal With Missing Data in Pandas]({{ site.baseurl }}/advanced-python/missing-data-pandas-practice-problems/)
 * [How To Use Pandas DataFrames' Groupby Method]({{ site.baseurl }}/advanced-python/pandas-dataframes-groupby/)
-* Practice Problems: How To Use Pandas DataFrames' Groupby Method
+* [Practice Problems: How To Use Pandas DataFrames' Groupby Method]({{ site.baseurl }}/advanced-python/pandas-dataframes-groupby-practice-problems/)
 * [How To Concatenate DataFrames in Pandas]({{ site.baseurl }}/advanced-python/how-to-concatenate-pandas-dataframes/)
-* Practice Problems: How To Concatenate DataFrames in Pandas
+* [Practice Problems: How To Concatenate DataFrames in Pandas]({{ site.baseurl }}/advanced-python/how-to-concatenate-pandas-dataframes-practice-problems/)
 * [How To Merge DataFrame in Pandas]({{ site.baseurl }}/advanced-python/how-to-merge-pandas-dataframes/)
-* Practice Problems: How To Merge DataFrames in Pandas
+* [Practice Problems: How To Merge DataFrames in Pandas]({{ site.baseurl }}/advanced-python/how-to-merge-pandas-dataframes-practice-problems/)
 * [How To Join DataFrames in Pandas]({{ site.baseurl }}/advanced-python/how-to-join-pandas-dataframes/)
-* Practice Problems: How To Join DataFrames in Pandas
+* [Practice Problems: How To Join DataFrames in Pandas]({{ site.baseurl }}/advanced-python/how-to-join-pandas-dataframes-practice-problems/)
 * [Common Operations in Pandas]({{ site.baseurl }}/advanced-python/pandas-common-operations/)
-* Practice Problems: Common Operations in Pandas
+* [Practice Problems: Common Operations in Pandas]({{ site.baseurl }}/advanced-python/pandas-common-operations-practice-problems/)
 * [Local Data Input and Output in Pandas]({{ site.baseurl }}/advanced-python/pandas-data-input-output/)
-* Practice Problems: Data Input and Output in Pandas
+* [Practice Problems: Data Input and Output in Pandas]({{ site.baseurl }}/advanced-python/pandas-data-input-output-practice-problems/)
 * [Remote Data Input in Pandas]({{ site.baseurl }}/advanced-python/remote-data/)
-* Practice Problems: Remote Data Input and Output in Pandas
-* How To Save Pandas DataFrames as Excel Files for External Users
-* Practice Problems: How To Save Pandas DataFrames as Excel Files for External Users
+* [Practice Problems: Remote Data Input and Output in Pandas]({{ site.baseurl }}/advanced-python/remote-data-practice-problems/)
 
 Additional details about the instructor and this course are listed below.
 
