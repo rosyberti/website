@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Advanced Python for Finance
+title: 'Practice Problems: NumPy Methods and Operations'
 ---
 
 It's now time for some practice problems! See below for details on how to proceed.
