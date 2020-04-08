@@ -142,8 +142,6 @@ An example of changing this scatterplot's points to red is below.
 
 ```python
 
-plt.figure(figsize=(16,12))
-
 plt.scatter(x,y, s=200, color='#red') #Note - could also use 'color='#FF0000''
 
 plt.xlabel('Sepal Length', fontsize=20)
@@ -297,8 +295,6 @@ Now that we have our list of color numbers, we can create our first scatterplot 
 
 ```python
 
-plt.figure(figsize=(16,12))
-
 plt.scatter(x,y, s=200, c=colorNumbers, cmap='viridis') 
 
 plt.xlabel('Sepal Length', fontsize=20)
@@ -347,7 +343,6 @@ legend_aliases = [
 Once `legend_aliases` is created, we can create the legend the `plt.legend()` method:
 
 ```python
-plt.figure(figsize=(16,12))
 
 plt.scatter(x,y, s=200, c=colorNumbers, cmap='viridis') 
 
@@ -439,8 +434,6 @@ Here is the code:
 
 ```python
 
-plt.figure(figsize=(16,12))
-
 plt.scatter(x, y, c=c, s=s, cmap='RdPu')
 
 plt.xlabel('Fixed Acidity', fontsize=20)
@@ -462,8 +455,6 @@ First, I think the size of each datapoint should be improved. A 10x increase sho
 Second, we can add a `colobar` to the plot that provides some context for the different colors of the data points. Specifically, I use the last line of the following code block to create a color bar with a label of `pH` with a `fontsize` of 20:
 
 ```python
-
-plt.figure(figsize=(16,12))
 
 plt.scatter(x, y, c=c, s=s*10, cmap='RdPu')
 
