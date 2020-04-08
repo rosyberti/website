@@ -197,7 +197,7 @@ array_to_copy
 
 So far in the lesson, we have only explored how to reference one-dimensional NumPy arrays. We will explore the indexing 
 
-Indexing Two-Dimensional NumPy Arrays
+## Indexing Two-Dimensional NumPy Arrays
 
 To start, let's create a two-dimensional NumPy array named `mat`:
 
