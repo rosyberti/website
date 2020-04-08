@@ -25,7 +25,7 @@ import pandas as pd
 
 For the rest of this lecture, I will assume that both of those imports have been executed before running any code blocks.
 
-How To Create a Pandas Series
+## How To Create a Pandas Series
 
 There are a number of different ways to create a pandas Series. We will explore all of them in this section. 
 
