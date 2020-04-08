@@ -154,11 +154,11 @@ Here's the output of that code:
 
 ```
 
-0      &lt;built-in function sum>
+0      <built-in function sum>
 
-1    &lt;built-in function print>
+1    <built-in function print>
 
-2      &lt;built-in function len>
+2      <built-in function len>
 
 dtype: object
 
