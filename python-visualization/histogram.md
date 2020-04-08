@@ -35,7 +35,7 @@ A histogram is a visualization that shows the prevalence of numerical data over 
 
 An example of a histogram is below. As you'll see, colors are used to differentiate between two subsets within the data.
 
-![An Example of a Scatter Plot]({{ site.baseurl }}/images/python-visualization/histogram/example-histogram.png)
+![An Example of a Histogram]({{ site.baseurl }}/images/python-visualization/histogram/example-histogram.png)
 
 One key concept that you must understand when working with histograms is the idea of 	`bins` - how many parts the total range of the data set is divided into. Changing the number of `bins` in a histogram does not change the data set. It only changes the appearance of the data in the histogram. 
 
