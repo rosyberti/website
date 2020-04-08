@@ -406,9 +406,9 @@ Let's take a look at what is contained in the data by investigating the columns 
 wine_data.columns
 
 #Returns Index(['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar',
-       'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density',
-       'pH', 'sulphates', 'alcohol', 'quality'],
-      dtype='object')
+#       'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density',
+#       'pH', 'sulphates', 'alcohol', 'quality'],
+#      dtype='object')
 
 ```
 
