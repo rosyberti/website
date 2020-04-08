@@ -128,13 +128,6 @@ second_new_array
 #Returns array([6, 7])
 
 
-```
-<p style="text-align: right">
-In [ ]:
-</p>
-```
-
-
 second_new_array[1] = 4
 
 second_new_array 
