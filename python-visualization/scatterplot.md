@@ -41,7 +41,7 @@ A scatterplot is a plot that position data points along the x-axis and y-axis ac
 
 ![An Example of a Scatter Plot]({{ site.baseurl }}/images/python-visualization/scatterplot/scatterplot-example.png)
 
-As this explanation implies, scatterplots only work for two-dimensional data. Accordingly, for the rest of this lesson we will drop all data from the Iris dataset except for `sepalLength` and `petalLength`. You can drop the unnecessary columns with the following code:
+As this explanation implies, scatterplots are primarily designed to work for two-dimensional data. Accordingly, for most of the rest of this lesson we will drop all data from the Iris dataset except for `sepalLength` and `petalLength`. You can drop the unnecessary columns with the following code:
 
 ```python
 
@@ -81,7 +81,7 @@ plt.scatter(x,y)
 
 ![Your First Scatterplot]({{ site.baseurl }}/images/python-visualization/scatterplot/first-scatterplot.png)
 
-We will discuss how to format this new plot next.
+This is a great start! We will discuss how to format this new plot next.
 
 
 ## How To Format Scatterplots in Python Using Matplotlib
@@ -120,7 +120,7 @@ You will also want to understand how to change the size and color the datapoints
 
 The size of datapoints within a matplotlib scatterplot are determined by an optional variable `s`. The default value of `s` is `20` - so if you want your data points to be larger than normal, set `s` to be greater than `20`. Conversely, if you want your data points to be smaller than normal, set `s` to be less than `20`.
 
-Here is an example where I 10x the size of each data point within a matplotlib scatterplot:
+Here is an example where I increase the size of each data point by a factor of 10 (from 20 to 200) within a matplotlib scatterplot:
 
 ```python
 
@@ -175,7 +175,9 @@ iris_data = iris_data.drop(columns_to_drop, axis=1)
 
 ```
 
-Let's again create our x and y variables using the same code as before. This time, we will create a new variable called `species`, which refers to the column of the DataFrame with the same name:
+Let's again create our x and y variables using the same code as before. 
+
+This time, we will create a new variable called `species`, which refers to the column of the DataFrame with the same name:
 
 ```python
 
@@ -187,9 +189,9 @@ species = iris_data['species']
 
 ```
 
-For this new `species` variable, we will use a matplotlib function called `cmap` to create a "color map". Alongside `cmap`, we will also need a variable `c` which is can take a few different forms:
+For this new `species` variable, we will use a matplotlib function called `cmap` to create a "color map". A color map is a set of RGBA colors built into matplotlib that can be "mapped" to specific values in a data set.
 
-
+Alongside `cmap`, we will also need a variable `c` which is can take a few different forms:
 
 *   A single string representing a color
 *   A sequence of color specifications
@@ -197,13 +199,10 @@ For this new `species` variable, we will use a matplotlib function called `cmap`
 
 This is a bunch of jargon that can be simplified as follows:
 
-
-
 *   Matplotlib allows us to map certain categories (in this case, `species`) to specific colors
 *   We can apply this formatting to a scatterplot 
 
 One other important concept to understand is that matplotlib includes a number of color map styles by default. Matplotlib's color map styles are divided into various categories, including:
-
 
 
 *   Perceptually Uniform Sequential
@@ -290,7 +289,7 @@ colorNumbers
 
 ```
 
-The problem with this method is that it would not scale to very large data sets. For example, if there 
+The problem with this method is that it would not scale to very large data sets. For example, if there were 100 categories instead of 3 categories, you would have to manually write out 3 `if` statements.
 
 The second way to do this would be to nest this within another loop that counts the number of unique elements in `species` and creates the right number of `if` statements in response. This is a more sophisticated technique that is beyond the scope of this course. 
 
@@ -310,7 +309,11 @@ plt.title('A Scatterplot of Sepal Length and Petal Length from the Iris Data Set
 
 ```
 
-![Your Second Scatterplot]({{ site.baseurl }}/images/python-visualization/scatterplot/seventh-scatterplot.png)
+To recap the contents of the `scatter` method in this code block, the `c` variable contains the data from the data set (which are either `1`, `2`, or `3` depending on the flower species) and the `cmap` variable `viridis` is a built-in color scheme from matplotlib that maps the `1`s, `2`s, and `3`s to specific colors.
+
+The output of this code is below. 
+
+![Your Seventh Scatterplot]({{ site.baseurl }}/images/python-visualization/scatterplot/seventh-scatterplot.png)
 
 As you can see, this code makes it very easy to see the different flower species in this diagram. 
 
@@ -375,8 +378,9 @@ plt.legend(handles=legend_aliases, loc='upper center', ncol=3)
 
 ![Your Ninth Scatterplot]({{ site.baseurl }}/images/python-visualization/scatterplot/ninth-scatterplot.png)
 
-In the next section of this article, we will learn how to visualize 3rd and 4th variables in matplotlib by using the `c` and `s` variables that we have recently been working with.
+As you can see, assigning different colors to different categories (in this case, `species`) is a useful visualization tool in matplotlib.
 
+In the next section of this article, we will learn how to visualize 3rd and 4th variables in matplotlib by using the `c` and `s` variables that we have recently been working with.
 
 ## How To Deal With More Than 2 Variables in Python Visualizations Using Matplotlib
 
@@ -388,7 +392,9 @@ Secondly, you could change the color of each data according to a fourth variable
 
 To demonstrate these capabilities, let's import a new dataset. 
 
-UC Irvine maintain a very valuable collection of public datasets for practice with machine learning and data visualization that they have made available to the public through the [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/index.php). We will be importing their `[Wine Quality](http://archive.ics.uci.edu/ml/datasets/Wine+Quality)` dataset to demonstrate a four-dimensional scatterplot.
+UC Irvine maintain a very valuable collection of public datasets for practice with machine learning and data visualization that they have made available to the public through the [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/index.php). 
+
+We will be importing their [Wine Quality](http://archive.ics.uci.edu/ml/datasets/Wine+Quality) dataset to demonstrate a four-dimensional scatterplot.
 
 You can import this dataset with the following Python command:
 
@@ -404,7 +410,10 @@ Let's take a look at what is contained in the data by investigating the columns 
 
 wine_data.columns
 
-#Returns wine_data = pd.read_csv('http://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-red.csv', sep=';')
+#Returns Index(['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar',
+       'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density',
+       'pH', 'sulphates', 'alcohol', 'quality'],
+      dtype='object')
 
 ```
 
@@ -424,7 +433,9 @@ c = wine_data['pH']
 
 ```
 
-It is now time to create the chart! I will be using the `RdPu` color map template from matplotlib since it roughly matches the color scheme of a nice red wine. Here is the code:
+It is now time to create the chart! I will be using the `RdPu` color map template from matplotlib since it roughly matches the color scheme of a nice red wine. Kudos to [this Medium article](https://medium.com/better-programming/how-to-use-colormaps-with-matplotlib-to-create-colorful-plots-in-python-969b5a892f0c) for the color scheme idea.
+
+Here is the code:
 
 ```python
 
