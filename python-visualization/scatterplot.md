@@ -310,7 +310,70 @@ plt.title('A Scatterplot of Sepal Length and Petal Length from the Iris Data Set
 
 ```
 
-As you can see, this code makes it very easy to see the different flower species in this diagram.
+![Your Second Scatterplot]({{ site.baseurl }}/images/python-visualization/scatterplot/seventh-scatterplot.png)
+
+As you can see, this code makes it very easy to see the different flower species in this diagram. 
+
+However, there is still a problem. The plot does not have a legend to allow us to differentiate between the flower species!
+
+To fix this, we first need to create a separate object (which I call `viridis`) to store some color values for us to reference later. You can do this using the following code:
+
+```python
+viridis = plt.cm.get_cmap('viridis', 3)
+```
+
+Next, we need to create three 'fake' scatterplot data series that hold no data but serve to allow us to label the legend. An example is below:
+
+```python
+plt.scatter([], [], marker='o', label='setosa', edgecolors = viridis(0), c=viridis(0))
+```
+This data series wil label the `setosa` species, and its colors are 0. 
+
+Our next step is to create data series for the `versicolor` and `virginica` species and wrap all three data series in a list. I call the list `legend_aliases`:
+  
+```python
+viridis = plt.cm.get_cmap('viridis', 3)
+
+legend_aliases = [
+    plt.scatter([], [], marker='o', label='setosa', edgecolors = viridis(0), c=viridis(0)),
+    plt.scatter([], [], marker='o', label='versicolor', edgecolors = viridis(1), c=viridis(1)),
+    plt.scatter([], [], marker='o', label='virginica', edgecolors = viridis(2), c=viridis(2))
+]
+```
+
+Once `legend_aliases` is created, we can create the legend the `plt.legend()` method:
+
+```python
+plt.figure(figsize=(16,12))
+
+plt.scatter(x,y, s=200, c=colorNumbers, cmap='viridis') 
+
+plt.xlabel('Sepal Length', fontsize=20)
+
+plt.ylabel('Petal Length', fontsize=20)
+
+plt.title('A Scatterplot of Sepal Length and Petal Length from the Iris Data Set', fontsize=25)
+
+viridis = plt.cm.get_cmap('viridis', 3)
+
+legend_aliases = [
+    plt.scatter([], [], marker='o', label='setosa', edgecolors = viridis(0), c=viridis(0)),
+    plt.scatter([], [], marker='o', label='versicolor', edgecolors = viridis(1), c=viridis(1)),
+    plt.scatter([], [], marker='o', label='virginica', edgecolors = viridis(2), c=viridis(2))
+]
+
+plt.legend(handles=legend_aliases, loc='upper center')
+```
+
+![Your Eighth Scatterplot]({{ site.baseurl }}/images/python-visualization/scatterplot/eighth-scatterplot.png)
+
+Note that if you wanted the species to be listed side-by-side in the legend, you can specifiy `ncol=3` like this:
+
+```python
+plt.legend(handles=legend_aliases, loc='upper center', ncol=3)
+```
+
+![Your Ninth Scatterplot]({{ site.baseurl }}/images/python-visualization/scatterplot/ninth-scatterplot.png)
 
 In the next section of this article, we will learn how to visualize 3rd and 4th variables in matplotlib by using the `c` and `s` variables that we have recently been working with.
 
