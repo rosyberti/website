@@ -361,7 +361,7 @@ You can get an array of the boolean values associated with this statement like t
 
 ```python
 
-df['C'] &lt; 1
+df['C'] < 1
 
 ```
 
@@ -379,7 +379,7 @@ Name: C, dtype: bool
 
 ```
 
-You can also get the DataFrame's actual values relative to this conditional selection command by typing `df[df['C'] &lt; 1]`, which outputs just the first row of the DataFrame (since this is the only row where the statement is true for column `C`:
+You can also get the DataFrame's actual values relative to this conditional selection command by typing `df[df['C'] < 1]`, which outputs just the first row of the DataFrame (since this is the only row where the statement is true for column `C`:
 
 ![Pandas DataFrame Conditional Selection DataFrame]({{ site.baseurl }}/images/advanced-python/pandas-dataframe/pandas-dataframe-conditional-selection-dataframe.png)
 
