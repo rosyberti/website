@@ -53,7 +53,7 @@ Anyone who has taken my Introduction to Python course will remember that string 
 
 str1 = "Hello "
 
-str2 = "World!
+str2 = "World!"
 
 str1 + str2
 
