@@ -34,9 +34,7 @@ This course will set you on a path towards becoming an expert in Python programm
 * [Common Operations in Pandas]({{ site.baseurl }}/advanced-python/pandas-common-operations/)
 * [Practice Problems: Common Operations in Pandas]({{ site.baseurl }}/advanced-python/pandas-common-operations-practice-problems/)
 * [Local Data Input and Output in Pandas]({{ site.baseurl }}/advanced-python/pandas-data-input-output/)
-* [Practice Problems: Data Input and Output in Pandas]({{ site.baseurl }}/advanced-python/pandas-data-input-output-practice-problems/)
 * [Remote Data Input in Pandas]({{ site.baseurl }}/advanced-python/remote-data/)
-* [Practice Problems: Remote Data Input and Output in Pandas]({{ site.baseurl }}/advanced-python/remote-data-practice-problems/)
 
 Additional details about the instructor and this course are listed below.
 
