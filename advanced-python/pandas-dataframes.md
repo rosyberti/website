@@ -52,7 +52,7 @@ Once this is done, you can wrap all of the constituent variables in the `pd.Data
 
 ```python
 
-**pd.DataFrame(data, rows, cols)**
+pd.DataFrame(data, rows, cols)
 
 ```
 
