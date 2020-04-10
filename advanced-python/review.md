@@ -14,7 +14,7 @@ This course will use the Anaconda distribution of Python for all of its programm
 
 If you do not already have Anaconda installed on your computer, please [visit this page for a step-by-step tutorial.](https://nickmccullum.com/python-course/how-to-install-anaconda/)
 
-Comments, Operations, and Variables
+## Comments, Operations, and Variables
 
 Comments are created in Python using the `#` character:
 
@@ -50,7 +50,7 @@ Python
 
 ```
 
-Variables are assigned in python using the `=` operator. Two examples are below:
+Variables are assigned in Python using the `=` operator. Two examples are below:
 
 ```python
 
@@ -153,7 +153,7 @@ Here are some important functions and methods that can be performed on lists:
 
 *   `len(list)`: Calculate the length of a list.
 *   `sum(list)`: Calculate the sum of all the elements in a list.
-*   `min(list): Identify the minimum value from a list.
+*   `min(list)`: Identify the minimum value from a list.
 *   `max(list)`: Identify the maximum value from a list.
 *   `list.append(element)`: Append a new element to the end of an existing list.
 *   `list1.extend(list2)`: Add all of the elements of list2 to the end of list1.
@@ -289,19 +289,19 @@ The `and` and `or` operators allow us to test whether everything is `True` (for 
 
 ```python
 
-True **and** True **and** True
+True `and` True `and` True
 
 _#Returns True_
 
-True **and** False **and** True
+True `and` False `and` True
 
 _#Returns False_
 
-_True **or** False_
+_True `or` False_
 
 _#Returns True_
 
-_False **or** False_
+_False `or` False_
 
 _#Returns False_
 
