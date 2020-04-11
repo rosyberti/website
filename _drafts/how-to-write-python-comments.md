@@ -1,3 +1,11 @@
+---
+title: 'How To Write Python Comments: The 2020 Guide'
+date: 2020-04-16
+author: Nick McCullum
+layout: post
+permalink: /how-to-write-python-comments/
+---
+
 For programmers, it is important that your code is easily understood by outside users. 
 
 While professionals might not find it difficult to understand, for someone who is trying to learn Python, including comments in the code can be very helpful. 
