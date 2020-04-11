@@ -47,7 +47,7 @@ my_vector = np.array(['this', 'is', 'a', 'vector'])
 
 ```
 
-Matrices are three-dimensional arrays and are created by passing a list of lists into the `np.array()` method. An example is below.
+Matrices are two-dimensional arrays and are created by passing a list of lists into the `np.array()` method. An example is below.
 
 ```python
 
@@ -57,7 +57,7 @@ np.array(my_matrix)
 
 ```
 
-You can also expand NumPy arrays to deal with four-, five-, six- or higher-dimensional arrays, but they are rare and largely outside the scope of this course (after all, this is a course on Python programming, not linear algebra). 
+You can also expand NumPy arrays to deal with three-, four-, five-, six- or higher-dimensional arrays, but they are rare and largely outside the scope of this course (after all, this is a course on Python programming, not linear algebra). 
 
 
 ## NumPy Arrays: Built-In Methods
