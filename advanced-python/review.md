@@ -141,7 +141,7 @@ theList[0]
 
 theList[0] = 1
 
-theList[1]
+theList[0]
 
 #Returns 1
 
