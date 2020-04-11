@@ -1,3 +1,11 @@
+---
+title: 'How To Write Python Classes: Code, Examples, & More'
+date: 2020-04-18
+author: Nick McCullum
+layout: post
+permalink: /how-to-write-python-classes/
+---
+
 Python is an object-oriented programming (OOP) language. 
 
 OOP is methodology used by programmers that enables a system or program to be defined as a set of objects, which can be manipulated and controlled in a piece-by-piece manner. 
