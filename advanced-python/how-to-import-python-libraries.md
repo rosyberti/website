@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Advanced Python for Finance
+title: How to Import External Libraries in Python
 ---
 
 Throughout this course, we will be working with two external libraries in Python:
@@ -46,7 +46,7 @@ import numpy
 
 ```
 
-While this is _one_way that we could import the NumPy library, there are better options. We often import Python libraries using an _alias_, which is a shorthand name that we will use to refer to the library at a later date. 
+While this is _one_ way that we could import the NumPy library, there are better options. We often import Python libraries using an _alias_, which is a shorthand name that we will use to refer to the library at a later date. 
 
 Each Python library typically has a specific alias that is widely accepted among the developer community. For example, it is considered a best practice to use the `np` alias to import numpy, like this:
 
