@@ -6,7 +6,7 @@ It is important for you to understand why object oriented languages are necessar
 
 In this article, I am going to teach you how to write Python classes - which are special constructs that programmers use to keep things which are considered to be related together. 
 
-**What is a class object?**
+## What is a Python Class Object?
 
 For us to understand [Python classes](https://nickmccullum.com/python-course/classes/), you will first need to understand what an object is.
 
@@ -14,7 +14,7 @@ In Python, an object is an encapsulation of variables and functions into a singl
 
 A class object is created with the same name as the class.  We will see this in examples later in this article.
 
-**What are Python Classes?**
+## What are Python Classes?
 
 A _class_ is a code template used to create objects. On the other hand, objects are _instances_ of classes. 
 
