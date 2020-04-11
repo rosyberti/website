@@ -67,7 +67,7 @@ NumPy arrays come with a number of useful built-in methods. We will spend the re
 
 ### How To Get A Range Of Numbers in Python Using NumPy
 
-NumPy has a useful method called `arange` that takes in two numbers and gives you an array of integers that are greater than or equal to (`>=`) the first number and less than (`&lt;`) the second number.
+NumPy has a useful method called `arange` that takes in two numbers and gives you an array of integers that are greater than or equal to (`>=`) the first number and less than (`<`) the second number.
 
 An example of the `arange` method is below.
 
@@ -91,7 +91,7 @@ np.arange(1,11,2)
 
 ```
 
-How To Generates Ones and Zeros in Python Using NumPy
+## How To Generates Ones and Zeros in Python Using NumPy
 
 While programming, you will from time to time need to create arrays of ones or zeros. NumPy has built-in methods that allow you to do either of these.
 
@@ -268,15 +268,19 @@ An example is below.
 
 ```python
 
-simple_array.min()
+simple_array.argmax()
 
-#Returns 2
+#Returns 3
 
 ```
 
 Similarly, we can use the `min` and `argmin` methods to find the value and index of the minimum value within a NumPy array.
 
 ```python
+
+simple_array.min()
+
+#Returns 1
 
 simple_array.argmin()
 
