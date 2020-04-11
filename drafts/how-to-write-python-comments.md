@@ -243,6 +243,4 @@ Writing comments is not and should not be a tedious task.
 
 It helps the programmers and non-technical people understand the code. Even if you visit your code at a later date, you will not feel lost. 
 
-In this article, we demonstrated how to write Python comments properly.
-
-If you're interested in more articles that will show you how to become a better software developer, please feel free to join my mailing list below:
+In this article, we demonstrated how to write Python comments properly, which is an extremely important component of your software development toolkit.
